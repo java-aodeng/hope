@@ -3,8 +3,7 @@
 >hope 意为希望，即“希望工程”，以后将会和我一起成长。
 
 [![JDK](https://img.shields.io/badge/JDK-1.8-yellow.svg)](#)
-[![MAVEN](https://img.shields.io/maven-central/v/org.apache.maven/apache-maven.svg)](#)
-[![Downloads](https://img.shields.io/eclipse-marketplace/dt/notepad4e.svg)](#)
+[![Downloads](https://img.shields.io/conda/dn/conda-forge/python.svg)](#)
 
 >微信公众号：[低调小熊猫](https://mp.weixin.qq.com/s/l5t8WSCG_-shiD4BPpLYiw) 
 
