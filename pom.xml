@@ -26,10 +26,23 @@
    </properties>
 
    <dependencies>
+       <!-- Thymeleaf模板引擎依赖 -->
+       <dependency>
+           <groupId>org.springframework.boot</groupId>
+           <artifactId>spring-boot-starter-thymeleaf</artifactId>
+       </dependency>
+       <!-- Shiro在引擎模板中使用shiro标签 -->
+       <dependency>
+           <groupId>com.github.theborakompanioni</groupId>
+           <artifactId>thymeleaf-extras-shiro</artifactId>
+           <version>2.0.0</version>
+       </dependency>
+       <!-- Web依赖 -->
        <dependency>
            <groupId>org.springframework.boot</groupId>
            <artifactId>spring-boot-starter-web</artifactId>
        </dependency>
+       <!-- 单元测试依赖 -->
        <dependency>
            <groupId>org.springframework.boot</groupId>
            <artifactId>spring-boot-starter-test</artifactId>
@@ -39,6 +52,7 @@
 
    <build>
        <plugins>
+           <!-- SpringBoot Maven插件-->
            <plugin>
                <groupId>org.springframework.boot</groupId>
                <artifactId>spring-boot-maven-plugin</artifactId>
