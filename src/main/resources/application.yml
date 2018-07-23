@@ -2,4 +2,6 @@ server:
   port: 8888
 spring:
   thymeleaf:
+    # 配置thymeleaf修改页面不重启生效
+    prefix: file:src/main/resources/templates/
     cache: false
