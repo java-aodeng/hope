@@ -17,6 +17,7 @@ public class TeseController {
     }
     @RequestMapping("/login")
     public String login(){
+        System.out.println("热启动测试");
         return "admin/login";
     }
 }

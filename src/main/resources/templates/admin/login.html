@@ -94,9 +94,9 @@
     /*<![CDATA[*/
     var tale = new $.tale();
     function checkForm() {
-        alert('测试登陆按钮，没毛病，老铁');
+        alert('测试登陆按钮，没毛病，老铁！');
         tale.post({
-            url: 'admin/login',
+            url: 'admin/index',
             data: $("#loginForm").serialize(),
             success: function (result) {
                 if (result && result.success) {
