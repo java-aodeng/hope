@@ -50,10 +50,29 @@
            <artifactId>spring-boot-starter-test</artifactId>
            <scope>test</scope>
        </dependency>
+       <!-- 配置热启动-->
        <dependency>
            <groupId>org.springframework.boot</groupId>
            <artifactId>spring-boot-devtools</artifactId>
            <optional>true</optional>
+       </dependency>
+       <!-- 整合mybatis_SpringBoot -->
+       <dependency>
+           <groupId>org.mybatis.spring.boot</groupId>
+           <artifactId>mybatis-spring-boot-starter</artifactId>
+           <version>1.3.2</version>
+       </dependency>
+       <!-- 配置mysql连接 -->
+       <dependency>
+           <groupId>mysql</groupId>
+           <artifactId>mysql-connector-java</artifactId>
+       </dependency>
+       <!-- 配置LomBok -->
+       <dependency>
+           <groupId>org.projectlombok</groupId>
+           <artifactId>lombok</artifactId>
+           <version>1.16.20</version>
+           <scope>provided</scope><!-- 打包的时候可以不用包进去 -->
        </dependency>
    </dependencies>
 

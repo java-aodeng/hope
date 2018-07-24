@@ -5,3 +5,10 @@ spring:
     # 配置thymeleaf修改页面不重启生效
     prefix: file:src/main/resources/templates/
     cache: false
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/zb-shiro?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    username: root
+    password: 123456
+mybatis:
+  type-aliases-package: com.ad.core.vo
