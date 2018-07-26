@@ -74,6 +74,30 @@
            <version>1.16.20</version>
            <scope>provided</scope><!-- 打包的时候可以不用包进去 -->
        </dependency>
+       <!-- 配置shiRo -->
+       <dependency>
+           <groupId>org.apache.shiro</groupId>
+           <artifactId>shiro-spring</artifactId>
+           <version>1.4.0</version>
+       </dependency>
+       <!-- 配置shiRo-redis -->
+       <dependency>
+           <groupId>org.crazycake</groupId>
+           <artifactId>shiro-redis</artifactId>
+           <version>2.4.2.1-RELEASE</version>
+           <exclusions>
+               <exclusion>
+                   <artifactId>shiro-core</artifactId>
+                   <groupId>org.apache.shiro</groupId>
+               </exclusion>
+           </exclusions>
+       </dependency>
+       <!-- 配置连接池 -->
+       <dependency>
+           <groupId>com.alibaba</groupId>
+           <artifactId>druid</artifactId>
+           <version>1.1.10</version>
+       </dependency>
    </dependencies>
 
    <build>

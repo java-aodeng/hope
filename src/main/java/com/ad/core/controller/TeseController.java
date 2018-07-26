@@ -30,7 +30,7 @@ public class TeseController {
         System.out.println("热启动测试");
         List<TestVo> list=testInterface.getAll();
         for(int i=0;i<list.size();i++){
-            System.out.println(list.get(i));
+            System.out.println(list.get(i).getName());
         }
         return "admin/login";
     }

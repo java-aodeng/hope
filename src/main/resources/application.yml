@@ -10,5 +10,16 @@ spring:
     url: jdbc:mysql://localhost:3306/zb-shiro?useUnicode=true&characterEncoding=UTF-8&useSSL=false
     username: root
     password: 123456
+    type: com.alibaba.druid.pool.DruidDataSource
+    initial-size: 1
+    minIdle: 3
+    maxActive: 20
+    maxWait: 60000
+    filters: stat,wall,slf4j
 mybatis:
   type-aliases-package: com.ad.core.vo
+logging:
+  level:
+    com.nbclass: debug
+    tk.mybatis: debug
+    org.springframework: warn
