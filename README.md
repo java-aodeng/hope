@@ -18,7 +18,7 @@
 
 - [springboot2.0.2](https://github.com/topics/springboot2) 考虑到较高版本不稳定
 
-- [adminlet](https://github.com/topics/adminlte) 后台模板，比较喜欢这个模板
+- [adminlte](https://github.com/topics/adminlte) 后台模板，比较喜欢这个模板
 
 - [mybatis](https://github.com/topics/mybatis) 采用了mybatis的注解开发，当然也配置了传统的xml，毕竟写sql方便,当然generator也用了
 
