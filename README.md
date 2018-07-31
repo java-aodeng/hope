@@ -25,3 +25,5 @@
 - [thymeleaf](https://github.com/topics/thymeleaf) 模板引擎,边学边写吧
 
 - [maven](https://github.com/topics/maven) 依赖管理
+
+- [lombok](https://github.com/topics/lombok) 让实体类更加简洁
