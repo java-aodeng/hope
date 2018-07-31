@@ -1,12 +1,12 @@
 package com.ad.core.controller;
 
+import cn.hutool.core.util.RandomUtil;
 import com.ad.core.mapper.TestInterface;
 import com.ad.core.vo.base.TestVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
-
 import java.util.List;
 
 /**
@@ -26,12 +26,16 @@ public class TeseController {
         return "admin/TSindex";
     }
     @RequestMapping("/login")
-    public String login(){
+    public String login(Model model){
         System.out.println("热启动测试");
         List<TestVo> list=testInterface.getAll();
         for(int i=0;i<list.size();i++){
             System.out.println(list.get(i).getName());
         }
+        int bgnumber= RandomUtil.randomInt(5);
+        System.out.println(bgnumber);
+        model.addAttribute("bgnumber",bgnumber+1);
         return "admin/login";
     }
+
 }

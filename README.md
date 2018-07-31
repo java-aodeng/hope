@@ -22,8 +22,10 @@
 
 - [mybatis](https://github.com/topics/mybatis) 采用了mybatis的注解开发，当然也配置了传统的xml，毕竟写sql方便,当然generator也用了
 
-- [thymeleaf](https://github.com/topics/thymeleaf) 模板引擎,边学边写吧
+- [thymeleaf](https://github.com/topics/thymeleaf) 模板引擎,边学边写吧，舍弃了jsp页面
 
 - [maven](https://github.com/topics/maven) 依赖管理
 
-- [lombok](https://github.com/topics/lombok) 让实体类更加简洁
+- [lombok](https://github.com/topics/lombok) 让代码更加简洁
+
+- [hutool](http://hutool.cn/) 万事都作糊涂观，无所谓失，无所谓得，最好的Java工具包

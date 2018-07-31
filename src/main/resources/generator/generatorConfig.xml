@@ -5,7 +5,7 @@
 <generatorConfiguration>
     <properties resource="application.yml"/>
 
-    <!-- 看到duan段代码就流出了没技术的泪水-->
+    <!-- 看到这段代码就流出了没技术的泪水-->
     <classPathEntry
             location="C:\z_java_resources\apache-maven-repo\mysql\mysql-connector-java\5.1.34\mysql-connector-java-5.1.34.jar" />
     <context id="Mysql" targetRuntime="MyBatis3Simple" defaultModelType="flat">

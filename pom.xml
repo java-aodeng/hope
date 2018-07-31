@@ -98,6 +98,18 @@
            <artifactId>druid</artifactId>
            <version>1.1.10</version>
        </dependency>
+       <!-- 集成Hutool工具类 以及POI依赖 -->
+       <dependency>
+           <groupId>cn.hutool</groupId>
+           <artifactId>hutool-all</artifactId>
+           <version>4.0.12</version>
+       </dependency>
+       <dependency>
+           <groupId>org.apache.poi</groupId>
+           <artifactId>poi</artifactId>
+           <version>3.17</version>
+       </dependency>
+
    </dependencies>
 
    <build>
