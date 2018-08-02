@@ -1,6 +1,6 @@
 <h1><a href="#">Hope</a></h1>
 
->hope 意为希望，即“希望工程”，以后将会和我一起成长。hope是一个基于java开发的oa系统，个人开发较慢，大佬谅解
+>hope 意为希望，即“希望工程”，以后将会和我一起成长。hope是一个基于java开发的oa系统。
 
 [![JDK](https://img.shields.io/badge/JDK-1.8-yellow.svg)](#)
 
@@ -38,3 +38,6 @@
 - [码云链接](https://gitee.com/java_aodeng/hope)
 
 - [Github链接](https://github.com/java-aodeng/hope)
+
+放在最后：
+- 使用的技术都是自己最近学习的，属于边学边开发那种，个人开发较慢，各位大佬谅解，记得给个star哦！unstar就不要点了，不然就没了呀！
