@@ -4,9 +4,9 @@
 
 [![JDK](https://img.shields.io/badge/JDK-1.8-yellow.svg)](#)
 
->微信公众号：[低调小熊猫](https://mp.weixin.qq.com/s/l5t8WSCG_-shiD4BPpLYiw) 
+>Hope开源中心：[821855334](https://jq.qq.com/?_wv=1027&k=5YmH3E0) 
 
->QQ学习群：[756796932](https://jq.qq.com/?_wv=1027&k=5keAeWA) 
+>微信公众号：[低调小熊猫](https://mp.weixin.qq.com/s/l5t8WSCG_-shiD4BPpLYiw) 
 
 ## 简介：
 
@@ -33,11 +33,12 @@
 - [Jquery](https://github.com/jquery/jquery) 使用最广泛的JavaScript框架
 
 其他：
-- [博客链接](https://blog.csdn.net/aodeng110)
+- [博客链接](https://aodeng.cc)
 
 - [码云链接](https://gitee.com/java_aodeng/hope)
 
 - [Github链接](https://github.com/java-aodeng/hope)
 
 放在最后：
-- 使用的技术都是自己最近学习的，属于边学边开发那种，个人开发较慢，各位大佬谅解，记得给个star哦！unstar就不要点了，不然就没了呀！
+- 第一步会把项目做成一个权限系统，后续会做成一个oa系统。
+- 使用的技术都是自己平时学习的，属于边学边开发，个人开发较慢，各位大佬谅解，喜欢的话给个star吧！

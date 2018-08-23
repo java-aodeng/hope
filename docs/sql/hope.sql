@@ -4,7 +4,7 @@ Navicat MySQL Data Transfer
 Source Server         : localhost
 Source Server Version : 50717
 Source Host           : localhost:3306
-Source Database       : java_aodeng_hangzhou_20_hope_this_is_test_sql
+Source Database       : hope
 
 Target Server Type    : MYSQL
 Target Server Version : 50717
@@ -18,11 +18,6 @@ SET FOREIGN_KEY_CHECKS=0;
 -- ----------------------------
 -- Table structure for sys_resource
 -- ----------------------------
--- This is a database, I hope it is dedicated
-drop database if EXISTS java_aodeng_hangzhou_20_hope_this_is_test_sql;
-create database java_aodeng_hangzhou_20_hope_this_is_test_sql;
-use java_aodeng_hangzhou_20_hope_this_is_test_sql;
--- This is a database, I hope it is dedicated
 DROP TABLE IF EXISTS `sys_resource`;
 CREATE TABLE `sys_resource` (
   `resourceId` int(11) NOT NULL AUTO_INCREMENT COMMENT '编号，主键，资源表',
