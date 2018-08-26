@@ -18,17 +18,17 @@
 
         <!-- 连接 那个知道把参数改为  ${}的形式，并且用的yml的，叫我 -->
         <jdbcConnection driverClass="com.mysql.jdbc.Driver"
-                        connectionURL="jdbc:mysql://localhost:3306/java_aodeng_hangzhou_20_hope_this_is_test_sql"
+                        connectionURL="jdbc:mysql://localhost:3306/hope"
                         userId="root"
                         password="123456">
         </jdbcConnection>
 
         <!--生成Model类存放位置-->
-        <javaModelGenerator targetPackage="com.ad.core.model" targetProject="src/main/java"></javaModelGenerator>
+        <javaModelGenerator targetPackage="com.ad.core.hope.model.admin" targetProject="src/main/java"></javaModelGenerator>
         <!--生成映射文件存放位置-->
-        <sqlMapGenerator targetPackage="mapper" targetProject="src/main/resources"></sqlMapGenerator>
+        <sqlMapGenerator targetPackage="mapper.admin" targetProject="src/main/resources"></sqlMapGenerator>
         <!--生成Dao类存放位置-->
-        <javaClientGenerator type="XMLMAPPER" targetPackage="com.ad.core.service" targetProject="src/main/java"></javaClientGenerator>
+        <javaClientGenerator type="XMLMAPPER" targetPackage="com.ad.core.hope.service.admin" targetProject="src/main/java"></javaClientGenerator>
         <table tableName="%">
             <!-- mysql配置 -->
             <generatedKey column="id" sqlStatement="Mysql" identity="true"/>

@@ -1,8 +1,8 @@
-package com.ad.core.controller;
+package com.ad.core.hope.controller;
 
 import cn.hutool.core.util.RandomUtil;
-import com.ad.core.mapper.TestInterface;
-import com.ad.core.vo.base.TestVo;
+import com.ad.core.hope.mapper.TestInterface;
+import com.ad.core.hope.vo.base.TestVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

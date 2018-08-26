@@ -1,6 +1,6 @@
-package com.ad.core.vo.base;
+package com.ad.core.hope.vo.base;
 
-import com.ad.core.enums.TestUserEnum;
+import com.ad.core.hope.enums.TestUserEnum;
 import lombok.Getter;
 import lombok.Setter;
 

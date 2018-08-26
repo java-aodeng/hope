@@ -1,4 +1,4 @@
-package com.ad.core;
+package com.ad.core.hope;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;

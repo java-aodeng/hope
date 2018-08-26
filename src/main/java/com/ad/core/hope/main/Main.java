@@ -1,4 +1,4 @@
-package com.ad.core.main;
+package com.ad.core.hope.main;
 
 /**
  * @program:hope

@@ -1,7 +1,7 @@
-package com.ad.core.mapper;
+package com.ad.core.hope.mapper;
 
-import com.ad.core.enums.TestUserEnum;
-import com.ad.core.vo.base.TestVo;
+import com.ad.core.hope.enums.TestUserEnum;
+import com.ad.core.hope.vo.base.TestVo;
 import org.apache.ibatis.annotations.Result;
 import org.apache.ibatis.annotations.Results;
 import org.apache.ibatis.annotations.Select;
