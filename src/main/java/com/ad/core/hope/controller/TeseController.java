@@ -35,7 +35,14 @@ public class TeseController {
         int bgnumber= RandomUtil.randomInt(5);
         System.out.println(bgnumber);
         model.addAttribute("bgnumber",bgnumber+1);
-        return "admin/login";
+        return "admin/system_login";
     }
-
+    @RequestMapping("/system_index")
+    public String system_index(Model model){
+        return "admin/system_index";
+    }
+    @RequestMapping("/system_index_v1")
+    public String system_index_v1(Model model){
+        return "admin/system_index_v1";
+    }
 }

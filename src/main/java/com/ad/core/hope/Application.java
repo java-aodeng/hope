@@ -10,7 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @create:2018-07-19 12:50
  **/
 @SpringBootApplication
-@MapperScan("com.ad.core.mapper")
+@MapperScan("com.ad.core.hope..mapper")
 public class Application {
     public static void main(String[] args) {
         System.out.println("SpringBoot-hope Run!");
