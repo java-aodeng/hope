@@ -23,7 +23,7 @@ import javax.sql.DataSource;
  **/
 
 @Configuration
-@MapperScan(basePackages = "com.ad.core.hope.mapper.first,",sqlSessionTemplateRef = "firstSqlSessionTemplate")
+@MapperScan(basePackages = "com.ad.core.hope.mapper.first",sqlSessionTemplateRef = "firstSqlSessionTemplate")
 public class FirstDataSourceConfig {
 
     @Autowired

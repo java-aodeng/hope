@@ -115,11 +115,16 @@
            <artifactId>spring-data-commons</artifactId>
            <version>1.6.2.RELEASE</version>
        </dependency>-->
+<!--       <dependency>
+           <groupId>tk.mybatis</groupId>
+           <artifactId>mapper</artifactId>
+           <version>3.4.2</version>
+       </dependency>-->
        <!--mapper-->
        <dependency>
            <groupId>tk.mybatis</groupId>
            <artifactId>mapper-spring-boot-starter</artifactId>
-           <version>1.2.3</version>
+           <version>2.0.0</version>
        </dependency>
        <!--pagehelper-->
        <dependency>
@@ -137,10 +142,10 @@
 
    <build>
 
-       <resources>
-           <!-- maven项目中src源代码下的xml等资源文件编译进classes文件夹，
+<!--       <resources>
+           &lt;!&ndash; maven项目中src源代码下的xml等资源文件编译进classes文件夹，
                注意：如果没有这个，它会自动搜索resources下是否有mapper.xml文件，
-               如果没有就会报org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.pet.mapper.PetMapper.selectByPrimaryKey-->
+               如果没有就会报org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.pet.mapper.PetMapper.selectByPrimaryKey&ndash;&gt;
            <resource>
                <directory>src/main/java</directory>
                <includes>
@@ -148,11 +153,11 @@
                </includes>
            </resource>
 
-           <!--将resources目录下的配置文件编译进classes文件  -->
+           &lt;!&ndash;将resources目录下的配置文件编译进classes文件  &ndash;&gt;
            <resource>
                <directory>src/main/resources</directory>
            </resource>
-       </resources>
+       </resources>-->
        <plugins>
            <!-- SpringBoot Maven插件-->
            <plugin>
@@ -183,7 +188,7 @@
                    <verbose>true</verbose>
                    <overwrite>true</overwrite>
                </configuration>
-               <dependencies>
+<!--               <dependencies>
                    <dependency>
                        <groupId>mysql</groupId>
                        <artifactId>mysql-connector-java</artifactId>
@@ -194,7 +199,7 @@
                        <artifactId>mapper-generator</artifactId>
                        <version>1.0.0</version>
                    </dependency>
-               </dependencies>
+               </dependencies>-->
            </plugin>
        </plugins>
    </build>

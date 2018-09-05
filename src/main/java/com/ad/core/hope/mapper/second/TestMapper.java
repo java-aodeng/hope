@@ -4,11 +4,11 @@ import com.ad.core.hope.enums.TestUserEnum;
 import com.ad.core.hope.model.admin.SysUser;
 import com.ad.core.hope.util.MyMapper;
 import com.ad.core.hope.vo.base.TestVo;
-import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Result;
 import org.apache.ibatis.annotations.Results;
 import org.apache.ibatis.annotations.Select;
 import org.springframework.stereotype.Service;
+import tk.mybatis.mapper.common.Mapper;
 
 import java.util.List;
 
@@ -17,15 +17,12 @@ import java.util.List;
  * @author:aodeng
  * @create:2018-09-02 17:25
  **/
-@Mapper
+@org.apache.ibatis.annotations.Mapper
 public interface TestMapper{
-    /**
-     * 测试
-     */
-
     @Select("SELECT * FROM sys_user")
     @Results({
-            @Result(property = "name", column = "username")
+            @Result(property = "userid", column = "userId"),
+            @Result(property = "username", column = "username")
     })
-    List<TestVo> getAll();
+    List<SysUser> getAll();
 }

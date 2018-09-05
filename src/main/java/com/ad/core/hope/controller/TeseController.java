@@ -44,18 +44,24 @@ public class TeseController {
 
         //hutool测试
         int bgnumber= RandomUtil.randomInt(5);
-        System.out.println("测试hutool:"+bgnumber);
+        System.out.println("测试hutool工具:"+bgnumber);
         model.addAttribute("bgnumber",bgnumber+1);
+
+        //数据源second测试
+        List<SysUser> user=testMapper.getAll();
+        for(int i=0;i<user.size();i++){
+            System.out.println("测试second数据源"+user.get(i).getUsername());
+        }
 
         return "admin/system_login";
     }
     @RequestMapping("/system_index")
     public String system_index(Model model){
-        //数据源second测试
-        List<TestVo> user=testMapper.getAll();
+      /*  //数据源second测试
+        List<SysUser> user=testMapper.getAll();
         for(int i=0;i<user.size();i++){
-            System.out.println("测试fisrt数据源"+user.get(i).getName());
-        }
+            System.out.println("测试fisrt数据源"+user.get(i).getUsername());
+        }*/
         return "admin/system_index";
     }
     @RequestMapping("/system_index_v1")
