@@ -1,7 +1,11 @@
 package com.ad.core.hope.controller;
 
 import cn.hutool.core.util.RandomUtil;
-import com.ad.core.hope.mapper.TestInterface;
+import com.ad.core.hope.mapper.first.TestInterface;
+import com.ad.core.hope.mapper.second.TestMapper;
+import com.ad.core.hope.model.admin.SysUser;
+import com.ad.core.hope.service.admin.SysUserMapper;
+import com.ad.core.hope.service.project.TestUserService;
 import com.ad.core.hope.vo.base.TestVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -19,6 +23,10 @@ public class TeseController {
 
     @Autowired
     private TestInterface testInterface;
+    @Autowired
+    private TestUserService testUserService;
+    @Autowired
+    private TestMapper testMapper;
 
     @RequestMapping("/index")
     public String index(){
@@ -27,18 +35,27 @@ public class TeseController {
     }
     @RequestMapping("/login")
     public String login(Model model){
-        System.out.println("热启动测试");
+        System.out.println("测试热启动");
+        //数据源first测试
         List<TestVo> list=testInterface.getAll();
         for(int i=0;i<list.size();i++){
-            System.out.println(list.get(i).getName());
+            System.out.println("测试fisrt数据源"+list.get(i).getName());
         }
+
+        //hutool测试
         int bgnumber= RandomUtil.randomInt(5);
-        System.out.println(bgnumber);
+        System.out.println("测试hutool:"+bgnumber);
         model.addAttribute("bgnumber",bgnumber+1);
+
         return "admin/system_login";
     }
     @RequestMapping("/system_index")
     public String system_index(Model model){
+        //数据源second测试
+        List<TestVo> user=testMapper.getAll();
+        for(int i=0;i<user.size();i++){
+            System.out.println("测试fisrt数据源"+user.get(i).getName());
+        }
         return "admin/system_index";
     }
     @RequestMapping("/system_index_v1")

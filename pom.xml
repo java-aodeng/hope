@@ -109,10 +109,50 @@
            <artifactId>poi</artifactId>
            <version>3.17</version>
        </dependency>
-
+       <!-- spring begin -->
+       <!--<dependency>
+           <groupId>org.springframework.data</groupId>
+           <artifactId>spring-data-commons</artifactId>
+           <version>1.6.2.RELEASE</version>
+       </dependency>-->
+       <!--mapper-->
+       <dependency>
+           <groupId>tk.mybatis</groupId>
+           <artifactId>mapper-spring-boot-starter</artifactId>
+           <version>1.2.3</version>
+       </dependency>
+       <!--pagehelper-->
+       <dependency>
+           <groupId>com.github.pagehelper</groupId>
+           <artifactId>pagehelper-spring-boot-starter</artifactId>
+           <version>1.2.3</version>
+           <exclusions>
+               <exclusion>
+                   <groupId>org.mybatis.spring.boot</groupId>
+                   <artifactId>mybatis-spring-boot-starter</artifactId>
+               </exclusion>
+           </exclusions>
+       </dependency>
    </dependencies>
 
    <build>
+
+       <resources>
+           <!-- maven项目中src源代码下的xml等资源文件编译进classes文件夹，
+               注意：如果没有这个，它会自动搜索resources下是否有mapper.xml文件，
+               如果没有就会报org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.pet.mapper.PetMapper.selectByPrimaryKey-->
+           <resource>
+               <directory>src/main/java</directory>
+               <includes>
+                   <include>**/*.xml</include>
+               </includes>
+           </resource>
+
+           <!--将resources目录下的配置文件编译进classes文件  -->
+           <resource>
+               <directory>src/main/resources</directory>
+           </resource>
+       </resources>
        <plugins>
            <!-- SpringBoot Maven插件-->
            <plugin>
@@ -121,6 +161,17 @@
                <configuration>
                    <fork>true</fork>
                </configuration>
+           </plugin>
+           <plugin>
+               <groupId>org.springframework.boot</groupId>
+               <artifactId>spring-boot-maven-plugin</artifactId>
+               <dependencies>
+                   <dependency>
+                       <groupId>org.springframework</groupId>
+                       <artifactId>springloaded</artifactId>
+                       <version>1.2.5.RELEASE</version>
+                   </dependency>
+               </dependencies>
            </plugin>
            <!-- SpringBoot mybatis generator插件-->
            <plugin>
@@ -132,6 +183,18 @@
                    <verbose>true</verbose>
                    <overwrite>true</overwrite>
                </configuration>
+               <dependencies>
+                   <dependency>
+                       <groupId>mysql</groupId>
+                       <artifactId>mysql-connector-java</artifactId>
+                       <version>${mysql.version}</version>
+                   </dependency>
+                   <dependency>
+                       <groupId>tk.mybatis</groupId>
+                       <artifactId>mapper-generator</artifactId>
+                       <version>1.0.0</version>
+                   </dependency>
+               </dependencies>
            </plugin>
        </plugins>
    </build>

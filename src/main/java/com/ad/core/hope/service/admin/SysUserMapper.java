@@ -1,6 +1,8 @@
 package com.ad.core.hope.service.admin;
 
 import com.ad.core.hope.model.admin.SysUser;
+import com.ad.core.hope.service.Base.BaseCrudService;
+
 import java.util.List;
 
 public interface SysUserMapper {
