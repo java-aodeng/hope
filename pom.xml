@@ -188,18 +188,6 @@
                    <verbose>true</verbose>
                    <overwrite>true</overwrite>
                </configuration>
-<!--               <dependencies>
-                   <dependency>
-                       <groupId>mysql</groupId>
-                       <artifactId>mysql-connector-java</artifactId>
-                       <version>${mysql.version}</version>
-                   </dependency>
-                   <dependency>
-                       <groupId>tk.mybatis</groupId>
-                       <artifactId>mapper-generator</artifactId>
-                       <version>1.0.0</version>
-                   </dependency>
-               </dependencies>-->
            </plugin>
        </plugins>
    </build>
