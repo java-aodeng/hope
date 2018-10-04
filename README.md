@@ -8,6 +8,8 @@
 
 >微信公众号：[低调小熊猫](https://mp.weixin.qq.com/s/l5t8WSCG_-shiD4BPpLYiw) 
 
+>hope使用[GPL-v3.0协议开源](https://github.com/java-aodeng/hope/blob/master/LICENSE)，请尽量遵守开源协议
+
 ## 简介：
 
 目前整合的技术：
