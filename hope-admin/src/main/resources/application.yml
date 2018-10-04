@@ -78,6 +78,8 @@ pagehelper:
     reasonable: true
     support-methods-arguments: true
     params: count=countSql
+logging:
+    file: ./logs/log.log
 ################################### 程序自定义配置 ###################################
 zyd:
     druid:
