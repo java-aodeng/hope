@@ -6,7 +6,11 @@
    <groupId>com.ad.core</groupId>
    <artifactId>hope</artifactId>
    <version>1.0-SNAPSHOT</version>
-   <packaging>jar</packaging>
+    <modules>
+        <module>hope-admin</module>
+        <module>hope-core</module>
+    </modules>
+    <packaging>pom</packaging>
 
    <name>hope</name>
    <description>
