@@ -9,10 +9,9 @@ import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
  * @author:aodeng
  * @create:2018-07-19 12:50
  **/
-@SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
-public class Application {
+@SpringBootApplication
+public class HopeAdminApplication {
     public static void main(String[] args) {
-        System.out.println("SpringBoot-hope Run!");
-        SpringApplication.run(Application.class,args);
+        SpringApplication.run(HopeAdminApplication.class,args);
     }
 }

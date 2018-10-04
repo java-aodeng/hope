@@ -57,6 +57,13 @@
        <dependency>
            <groupId>org.springframework.boot</groupId>
            <artifactId>spring-boot-starter-web</artifactId>
+           <!-- 去除内嵌tomcat -->
+           <!--<exclusions>
+               <exclusion>
+                   <groupId>org.springframework.boot</groupId>
+                   <artifactId>spring-boot-starter-tomcat</artifactId>
+               </exclusion>
+           </exclusions>-->
        </dependency>
        <!-- 配置热启动-->
        <dependency>
