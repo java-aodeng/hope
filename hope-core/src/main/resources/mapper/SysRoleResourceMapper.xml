@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ad.core.hope.service.SysRoleResourceMapper">
+  <resultMap id="BaseResultMap" type="com.ad.core.hope.model.SysRoleResource">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="roleId" jdbcType="VARCHAR" property="roleid" />
+    <result column="resourceId" jdbcType="VARCHAR" property="resourceid" />
+  </resultMap>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select id, roleId, resourceId
+    from sys_role_resource
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <select id="selectAll" resultMap="BaseResultMap">
+    select id, roleId, resourceId
+    from sys_role_resource
+  </select>
+</mapper>
