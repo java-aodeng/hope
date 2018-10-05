@@ -11,7 +11,21 @@
 >hope使用[GPL-v3.0协议开源](https://github.com/java-aodeng/hope/blob/master/LICENSE)，请尽量遵守开源协议
 
 ## 简介：
+模块划分
 
+| 模块         | 释义                      |    
+| ---------- | ----------------------- |
+| hope-admin  | 后台管理模块 |    
+| hope-core   | 核心代码块                  |    
+
+Druid Monitor
+
+    启动项目：localhost:8888/druid/index.html
+    
+    账号密码一样：hope-druid
+     
+![sql model](https://github.com/java-aodeng/hope/blob/master/docs/img/druid.png)
+    
 目前整合的技术：
 
 - [springboot2.0.2](https://github.com/topics/springboot2) 考虑到较高版本不稳定
