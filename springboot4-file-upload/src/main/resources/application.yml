@@ -1,0 +1,7 @@
+spring:
+  servlet:
+    multipart:
+      enabled: true #默认支持文件上传
+      max-file-size: 1MB # 最大支持文件大小
+      max-request-size: 10MB # 最大支持请求大小
+      # location= # 上传文件的临时目录
