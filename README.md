@@ -4,6 +4,8 @@
 
 [![JDK](https://img.shields.io/badge/JDK-1.8-yellow.svg)](#)
 
+🇨🇳简体中文 | 🇺🇸[English](./README-E.md)
+N
 >个人博客[https://aodeng.cc](https://aodeng.cc)
 
 >微信公众号：[低调小熊猫](https://mp.weixin.qq.com/s/l5t8WSCG_-shiD4BPpLYiw) 
