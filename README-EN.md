@@ -4,7 +4,7 @@
 
 [![JDK](https://img.shields.io/badge/JDK-1.8-yellow.svg)](#)
 
-🇨🇳简体中文 | 🇺🇸[English](./README.md)
+🇨🇳[简体中文](./README.md) | 🇺🇸English
 
 >Personal blog[https://aodeng.cc](https://aodeng.cc)
 
