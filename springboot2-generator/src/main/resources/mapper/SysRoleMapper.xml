@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.hope.mapper.SysRoleMapper" >
+  <resultMap id="BaseResultMap" type="com.hope.model.SysRole" >
+    <id column="roleId" property="roleid" jdbcType="INTEGER" />
+    <result column="role_uuid" property="roleUuid" jdbcType="VARCHAR" />
+    <result column="role" property="role" jdbcType="VARCHAR" />
+    <result column="description" property="description" jdbcType="VARCHAR" />
+    <result column="status" property="status" jdbcType="INTEGER" />
+    <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+    <result column="update_time" property="updateTime" jdbcType="TIMESTAMP" />
+  </resultMap>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from sys_role
+    where roleId = #{roleid,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.hope.model.SysRole" >
+    insert into sys_role (roleId, role_uuid, role, 
+      description, status, create_time, 
+      update_time)
+    values (#{roleid,jdbcType=INTEGER}, #{roleUuid,jdbcType=VARCHAR}, #{role,jdbcType=VARCHAR}, 
+      #{description,jdbcType=VARCHAR}, #{status,jdbcType=INTEGER}, #{createTime,jdbcType=TIMESTAMP}, 
+      #{updateTime,jdbcType=TIMESTAMP})
+  </insert>
+  <update id="updateByPrimaryKey" parameterType="com.hope.model.SysRole" >
+    update sys_role
+    set role_uuid = #{roleUuid,jdbcType=VARCHAR},
+      role = #{role,jdbcType=VARCHAR},
+      description = #{description,jdbcType=VARCHAR},
+      status = #{status,jdbcType=INTEGER},
+      create_time = #{createTime,jdbcType=TIMESTAMP},
+      update_time = #{updateTime,jdbcType=TIMESTAMP}
+    where roleId = #{roleid,jdbcType=INTEGER}
+  </update>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select roleId, role_uuid, role, description, status, create_time, update_time
+    from sys_role
+    where roleId = #{roleid,jdbcType=INTEGER}
+  </select>
+  <select id="selectAll" resultMap="BaseResultMap" >
+    select roleId, role_uuid, role, description, status, create_time, update_time
+    from sys_role
+  </select>
+</mapper>

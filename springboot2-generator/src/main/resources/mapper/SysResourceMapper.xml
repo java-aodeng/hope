@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.hope.mapper.SysResourceMapper" >
+  <resultMap id="BaseResultMap" type="com.hope.model.SysResource" >
+    <id column="resourceId" property="resourceid" jdbcType="INTEGER" />
+    <result column="uresource_uuid" property="uresourceUuid" jdbcType="VARCHAR" />
+    <result column="name" property="name" jdbcType="VARCHAR" />
+    <result column="description" property="description" jdbcType="VARCHAR" />
+    <result column="url" property="url" jdbcType="VARCHAR" />
+    <result column="type" property="type" jdbcType="INTEGER" />
+    <result column="priority" property="priority" jdbcType="INTEGER" />
+    <result column="parent_id" property="parentId" jdbcType="INTEGER" />
+    <result column="permission" property="permission" jdbcType="VARCHAR" />
+    <result column="icon" property="icon" jdbcType="VARCHAR" />
+    <result column="status" property="status" jdbcType="INTEGER" />
+    <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+    <result column="update_time" property="updateTime" jdbcType="TIMESTAMP" />
+  </resultMap>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from sys_resource
+    where resourceId = #{resourceid,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.hope.model.SysResource" >
+    insert into sys_resource (resourceId, uresource_uuid, name, 
+      description, url, type, 
+      priority, parent_id, permission, 
+      icon, status, create_time, 
+      update_time)
+    values (#{resourceid,jdbcType=INTEGER}, #{uresourceUuid,jdbcType=VARCHAR}, #{name,jdbcType=VARCHAR}, 
+      #{description,jdbcType=VARCHAR}, #{url,jdbcType=VARCHAR}, #{type,jdbcType=INTEGER}, 
+      #{priority,jdbcType=INTEGER}, #{parentId,jdbcType=INTEGER}, #{permission,jdbcType=VARCHAR}, 
+      #{icon,jdbcType=VARCHAR}, #{status,jdbcType=INTEGER}, #{createTime,jdbcType=TIMESTAMP}, 
+      #{updateTime,jdbcType=TIMESTAMP})
+  </insert>
+  <update id="updateByPrimaryKey" parameterType="com.hope.model.SysResource" >
+    update sys_resource
+    set uresource_uuid = #{uresourceUuid,jdbcType=VARCHAR},
+      name = #{name,jdbcType=VARCHAR},
+      description = #{description,jdbcType=VARCHAR},
+      url = #{url,jdbcType=VARCHAR},
+      type = #{type,jdbcType=INTEGER},
+      priority = #{priority,jdbcType=INTEGER},
+      parent_id = #{parentId,jdbcType=INTEGER},
+      permission = #{permission,jdbcType=VARCHAR},
+      icon = #{icon,jdbcType=VARCHAR},
+      status = #{status,jdbcType=INTEGER},
+      create_time = #{createTime,jdbcType=TIMESTAMP},
+      update_time = #{updateTime,jdbcType=TIMESTAMP}
+    where resourceId = #{resourceid,jdbcType=INTEGER}
+  </update>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select resourceId, uresource_uuid, name, description, url, type, priority, parent_id, 
+    permission, icon, status, create_time, update_time
+    from sys_resource
+    where resourceId = #{resourceid,jdbcType=INTEGER}
+  </select>
+  <select id="selectAll" resultMap="BaseResultMap" >
+    select resourceId, uresource_uuid, name, description, url, type, priority, parent_id, 
+    permission, icon, status, create_time, update_time
+    from sys_resource
+  </select>
+</mapper>
