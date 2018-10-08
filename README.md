@@ -20,7 +20,7 @@
 - SpringBoot(2)：generator[代码](https://github.com/java-aodeng/hope/tree/master/springboot2-generator)|[文章](https://aodeng.cc/archives/springboot-er)
 - SpringBoot(3)：docker部署项目[代码](https://github.com/java-aodeng/hope/tree/master/springboot3-docker)|[文章](https://aodeng.cc/archives/springbootliu)
 - SpringBoot(4)：单一，base64文件上传[代码](https://github.com/java-aodeng/hope/tree/master/springboot4-file-upload)|[文章](https://aodeng.cc/archives/springbootqi)
-- SpringBoot(5)：通用mapper，分页插件[代码](https://github.com/java-aodeng/hope/tree/master/springboot5-mapper-pagehepler)|[文章](https://aodeng.cc/archives/springbootba)
+- SpringBoot(5)：通用mapper，分页插件[代码](https://github.com/java-aodeng/hope/tree/master/springboot5-mapper-pagehelper)|[文章](https://aodeng.cc/archives/springbootba)
 
 其他：
 - [756796932](https://jq.qq.com/?_wv=1027&k=5y4H7Nz) 
