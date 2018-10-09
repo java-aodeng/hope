@@ -23,6 +23,7 @@
 - SpringBoot(5)：通用mapper，分页插件[代码](https://github.com/java-aodeng/hope/tree/master/springboot5-mapper-pagehelper)|[文章](https://aodeng.cc/archives/springbootba)
 - SpringBoot(6)：redis缓存数据，session[代码](https://github.com/java-aodeng/hope/tree/master/springboot6-redis-session)|[文章](https://aodeng.cc/archives/springbootjiu)
 - SpringBoot(7)：定时任务[代码](https://github.com/java-aodeng/hope/tree/master/springboot7-timed-task)|[文章](https://aodeng.cc/archives/springbootshi)
+- SpringBoot(8)：格式化日期[代码](https://github.com/java-aodeng/hope/tree/master/springboot8-date-format)|[文章](https://aodeng.cc/archives/springbootshiyi)
 
 其他：
 - [756796932](https://jq.qq.com/?_wv=1027&k=5y4H7Nz) 
