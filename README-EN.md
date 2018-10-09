@@ -31,4 +31,4 @@ Other：
 - [Github link](https://github.com/java-aodeng/hope)
 
 Put in the end：
-- Originally intended to be an OA system, personal development process only to find their own shortcomings, the foundation is too weak, programming experience, a bit of hard work and ineffective feeling, resulting in the development of no power. Think for a few days, or step by step, do a good job of the foundation, simply find a place to put notes and code, afraid to forget
+- Simple learning notes, afraid of their own forget!
