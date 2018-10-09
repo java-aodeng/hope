@@ -21,6 +21,7 @@
 - SpringBoot(3)：docker Deployment project[Code](https://github.com/java-aodeng/hope/tree/master/springboot3-docker)|[Article](https://aodeng.cc/archives/springbootliu)
 - SpringBoot(4)：Single, Base64 file upload[Code](https://github.com/java-aodeng/hope/tree/master/springboot4-file-upload)|[Article](https://aodeng.cc/archives/springbootqi)
 - SpringBoot(5)：General mapper, paging plugins[Code](https://github.com/java-aodeng/hope/tree/master/springboot5-mapper-pagehelper)|[Article](https://aodeng.cc/archives/springbootba)
+- SpringBoot(6)：Redis cached data, session[Code](https://github.com/java-aodeng/hope/tree/master/springboot6-redis-session)|[Article](https://aodeng.cc/archives/springbootjiu)
 
 Other：
 - [756796932](https://jq.qq.com/?_wv=1027&k=5y4H7Nz) 
