@@ -24,6 +24,7 @@
 - SpringBoot(6)：Redis cached data, session[Code](https://github.com/java-aodeng/hope/tree/master/springboot6-redis-session)|[Article](https://aodeng.cc/archives/springbootjiu)
 - SpringBoot(7)：Timed task[Code](https://github.com/java-aodeng/hope/tree/master/springboot7-timed-task)|[Article](https://aodeng.cc/archives/springbootshi)
 - SpringBoot(8)：format date[Code](https://github.com/java-aodeng/hope/tree/master/springboot8-date-format)|[Article](https://aodeng.cc/archives/springbootshiyi)
+- SpringBoot(9)：Global exception handling[Code](https://github.com/java-aodeng/hope/tree/master/springboot9-exception-manager)|[Article](https://aodeng.cc/archives/springbootshier)
 
 Other：
 - [756796932](https://jq.qq.com/?_wv=1027&k=5y4H7Nz) 

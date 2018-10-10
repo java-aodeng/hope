@@ -1,7 +1,5 @@
 package com.hope.model;
 
-import lombok.Data;
-
 import java.time.LocalDateTime;
 
 /**
