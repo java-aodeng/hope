@@ -27,6 +27,8 @@
 - SpringBoot(9)：Global exception handling[Code](https://github.com/java-aodeng/hope/tree/master/springboot9-exception-manager)|[Article](https://aodeng.cc/archives/springbootshiers)
 - SpringBoot(10)：JavaMailSender mail serve[Code](https://github.com/java-aodeng/hope/tree/master/springboot10-email)|[Article](https://aodeng.cc/archives/springbootshisans)
 
+Project sequencing is based on the default sort, and recommended links to click the directory.
+
 Other：
 - [756796932](https://jq.qq.com/?_wv=1027&k=5y4H7Nz) 
 
