@@ -27,7 +27,7 @@
 - SpringBoot(9)：全局异常处理[代码](https://github.com/java-aodeng/hope/tree/master/springboot9-exception-manager)|[文章](https://aodeng.cc/archives/springbootshiers)
 - SpringBoot(10)：JavaMailSender邮件服务[代码](https://github.com/java-aodeng/hope/tree/master/springboot10-email)|[文章](https://aodeng.cc/archives/springbootshisans)
 
-项目排序是按照默认排序的，推荐点击目录的链接
+项目排序是按照默认排序的，推荐点击目录的链接。
 
 其他：
 - [756796932](https://jq.qq.com/?_wv=1027&k=5y4H7Nz) 
