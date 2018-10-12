@@ -32,7 +32,7 @@ Project sequencing is based on the default sort, and recommended links to click 
 Other：
 - [756796932](https://jq.qq.com/?_wv=1027&k=5y4H7Nz) 
 
-- [Code cloud link](https://gitee.com/java_aodeng/hope)
+- [Gitee link](https://gitee.com/java_aodeng/hope)
 
 - [Github link](https://github.com/java-aodeng/hope)
 
