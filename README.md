@@ -32,7 +32,7 @@
 其他：
 - [756796932](https://jq.qq.com/?_wv=1027&k=5y4H7Nz) 
 
-- [码云链接](https://gitee.com/java_aodeng/hope)
+- [Gitee链接](https://gitee.com/java_aodeng/hope)
 
 - [Github链接](https://github.com/java-aodeng/hope)
 
