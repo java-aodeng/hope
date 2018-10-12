@@ -37,4 +37,4 @@
 - [Github链接](https://github.com/java-aodeng/hope)
 
 放在最后：
-- 单纯的学习笔记，怕自己忘了！
+- 单纯的学习笔记，怕自己忘了！(代码是先提交到Github再同步到Gitee，最新版请关注Github)
