@@ -26,6 +26,7 @@
 - SpringBoot(8)：format date[Code](https://github.com/java-aodeng/hope/tree/master/springboot8-date-format)|[Article](https://aodeng.cc/archives/springbootshiyi)
 - SpringBoot(9)：Global exception handling[Code](https://github.com/java-aodeng/hope/tree/master/springboot9-exception-manager)|[Article](https://aodeng.cc/archives/springbootshiers)
 - SpringBoot(10)：JavaMailSender mail serve[Code](https://github.com/java-aodeng/hope/tree/master/springboot10-email)|[Article](https://aodeng.cc/archives/springbootshisans)
+- SpringBoot(11)：CommandLineRunner-Initialization resources[Code](https://github.com/java-aodeng/hope/tree/master/springboot11-CommandLineRunner)|[Article](https://aodeng.cc/archives/springbootshi-si)
 
 Project sequencing is based on the default sort, and recommended links to click the directory.
 

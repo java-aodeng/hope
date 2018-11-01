@@ -26,6 +26,7 @@
 - SpringBoot(8)：格式化日期[代码](https://github.com/java-aodeng/hope/tree/master/springboot8-date-format)|[文章](https://aodeng.cc/archives/springbootshiyi)
 - SpringBoot(9)：全局异常处理[代码](https://github.com/java-aodeng/hope/tree/master/springboot9-exception-manager)|[文章](https://aodeng.cc/archives/springbootshiers)
 - SpringBoot(10)：JavaMailSender邮件服务[代码](https://github.com/java-aodeng/hope/tree/master/springboot10-email)|[文章](https://aodeng.cc/archives/springbootshisans)
+- SpringBoot(11)：CommandLineRunner-初始化资源[代码](https://github.com/java-aodeng/hope/tree/master/springboot11-CommandLineRunner)|[文章](https://aodeng.cc/archives/springbootshi-si)
 
 项目排序是按照默认排序的，推荐点击目录的链接。
 
