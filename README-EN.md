@@ -27,13 +27,14 @@
 - SpringBoot(9)：Global exception handling[Code](https://github.com/java-aodeng/hope/tree/master/springboot9-exception-manager)|[Article](https://aodeng.cc/archives/springbootshiers)
 - SpringBoot(10)：JavaMailSender mail serve[Code](https://github.com/java-aodeng/hope/tree/master/springboot10-email)|[Article](https://aodeng.cc/archives/springbootshisans)
 - SpringBoot(11)：CommandLineRunner-Initialization resources[Code](https://github.com/java-aodeng/hope/tree/master/springboot11-CommandLineRunner)|[Article](https://aodeng.cc/archives/springbootshi-si)
+- SpringBoot(12)：redis Preservation session-shiro Login authentication[Code](https://github.com/java-aodeng/hope/tree/master/springboot12-shiro-redis)|[Article](https://aodeng.cc)
 
 Project sequencing is based on the default sort, and recommended links to click the directory.
 
 Other：
 - [756796932](https://jq.qq.com/?_wv=1027&k=5y4H7Nz) 
 
-- [Gitee link](https://gitee.com/java_aodeng/hope)
+- [Gitee link](https://gitee.com/java-aodeng/hope)
 
 - [Github link](https://github.com/java-aodeng/hope)
 

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body class="signin">
+     <form class="login-form">
+            <input type="text"  name="username" />
+            <input type="password" name="password" />
+            <!--<input type="submit"  value="登录">-->
+        <!-- <button id="loginBtn" onclick="log()"> login</button>-->
+         <a href="javascript:log()"> login</a>
+     </form>
+</body>
+</html>
+<script src="/jquery.min.js"></script>
+<script>
+    $(function () {
+alert(1)
+    });
+    function log (){
+        $.ajax({
+            type:"POST",
+            url:"",
+            data: $(".login-form").serialize(),
+            dataType: "json",
+            cache:false,
+            success: function(data) {
+                if (data.status == 200) {
+                    window.location.href="/index";
+
+                }else{
+                    alert(data.message);
+                }
+            }
+        });
+    };
+</script>
