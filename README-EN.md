@@ -30,6 +30,10 @@
 - SpringBoot(12)：redis Preservation session-shiro Login authentication[Code](https://github.com/java-aodeng/hope/tree/master/springboot12-shiro-redis)|[Article](https://aodeng.cc)
 - SpringBoot(13)：MockMVC-web unit testing[Code](https://github.com/java-aodeng/hope/tree/master/springboot13-starter-test)|[Article](https://aodeng.cc/archives/springbootshi-wu)
 
+**Design patterns**
+
+- Design-pattern(1)：Strategy pattern[Code](https://github.com/java-aodeng/hope/tree/master/design-pattern1-strategy)|[Article](https://aodeng.cc/archives/pattern-yi)
+
 Project sequencing is based on the default sort, and recommended links to click the directory.
 
 Other：

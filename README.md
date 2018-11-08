@@ -30,6 +30,10 @@
 - SpringBoot(12)：redis保存session-shiro登录认证[代码](https://github.com/java-aodeng/hope/tree/master/springboot12-shiro-redis)|[文章](https://aodeng.cc)
 - SpringBoot(13)：MockMVC-web单元测试[代码](https://github.com/java-aodeng/hope/tree/master/springboot13-starter-test)|[文章](https://aodeng.cc/archives/springbootshi-wu)
 
+**设计模式篇**
+
+- Design-pattern(1)：策略模式[代码](https://github.com/java-aodeng/hope/tree/master/design-pattern1-strategy)|[文章](https://aodeng.cc/archives/pattern-yi)
+
 项目排序是按照默认排序的，推荐点击目录的链接。
 
 其他：
