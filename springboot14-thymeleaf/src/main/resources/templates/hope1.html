@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h3>赋值<h3>
+<h3 th:text="${hope1}">Thymeleaf test page</h3>
+<h3>拼接<h3>
+<span th:text="'thymeleaf 普通拼接：'+${hopeName}+'!'"></span>
+<span th:text="|thymeleaf 简洁拼接：${hopeName}!|"></span>
+<h3>if判断<h3>
+true: <a th:if="${hopes=='hopes'} " th:href="@{https://aodeng.cc}">if</a>
+false:<a th:if="${hopes=='hope'} " th:href="@{https://aodeng.cc}">if</a>
+<h3>unless判断<h3>
+true: <a th:unless="${hopes!='hope'} " th:href="@{https://aodeng.cc}">unless</a>
+false:<a th:unless="${hopes=='hope'} " th:href="@{https://aodeng.cc}">unless</a>
+<h3>for 循环</h3>
+    <table>
+        <tr>
+        <tr>
+            id:
+            name:
+            password:
+            sex:
+            age:
+            index:
+        </tr>
+        </tr>
+        <tr th:each="user,iterStat:${userlist}">
+            <td th:text="${user.id}"></td>
+            <td th:text="${user.name}"></td>
+            <td th:text="${user.password}"></td>
+            <td th:text="${user.sex}"></td>
+            <td th:text="${user.age}"></td>
+            <td th:text="${iterStat.index}"></td>
+        </tr>
+    </table>
+</body>
+</html>
