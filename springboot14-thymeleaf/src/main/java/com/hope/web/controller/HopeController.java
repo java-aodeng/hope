@@ -30,6 +30,9 @@ public class HopeController {
         user.setAge(20);
         userList.add(user);
         map.addAttribute("userlist",userList);
+        map.addAttribute("url","hope");
+        map.addAttribute("number",1);
+        map.addAttribute("switch","0");
         return "hope1";
     }
 }

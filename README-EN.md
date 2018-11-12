@@ -29,7 +29,7 @@
 - SpringBoot(11)：CommandLineRunner-Initialization resources[Code](https://github.com/java-aodeng/hope/tree/master/springboot11-CommandLineRunner)|[Article](https://aodeng.cc/archives/springbootshi-si)
 - SpringBoot(12)：redis Preservation session-shiro Login authentication[Code](https://github.com/java-aodeng/hope/tree/master/springboot12-shiro-redis)|[Article](https://aodeng.cc)
 - SpringBoot(13)：MockMVC-web unit testing[Code](https://github.com/java-aodeng/hope/tree/master/springboot13-starter-test)|[Article](https://aodeng.cc/archives/springbootshi-wu)
-- SpringBoot(14)：Thymeleaf[Code](https://github.com/java-aodeng/hope/tree/master/springboot14-thymeleaf)|[Article](https://aodeng.cc)
+- SpringBoot(14)：Thymeleaf[Code](https://github.com/java-aodeng/hope/tree/master/springboot14-thymeleaf)|[Article](https://aodeng.cc/archives/springbootshi-liu)
 
 **Design patterns**
 

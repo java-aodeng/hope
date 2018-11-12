@@ -5,18 +5,18 @@
     <title>Title</title>
 </head>
 <body>
-<h3>赋值<h3>
-<h3 th:text="${hope1}">Thymeleaf test page</h3>
-<h3>拼接<h3>
-<span th:text="'thymeleaf 普通拼接：'+${hopeName}+'!'"></span>
-<span th:text="|thymeleaf 简洁拼接：${hopeName}!|"></span>
-<h3>if判断<h3>
-true: <a th:if="${hopes=='hopes'} " th:href="@{https://aodeng.cc}">if</a>
-false:<a th:if="${hopes=='hope'} " th:href="@{https://aodeng.cc}">if</a>
-<h3>unless判断<h3>
-true: <a th:unless="${hopes!='hope'} " th:href="@{https://aodeng.cc}">unless</a>
-false:<a th:unless="${hopes=='hope'} " th:href="@{https://aodeng.cc}">unless</a>
-<h3>for 循环</h3>
+    <h3>赋值<h3>
+    <h3 th:text="${hope1}">Thymeleaf test page</h3>
+    <h3>拼接<h3>
+    <span th:text="'thymeleaf 普通拼接：'+${hopeName}+'!'"></span>
+    <span th:text="|thymeleaf 简洁拼接：${hopeName}!|"></span>
+    <h3>if判断<h3>
+    true: <a th:if="${hopes=='hopes'} " th:href="@{https://aodeng.cc}">if</a>
+    false:<a th:if="${hopes=='hope'} " th:href="@{https://aodeng.cc}">if</a>
+    <h3>unless判断<h3>
+    true: <a th:unless="${hopes!='hope'} " th:href="@{https://aodeng.cc}">unless</a>
+    false:<a th:unless="${hopes=='hope'} " th:href="@{https://aodeng.cc}">unless</a>
+    <h3>for 循环</h3>
     <table>
         <tr>
         <tr>
@@ -37,5 +37,30 @@ false:<a th:unless="${hopes=='hope'} " th:href="@{https://aodeng.cc}">unless</a>
             <td th:text="${iterStat.index}"></td>
         </tr>
     </table>
+    terStat 称作状态变量，属性有：
+    index，当前迭代对象的 index（从 0 开始计算）；
+    count，当前迭代对象的 index（从 1 开始计算）；
+    size，被迭代对象的大小；
+    current，当前迭代变量；
+    even/odd，布尔值，当前循环是否是偶数/奇数（从 0 开始计算）；
+    first，布尔值，当前循环是否是第一个；
+    last，布尔值，当前循环是否是最后一个
+    <h3>URL</h3>
+        <a th:href="@{https://github.com/java-aodeng/{url}(url=${url})}">点击测试</a>
+        上例中 URL 最后的(url=${url})表示将括号内的内容作为 URL 参数处理，该语法避免使用字符串拼接，大大提高了可读性
+        <h3>三目运算</h3>
+        <input th:value="${number gt 2 ? '值为1':'值不为1'}">
+        gt：great than（大于）
+        ge：great equal（大于等于）
+        eq：equal（等于）
+        lt：less than（小于）
+        le：less equal（小于等于）
+        ne：not equal（不等于）
+     <h3>switch 选择</h3>
+        <div th:switch="${switch}">
+            <p th:case="'0'">switch等于0</p>
+            <p th:case="'1'">switch等于1</p>
+            <p th:case="*">未知</p>
+        </div>
 </body>
 </html>
