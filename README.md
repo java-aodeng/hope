@@ -29,6 +29,7 @@
 - SpringBoot(11)：CommandLineRunner-初始化资源[代码](https://github.com/java-aodeng/hope/tree/master/springboot11-CommandLineRunner)|[文章](https://aodeng.cc/archives/springbootshi-si)
 - SpringBoot(12)：redis保存session-shiro登录认证[代码](https://github.com/java-aodeng/hope/tree/master/springboot12-shiro-redis)|[文章](https://aodeng.cc)
 - SpringBoot(13)：MockMVC-web单元测试[代码](https://github.com/java-aodeng/hope/tree/master/springboot13-starter-test)|[文章](https://aodeng.cc/archives/springbootshi-wu)
+- SpringBoot(14)：Thymeleaf使用大全[代码](https://github.com/java-aodeng/hope/tree/master/springboot14-thymeleaf)|[文章](https://aodeng.cc)
 
 **设计模式篇**
 
