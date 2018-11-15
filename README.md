@@ -46,4 +46,4 @@
 - [Github链接](https://github.com/java-aodeng/hope)
 
 放在最后：
-- 单纯的学习笔记，怕自己忘了！(代码是先提交到Github再同步到Gitee，最新版请关注Github)
+- 单纯的学习笔记，怕自己忘了！另外就是感觉分享学习的东西，学起来更有动力。持续更新中！欢迎star哦(代码是先提交到Github再同步到Gitee，最新版请关注Github)
