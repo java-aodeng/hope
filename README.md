@@ -34,6 +34,7 @@
 **设计模式篇**
 
 - Design-pattern(1)：策略模式[代码](https://github.com/java-aodeng/hope/tree/master/design-pattern1-strategy)|[文章](https://aodeng.cc/archives/pattern-yi)
+- Design-pattern(2)：单例模式[代码](https://github.com/java-aodeng/hope/tree/master/design-pattern2)|[文章](https://aodeng.cc/archives/dan-li-mo-shi)
 
 项目排序是按照默认排序的，推荐点击目录的链接。
 
