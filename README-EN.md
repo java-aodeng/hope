@@ -35,6 +35,7 @@
 
 - Design-pattern(1)：Strategy pattern[Code](https://github.com/java-aodeng/hope/tree/master/design-pattern1-strategy)|[Article](https://aodeng.cc/archives/pattern-yi)
 - Design-pattern(2)：Singleton mode[Code](https://github.com/java-aodeng/hope/tree/master/design-pattern2)|[Article](https://aodeng.cc/archives/dan-li-mo-shi)
+- Design-pattern(3)：Factory mode[Code](https://github.com/java-aodeng/hope/tree/master/design-pattern3)|[Article](https://aodeng.cc/archives/jing-dian-she)
 
 Project sequencing is based on the default sort, and recommended links to click the directory.
 
