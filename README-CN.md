@@ -39,7 +39,7 @@ usEnglish | cn[简体中文](./README.md)
 
 **Micro service section**
 
-- Micro-service(1)：Service Registry Eureka server[Code](https://github.com/java-aodeng/hope/tree/master/micro-service1-eureka-server)
+- Micro-service(1)：Service Registry[Eureka server Code](https://github.com/java-aodeng/hope/tree/master/micro-service1-eureka-server)/[Eureka client代码](https://github.com/java-aodeng/hope/tree/master/micro-service1-eureka-client)|[Blog articles](https://aodeng.cc/archives/eureka)
 
 Project sequencing is based on the default sort, and recommended links to click the directory.
 
