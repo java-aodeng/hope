@@ -39,7 +39,7 @@ cn简体中文 | 🇺🇸[English](./README-CN.md)
 
 **微服务篇**
 
-- Micro-service(1)：服务注册中心Eureka server[代码](https://github.com/java-aodeng/hope/tree/master/micro-service1-Eureka-server)
+- Micro-service(1)：服务注册中心Eureka server[代码](https://github.com/java-aodeng/hope/tree/master/micro-service1-eureka-server)
 
 项目排序是按照默认排序的，推荐点击目录的链接。
 
