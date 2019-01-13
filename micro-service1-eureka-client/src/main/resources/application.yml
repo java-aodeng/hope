@@ -1,0 +1,22 @@
+server:
+  port: 8762
+spring:
+  application:
+    name: eureka-client
+  cloud:
+    inetutils:
+      ignored-interfaces:             #忽略docker0网卡以及 veth开头的网卡
+        - docker0
+        - veth.*
+      preferred-networks:             #使用正则表达式,使用指定网络地址
+        - 192.168
+        - 10.0
+  profiles:
+    active: eureka
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
