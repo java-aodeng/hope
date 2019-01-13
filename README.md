@@ -37,9 +37,8 @@ cn简体中文 | 🇺🇸[English](./README-CN.md)
 - Design-pattern(2)：单例模式[代码](https://github.com/java-aodeng/hope/tree/master/design-pattern2)|[文章](https://aodeng.cc/archives/dan-li-mo-shi)
 - Design-pattern(3)：工厂模式[代码](https://github.com/java-aodeng/hope/tree/master/design-pattern3)|[文章](https://aodeng.cc/archives/jing-dian-she)
 
-**微服务架构篇**
+**微服务篇**
 
--
 
 项目排序是按照默认排序的，推荐点击目录的链接。
 
