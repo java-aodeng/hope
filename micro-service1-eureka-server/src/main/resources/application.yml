@@ -12,11 +12,16 @@ spring:
       preferred-networks:             #使用正则表达式,使用指定网络地址
         - 192.168
         - 10.0
-#表示是否将自己注册到Eureka Server，默认为true
 eureka:
   instance:
     hostname: localhost 	#配置主机名
+  server:
+      #关闭自我保护机制，防止失效的服务也被一直访问 （开发环境)
+    enable-self-preservation: false
+    #该配置可以修改检查失效服务的时间，每隔5s检查失效服务，默认该配置是 60s （开发环境)
+    eviction-interval-timer-in-ms: 5000
   client:
+#表示是否将自己注册到Eureka Server，默认为true
     register-with-eureka: false
 #表示是否从Eureka Server获取注册信息，默认为true
     fetch-registry: false

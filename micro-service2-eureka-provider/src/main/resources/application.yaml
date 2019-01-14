@@ -1,0 +1,10 @@
+#配置服务提供者
+server:
+  port: 8886
+spring:
+  application:
+    name: eureka-provider
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
