@@ -41,14 +41,14 @@ cn简体中文 | 🇺🇸[English](./README-CN.md)
 
 - Micro-service(1)：服务注册中心[Eureka server代码](https://github.com/java-aodeng/hope/tree/master/micro-service1-eureka-server)/[Eureka client代码](https://github.com/java-aodeng/hope/tree/master/micro-service1-eureka-client)|[博客文章](https://aodeng.cc/archives/eureka)
 
-项目排序是按照默认排序的，推荐点击目录的链接。
+## 其他：
 
-其他：
-- [756796932](https://jq.qq.com/?_wv=1027&k=5y4H7Nz) 
+- [低调小熊猫QQ群](https://jq.qq.com/?_wv=1027&k=5y4H7Nz) 
 
 - [Gitee链接](https://gitee.com/java-aodeng/hope)
 
 - [Github链接](https://github.com/java-aodeng/hope)
 
 放在最后：
+- 项目默认名称排序的，推荐点击目录链接。
 - 单纯的学习笔记，怕自己忘了！另外就是感觉分享学习的东西，学起来更有动力。持续更新中！欢迎star哦(代码是先提交到Github再同步到Gitee，最新版请关注Github)

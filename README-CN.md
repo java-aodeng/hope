@@ -41,14 +41,14 @@ usEnglish | cn[简体中文](./README.md)
 
 - Micro-service(1)：Service Registry[Eureka server Code](https://github.com/java-aodeng/hope/tree/master/micro-service1-eureka-server)/[Eureka client代码](https://github.com/java-aodeng/hope/tree/master/micro-service1-eureka-client)|[Blog articles](https://aodeng.cc/archives/eureka)
 
-Project sequencing is based on the default sort, and recommended links to click the directory.
+## Other：
 
-Other：
-- [756796932](https://jq.qq.com/?_wv=1027&k=5y4H7Nz) 
+- [QQ：756796932](https://jq.qq.com/?_wv=1027&k=5y4H7Nz) 
 
 - [Gitee link](https://gitee.com/java-aodeng/hope)
 
 - [Github link](https://github.com/java-aodeng/hope)
 
 Put in the end：
+- Project sequencing is based on the default sort, and recommended links to click the directory.
 - Simple learning notes, afraid of their own forget! The other thing is to feel that learning and learning is more powerful. Keep updating! Welcome to star!(The code is first submitted to Github and then synchronized to Gitee, the latest version, please pay attention to Github)
