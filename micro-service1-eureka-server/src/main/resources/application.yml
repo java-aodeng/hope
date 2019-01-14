@@ -1,25 +1,25 @@
-#ÔÚÄ¬ÈÏÉèÖÃÏÂ£¬¸Ã·şÎñ×¢²áÖĞĞÄÒ²»á½«×Ô¼º×÷Îª¿Í»§¶ËÀ´³¢ÊÔ×¢²áËü×Ô¼º£¬ËùÒÔÎÒÃÇĞèÒª½ûÓÃËüµÄ¿Í»§¶Ë×¢²áĞĞÎª£¬ÔÚapplication.propertiesÌí¼ÓÒÔÏÂÅäÖÃ£º
+#åœ¨é»˜è®¤è®¾ç½®ä¸‹ï¼Œè¯¥æœåŠ¡æ³¨å†Œä¸­å¿ƒä¹Ÿä¼šå°†è‡ªå·±ä½œä¸ºå®¢æˆ·ç«¯æ¥å°è¯•æ³¨å†Œå®ƒè‡ªå·±ï¼Œæ‰€ä»¥æˆ‘ä»¬éœ€è¦ç¦ç”¨å®ƒçš„å®¢æˆ·ç«¯æ³¨å†Œè¡Œä¸ºï¼Œåœ¨application.propertiesæ·»åŠ ä»¥ä¸‹é…ç½®ï¼š
 server:
-  port: 8761  	#¹Ù·½
+  port: 8761  	#å®˜æ–¹
 spring:
   application:
     name: eureka-server
   cloud:
     inetutils:
-      ignored-interfaces:             #ºöÂÔdocker0Íø¿¨ÒÔ¼° veth¿ªÍ·µÄÍø¿¨
+      ignored-interfaces:             #å¿½ç•¥docker0ç½‘å¡ä»¥åŠ vethå¼€å¤´çš„ç½‘å¡
         - docker0
         - veth.*
-      preferred-networks:             #Ê¹ÓÃÕıÔò±í´ïÊ½,Ê¹ÓÃÖ¸¶¨ÍøÂçµØÖ·
+      preferred-networks:             #ä½¿ç”¨æ­£åˆ™è¡¨è¾¾å¼,ä½¿ç”¨æŒ‡å®šç½‘ç»œåœ°å€
         - 192.168
         - 10.0
-#±íÊ¾ÊÇ·ñ½«×Ô¼º×¢²áµ½Eureka Server£¬Ä¬ÈÏÎªtrue
+#è¡¨ç¤ºæ˜¯å¦å°†è‡ªå·±æ³¨å†Œåˆ°Eureka Serverï¼Œé»˜è®¤ä¸ºtrue
 eureka:
   instance:
-    hostname: localhost 	#ÅäÖÃÖ÷»úÃû
+    hostname: localhost 	#é…ç½®ä¸»æœºå
   client:
     register-with-eureka: false
-#±íÊ¾ÊÇ·ñ´ÓEureka Server»ñÈ¡×¢²áĞÅÏ¢£¬Ä¬ÈÏÎªtrue
+#è¡¨ç¤ºæ˜¯å¦ä»Eureka Serverè·å–æ³¨å†Œä¿¡æ¯ï¼Œé»˜è®¤ä¸ºtrue
     fetch-registry: false
-#ÉèÖÃÓëEureka Server½»»¥µÄµØÖ·£¬²éÑ¯·şÎñºÍ×¢²á·şÎñ¶¼ĞèÒªÒÀÀµÕâ¸öµØÖ·¡£Ä¬ÈÏÊÇhttp://localhost:8761/eureka £»¶à¸öµØÖ·¿ÉÊ¹ÓÃ , ·Ö¸ô
+#è®¾ç½®ä¸Eureka Serveräº¤äº’çš„åœ°å€ï¼ŒæŸ¥è¯¢æœåŠ¡å’Œæ³¨å†ŒæœåŠ¡éƒ½éœ€è¦ä¾èµ–è¿™ä¸ªåœ°å€ã€‚é»˜è®¤æ˜¯http://localhost:8761/eureka ï¼›å¤šä¸ªåœ°å€å¯ä½¿ç”¨ , åˆ†éš”
     serviceUrl:
       defaultZone: http://localhost:${server.port}/eureka/

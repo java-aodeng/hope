@@ -5,10 +5,10 @@ spring:
     name: eureka-client
   cloud:
     inetutils:
-      ignored-interfaces:             #ºöÂÔdocker0Íø¿¨ÒÔ¼° veth¿ªÍ·µÄÍø¿¨
+      ignored-interfaces:             #å¿½ç•¥docker0ç½‘å¡ä»¥åŠ vethå¼€å¤´çš„ç½‘å¡
         - docker0
         - veth.*
-      preferred-networks:             #Ê¹ÓÃÕıÔò±í´ïÊ½,Ê¹ÓÃÖ¸¶¨ÍøÂçµØÖ·
+      preferred-networks:             #ä½¿ç”¨æ­£åˆ™è¡¨è¾¾å¼,ä½¿ç”¨æŒ‡å®šç½‘ç»œåœ°å€
         - 192.168
         - 10.0
   profiles:
