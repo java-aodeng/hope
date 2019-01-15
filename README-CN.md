@@ -39,7 +39,9 @@ usEnglish | cn[简体中文](./README.md)
 
 **Micro service section**
 
-- Micro-service(1)：Service Registry[Eureka server Code](https://github.com/java-aodeng/hope/tree/master/micro-service1-eureka-server)/[Eureka client代码](https://github.com/java-aodeng/hope/tree/master/micro-service1-eureka-client)|[Blog articles](https://aodeng.cc/archives/eureka)
+- Micro-service(1)：Service Registry[Eureka server Code](https://github.com/java-aodeng/hope/tree/master/micro-service1-eureka-server)/[Eureka client Code](https://github.com/java-aodeng/hope/tree/master/micro-service1-eureka-client)|[Blog articles](https://aodeng.cc/archives/eureka)
+- Micro-service(2)：Service Provider[Code](https://github.com/java-aodeng/hope/tree/master/micro-service2-eureka-provider)|[Blog articles](https://aodeng.cc/archives/ribbon)
+- Micro-service(3)：Service consumers[Code](https://github.com/java-aodeng/hope/tree/master/micro-service3-eureka-ribbon)|[Blog articles](https://aodeng.cc/archives/ribbon)
 
 ## Other：
 
