@@ -43,6 +43,9 @@ usEnglish | cn[简体中文](./README.md)
 - Micro-service(2)：Service Provider[Code](https://github.com/java-aodeng/hope/tree/master/micro-service2-eureka-provider)|[Blog articles](https://aodeng.cc/archives/ribbon)
 - Micro-service(3)：Service consumers[Code](https://github.com/java-aodeng/hope/tree/master/micro-service3-eureka-ribbon)|[Blog articles](https://aodeng.cc/archives/ribbon)
 
+extend：
+- Client Load Balancing[Blog articles](https://aodeng.cc/archives/khdfzjhs)
+
 ## Other：
 
 - [QQ：756796932](https://jq.qq.com/?_wv=1027&k=5y4H7Nz) 

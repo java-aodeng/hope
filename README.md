@@ -43,6 +43,9 @@ cn简体中文 | 🇺🇸[English](./README-CN.md)
 - Micro-service(2)：服务提供者[代码](https://github.com/java-aodeng/hope/tree/master/micro-service2-eureka-provider)|[博客文章](https://aodeng.cc/archives/ribbon)
 - Micro-service(3)：服务消费者[代码](https://github.com/java-aodeng/hope/tree/master/micro-service3-eureka-ribbon)|[博客文章](https://aodeng.cc/archives/ribbon)
 
+扩展：
+- 客户端负载均衡[博客文章](https://aodeng.cc/archives/khdfzjhs)
+
 ## 其他：
 
 - [低调小熊猫QQ群](https://jq.qq.com/?_wv=1027&k=5y4H7Nz) 
