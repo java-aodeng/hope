@@ -3,14 +3,9 @@
 >hope 一个Java程序员的学习笔记，欢迎star
 
 [![JDK](https://img.shields.io/badge/JDK-1.8-yellow.svg)](#)
+[![author](https://img.shields.io/badge/author-%E4%BD%8E%E8%B0%83%E5%B0%8F%E7%86%8A%E7%8C%AB-blue.svg)](https://aodeng.cc)
 
 cn简体中文 | 🇺🇸[English](./README-CN.md)
-
->个人博客[https://aodeng.cc](https://aodeng.cc)
-
->微信公众号：[低调小熊猫](https://mp.weixin.qq.com/s/l5t8WSCG_-shiD4BPpLYiw) 
-
->hope使用[GPL-v3.0协议开源](https://github.com/java-aodeng/hope/blob/master/LICENSE)
 
 ## 目录
 
@@ -47,13 +42,19 @@ cn简体中文 | 🇺🇸[English](./README-CN.md)
 扩展：
 - 客户端负载均衡[博客文章](https://aodeng.cc/archives/khdfzjhs)
 
-## 其他：
+## 链接：
 
-- [低调小熊猫QQ群](https://jq.qq.com/?_wv=1027&k=5y4H7Nz) 
+> [微信公众号低调小熊猫](https://mp.weixin.qq.com/s/l5t8WSCG_-shiD4BPpLYiw) 
 
-- [Gitee链接](https://gitee.com/java-aodeng/hope)
+> [hope使用GPL-v3.0协议开源](https://github.com/java-aodeng/hope/blob/master/LICENSE)
 
-- [Github链接](https://github.com/java-aodeng/hope)
+> [低调小熊猫QQ群](https://jq.qq.com/?_wv=1027&k=5y4H7Nz) 
+
+> [低调小熊猫Telegram群](https://t.me/joinchat/LSsyBxVKLGEkF5MtIhg6TQ)
+
+> [Gitee链接](https://gitee.com/java-aodeng/hope)
+
+> [Github链接](https://github.com/java-aodeng/hope)
 
 ## 最后：
 - 单纯的学习笔记！感觉分享学习的东西，学起来更有动力。持续更新中！欢迎star
