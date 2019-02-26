@@ -1,6 +1,6 @@
 <h1><a href="#">Hope</a></h1>
 
->hope 一个Java程序员的学习笔记，欢迎star
+>hope 我的学习笔记，欢迎star
 
 [![JDK](https://img.shields.io/badge/JDK-1.8-yellow.svg)](#)
 [![author](https://img.shields.io/badge/author-%E4%BD%8E%E8%B0%83%E5%B0%8F%E7%86%8A%E7%8C%AB-blue.svg)](https://aodeng.cc)

@@ -1,16 +1,10 @@
 <h1><a href="#">Hope</a></h1>
 
->hope A Java programmer's learning notes
+>hope My study notes, welcome star
 
 [![JDK](https://img.shields.io/badge/JDK-1.8-yellow.svg)](#)
 
 usEnglish | cn[简体中文](./README.md)
-
->Personal blog[https://aodeng.cc](https://aodeng.cc)
-
->WeChat public address：[Low key Panda](https://mp.weixin.qq.com/s/l5t8WSCG_-shiD4BPpLYiw) 
-
->hope Use[GPL-v3.0Protocol open source](https://github.com/java-aodeng/hope/blob/master/LICENSE)
 
 ## Catalog
 
@@ -47,13 +41,19 @@ usEnglish | cn[简体中文](./README.md)
 extend：
 - Client Load Balancing[Blog articles](https://aodeng.cc/archives/khdfzjhs)
 
-## Other：
+## link：
 
-- [QQ：756796932](https://jq.qq.com/?_wv=1027&k=5y4H7Nz) 
+> [Wechat Public Number Low-key Panda](https://mp.weixin.qq.com/s/l5t8WSCG_-shiD4BPpLYiw) 
 
-- [Gitee link](https://gitee.com/java-aodeng/hope)
+> [Hope is open source using GPL-v3.0 protocol](https://github.com/java-aodeng/hope/blob/master/LICENSE)
 
-- [Github link](https://github.com/java-aodeng/hope)
+> [Low-key Panda QQ Group](https://jq.qq.com/?_wv=1027&k=5y4H7Nz) 
+
+> [Low-key Panda Telegram Group](https://t.me/joinchat/LSsyBxVKLGEkF5MtIhg6TQ)
+
+> [Gitee link](https://gitee.com/java-aodeng/hope)
+
+> [Github link](https://github.com/java-aodeng/hope)
 
 ## Finally:
 - Simple learning notes! Feel that sharing what you learn is more motivating to learn. Continuous updates! Welcome to star
