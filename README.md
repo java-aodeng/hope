@@ -30,6 +30,7 @@ cn简体中文 | 🇺🇸[English](./README-CN.md)
 - SpringBoot(12)：redis保存session-shiro登录认证[代码](https://github.com/java-aodeng/hope/tree/master/springboot12-shiro-redis)|[文章](https://aodeng.cc)
 - SpringBoot(13)：MockMVC-web单元测试[代码](https://github.com/java-aodeng/hope/tree/master/springboot13-starter-test)|[文章](https://aodeng.cc/archives/springbootshi-wu)
 - SpringBoot(14)：Thymeleaf使用[代码](https://github.com/java-aodeng/hope/tree/master/springboot14-thymeleaf)|[文章](https://aodeng.cc/archives/springbootshi-liu)
+- SpringBoot(15)：集成 Quartz[代码](https://github.com/java-aodeng/hope/tree/master/springboot15-quartz)|[文章](https://aodeng.cc)
 
 **设计模式篇**
 
@@ -54,5 +55,5 @@ cn简体中文 | 🇺🇸[English](./README-CN.md)
 
 - [Github链接](https://github.com/java-aodeng/hope)
 
-最后：
+## 最后：
 - 单纯的学习笔记！感觉分享学习的东西，学起来更有动力。持续更新中！欢迎star

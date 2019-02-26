@@ -30,6 +30,7 @@ usEnglish | cn[简体中文](./README.md)
 - SpringBoot(12)：redis Preservation session-shiro Login authentication[Code](https://github.com/java-aodeng/hope/tree/master/springboot12-shiro-redis)|[Article](https://aodeng.cc)
 - SpringBoot(13)：MockMVC-web unit testing[Code](https://github.com/java-aodeng/hope/tree/master/springboot13-starter-test)|[Article](https://aodeng.cc/archives/springbootshi-wu)
 - SpringBoot(14)：Thymeleaf[Code](https://github.com/java-aodeng/hope/tree/master/springboot14-thymeleaf)|[Article](https://aodeng.cc/archives/springbootshi-liu)
+- SpringBoot(15)：Integrate Quartz[Code](https://github.com/java-aodeng/hope/tree/master/springboot15-quartz)|[Article](https://aodeng.cc)
 
 **Design patterns**
 
@@ -54,6 +55,5 @@ extend：
 
 - [Github link](https://github.com/java-aodeng/hope)
 
-Put in the end：
-- Project sequencing is based on the default sort, and recommended links to click the directory.
-- Simple learning notes, afraid of their own forget! The other thing is to feel that learning and learning is more powerful. Keep updating! Welcome to star!(The code is first submitted to Github and then synchronized to Gitee, the latest version, please pay attention to Github)
+## Finally:
+- Simple learning notes! Feel that sharing what you learn is more motivating to learn. Continuous updates! Welcome to star
