@@ -1,0 +1,10 @@
+#配置服务消费者
+server:
+  port: 8888
+spring:
+  application:
+    name: eureka-feign
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
