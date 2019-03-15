@@ -1,6 +1,7 @@
 package com.hope.service;
 
 import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
@@ -17,4 +18,7 @@ public interface TestFeign {
 
     @RequestMapping("/test")
     String testFegin();
+
+    @RequestMapping("/testByParam/{from}")
+    String testByParam(@PathVariable(value = "from") String from);
 }
