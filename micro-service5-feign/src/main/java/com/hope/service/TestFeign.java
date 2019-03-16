@@ -1,5 +1,6 @@
 package com.hope.service;
 
+import com.hope.service.fallback.TestFeignFallback;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -13,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * @微信公众号:低调小熊猫
  * @create:2019-03-14 13:58
  **/
-@FeignClient("eureka-provider")
+@FeignClient(value = "eureka-provider",fallback = TestFeignFallback.class)//关联fallback = TestFeignFallback.class 一旦错误就回调同名称的方法
 public interface TestFeign {
 
     @RequestMapping("/test")

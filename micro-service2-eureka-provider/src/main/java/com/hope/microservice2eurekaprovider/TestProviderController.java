@@ -15,6 +15,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestProviderController {
     @RequestMapping("/test")
     public String test(){
+        // 测试报错
+        int a=1/0;
         return "my name is test 服务提供者";
     }
 

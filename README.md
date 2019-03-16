@@ -37,7 +37,7 @@
 - Micro-service(2)：服务提供者provider[代码](https://github.com/java-aodeng/hope/tree/master/micro-service2-eureka-provider)|[文章](https://aodeng.cc/archives/ribbon)
 - Micro-service(3)：服务消费者ribbon[代码](https://github.com/java-aodeng/hope/tree/master/micro-service3-eureka-ribbon)|[文章](https://aodeng.cc/archives/ribbon)
 - Micro-service(4)：客户端负载均衡[文章](https://aodeng.cc/archives/khdfzjhs)
-- Micro-service(5)：服务消费者feign[代码](https://github.com/java-aodeng/hope/tree/master/micro-service5-feign)|[文章](https://aodeng.cc/archives/ribbon)
+- Micro-service(5)：服务消费者feign与Hystrix断路器容错机制[代码](https://github.com/java-aodeng/hope/tree/master/micro-service5-feign)|[文章](https://aodeng.cc/archives/feignandhystrix)
 
 ## 传送门：
 
