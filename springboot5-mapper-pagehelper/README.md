@@ -1,55 +1,122 @@
-### 创建Eureka client
-**1.创建项目**\
-new module时选择cloud Discovery，右边勾选Eureka Discovery，最后finish即可。\
-**2.启动入口，添加注解 @EnableEurekaClient**\
-hello 接口用于测试
+## 版权声明
+本作品采用<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">知识共享署名 4.0 国际许可协议</a>进行许可。
+本文作者：低调小熊猫
+文章链接：https://aodeng.cc/archives/springbootba
+转载声明：自由转载-非商用-非衍生-保持署名，非商业转载请注明作者及出处，商业转载请联系作者本人qq:2696284032
+
+## 单纯的广告
+**个人博客：https://aodeng.cc**
+**微信公众号：低调小熊猫**
+**qq交流群：756796932**
+
+## 整合demo
+## 配置依赖
 ```
-@SpringBootApplication
-@EnableEurekaClient
-@RestController
-public class MicroService1EurekaClientApplication {
+<!--通用mapper-->
+        <dependency>
+            <groupId>tk.mybatis</groupId>
+            <artifactId>mapper-spring-boot-starter</artifactId>
+            <version>2.0.2</version>
+        </dependency>
+        <!--分页插件-->
+        <dependency>
+            <groupId>com.github.pagehelper</groupId>
+            <artifactId>pagehelper-spring-boot-starter</artifactId>
+            <version>1.2.5</version>
+        </dependency>
+        <!-- MYSQL包 -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+```
+**配置静态资源文件**
+```
+<resources>
+            <resource>
+                <directory>src/main/resources</directory>
+            </resource>
+            <resource>
+                <directory>src/main/java</directory>
+                <includes>
+                    <include>**/*.xml</include>
+                </includes>
+                <filtering>true</filtering>
+            </resource>
+        </resources>
+```
+**配置application.yml文件**
+```
+spring:
+  datasource:
+    url: 
+    password:
+    username: 
+# 如果想看到mybatis日志需要做如下配置
+logging:
+  level:
+    com.hope: DEBUG
+########## Mybatis 自身配置 ##########
+mybatis:
+  mapper-locations: classpath:/mapper/*.xml
+  type-aliases-package: com.hope.model
+# 驼峰命名规范 如：数据库字段是  order_id 那么 实体字段就要写成 orderId
+#mybatis.configuration.map-underscore-to-camel-case=true
+########## 通用Mapper ##########
+# 主键自增回写方法,默认值MYSQL,详细说明请看文档
+mapper:
+  identity: MYSQL
 
-	@RequestMapping("/hello")
-	public String hello(@RequestParam String name){
-		return "hello world,my name is"+name;
-	}
-	public static void main(String[] args) {
-		SpringApplication.run(MicroService1EurekaClientApplication.class, args);
-	}
-
+# 设置 insert 和 update 中，是否判断字符串类型!=''
+  not-empty: true
+# 枚举按简单类型处理
+  enum-as-simple-type: true
+########## 分页插件 ##########
+pagehelper:
+  helper-dialect: mysql
+  params: count=countSql
+  reasonable: false
+  support-methods-arguments: true
+```
+**然后自己创建model，mapper，xml，service**
+## 通用mapper的使用
+```
+import org.apache.ibatis.annotations.Mapper;
+import tk.mybatis.mapper.common.BaseMapper;
+@Mapper
+public interface SysRoleMapper extends BaseMapper<SysRole>{
 }
 ```
-**3.配置文件,注册服务**
-```
-server:
-  port: 8762
-spring:
-  application:
-    name: eureka-client
-  cloud:
-    inetutils:
-      ignored-interfaces:             #忽略docker0网卡以及 veth开头的网卡
-        - docker0
-        - veth.*
-      preferred-networks:             #使用正则表达式,使用指定网络地址
-        - 192.168
-        - 10.0
-  profiles:
-    active: eureka
+## junitTest
+**idea快捷键生成junitTest**
 
-eureka:
-  instance:
-    hostname: localhost
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8761/eureka
+**打开要测试的类，如果选择idea工具栏的Navigate，然后点击Test就行了**
 ```
-**4.运行项目**
+RunWith(SpringRunner.class)
+@SpringBootTest
+public class SysRoleServiceImplTest {
+    private static final Logger log = LoggerFactory.getLogger(SysRoleServiceImplTest.class);
+
+    @Autowired
+    private SysRoleServiceImpl sysRoleService;
+
+    @Test
+    public void test1(){
+        List<SysRole> sysRoleList=sysRoleService.SelectAll();
+        log.info("[普通写法] - [{}]", sysRoleList);
+        //分页
+        PageInfo<Object> pageInfo= PageHelper.startPage(1,1).doSelectPageInfo(() -> sysRoleService.SelectAll());
+        log.info("[分页]-[{}]",pageInfo);
+    }
+}
 ```
-访问：http://localhost:8761/ 看到Application哪里有eureka-client服务了，表示成功了
+## Logger
+**打印比较详细**
 ```
-**5.测试**
-``` 
-访问： http://localhost:8762/hello?name=低调小熊猫 
-页面返回：hello world,my name is低调小熊猫 表示成功
+ private static final Logger log = LoggerFactory.getLogger(SysRoleServiceImplTest.class);
+log.info("[分页]-[{}]",pageInfo);
+```
+## lambda
+```
+PageInfo<Object> pageInfo= PageHelper.startPage(1,1).doSelectPageInfo(() -> sysRoleService.SelectAll());
 ```

@@ -1,55 +1,46 @@
-### 创建Eureka client
-**1.创建项目**\
-new module时选择cloud Discovery，右边勾选Eureka Discovery，最后finish即可。\
-**2.启动入口，添加注解 @EnableEurekaClient**\
-hello 接口用于测试
-```
-@SpringBootApplication
-@EnableEurekaClient
-@RestController
-public class MicroService1EurekaClientApplication {
+## 版权声明
+本作品采用<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">知识共享署名 4.0 国际许可协议</a>进行许可。
+本文作者：低调小熊猫
+文章链接：https://aodeng.cc/archives/springbootqi
+转载声明：自由转载-非商用-非衍生-保持署名，非商业转载请注明作者及出处，商业转载请联系作者本人qq:2696284032
 
-	@RequestMapping("/hello")
-	public String hello(@RequestParam String name){
-		return "hello world,my name is"+name;
-	}
-	public static void main(String[] args) {
-		SpringApplication.run(MicroService1EurekaClientApplication.class, args);
-	}
+## 单纯的广告
+**个人博客：https://aodeng.cc**
+**微信公众号：低调小熊猫**
+**qq交流群：756796932**
 
-}
+## 单一文件上传
 ```
-**3.配置文件,注册服务**
+@PostMapping("uploadOne")
+    public String uploadOne(@RequestParam("file") MultipartFile file, RedirectAttributes redirectAttributes){
+        if(file.isEmpty()){
+            redirectAttributes.addFlashAttribute("message","请选择上传文件");
+            return "redirect:uploadShow";
+        }
+        try {
+            //获取文件并保存
+            byte[] bytes = file.getBytes();
+            Path path= Paths.get(UPLOADED_FOLDER+file.getOriginalFilename());
+            Files.write(path,bytes);
+            redirectAttributes.addFlashAttribute("message",file.getOriginalFilename()+"文件上传完成");
+        }catch (IOException e){
+            e.printStackTrace();
+        }
+        return "redirect:uploadShow";
+    }
 ```
-server:
-  port: 8762
-spring:
-  application:
-    name: eureka-client
-  cloud:
-    inetutils:
-      ignored-interfaces:             #忽略docker0网卡以及 veth开头的网卡
-        - docker0
-        - veth.*
-      preferred-networks:             #使用正则表达式,使用指定网络地址
-        - 192.168
-        - 10.0
-  profiles:
-    active: eureka
-
-eureka:
-  instance:
-    hostname: localhost
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8761/eureka
+## Base64文件上传
+可以去这个网站将图片加密成Base64码
+http://base64.xpcha.com/pic.html
 ```
-**4.运行项目**
-```
-访问：http://localhost:8761/ 看到Application哪里有eureka-client服务了，表示成功了
-```
-**5.测试**
-``` 
-访问： http://localhost:8762/hello?name=低调小熊猫 
-页面返回：hello world,my name is低调小熊猫 表示成功
+@PostMapping("/uploadBase")
+    @ResponseBody
+    public void upload2(String base64) throws IOException {
+        // TODO BASE64 方式的 格式和名字需要自己控制（如 png 图片编码后前缀就会是 data:image/png;base64,）
+        final File tempFile = new File("c:\\temp\\test.jpg");//上传文件保存的路径
+        // TODO 防止有的传了 data:image/png;base64, 有的没传的情况
+        String[] d = base64.split("base64,");
+        final byte[] bytes = Base64Utils.decodeFromString(d.length > 1 ? d[1] : d[0]);
+        FileCopyUtils.copy(bytes, tempFile);
+    }
 ```

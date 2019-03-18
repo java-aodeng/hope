@@ -1,55 +1,47 @@
-### 创建Eureka client
-**1.创建项目**\
-new module时选择cloud Discovery，右边勾选Eureka Discovery，最后finish即可。\
-**2.启动入口，添加注解 @EnableEurekaClient**\
-hello 接口用于测试
+## 版权声明
+本作品采用<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">知识共享署名 4.0 国际许可协议</a>进行许可。
+本文作者：低调小熊猫
+文章链接：https://aodeng.cc/archives/springbootshi
+转载声明：自由转载-非商用-非衍生-保持署名，非商业转载请注明作者及出处，商业转载请联系作者本人qq:2696284032
+
+## 单纯的广告
+**个人博客：https://aodeng.cc**
+**微信公众号：低调小熊猫**
+**qq交流群：756796932**
+
+## 简介
+**定时任务，就是定时执行的程序，springboot是自己带的，所以创建springboot工程的配置就不贴了，直接看使用方法**
+## 使用
+**使用@EnableScheduling注解开启**
 ```
 @SpringBootApplication
-@EnableEurekaClient
-@RestController
-public class MicroService1EurekaClientApplication {
-
-	@RequestMapping("/hello")
-	public String hello(@RequestParam String name){
-		return "hello world,my name is"+name;
-	}
-	public static void main(String[] args) {
-		SpringApplication.run(MicroService1EurekaClientApplication.class, args);
-	}
+@EnableScheduling//启动类启用定时
+public class Application {
+    public static void main(String[] args) {
+        SpringApplication.run(Application.class,args);
+    }
 
 }
 ```
-**3.配置文件,注册服务**
+**创建一个类，因为我们这个不是web实现类，也不是dao类，更不是service类，所以该类使用@Component注解**
 ```
-server:
-  port: 8762
-spring:
-  application:
-    name: eureka-client
-  cloud:
-    inetutils:
-      ignored-interfaces:             #忽略docker0网卡以及 veth开头的网卡
-        - docker0
-        - veth.*
-      preferred-networks:             #使用正则表达式,使用指定网络地址
-        - 192.168
-        - 10.0
-  profiles:
-    active: eureka
-
-eureka:
-  instance:
-    hostname: localhost
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8761/eureka
-```
-**4.运行项目**
-```
-访问：http://localhost:8761/ 看到Application哪里有eureka-client服务了，表示成功了
-```
-**5.测试**
-``` 
-访问： http://localhost:8762/hello?name=低调小熊猫 
-页面返回：hello world,my name is低调小熊猫 表示成功
+@Component
+public class TaskTestController {
+    private static final Logger log= LoggerFactory.getLogger(TaskTestController.class);
+    private int count=0;
+    private static final SimpleDateFormat date=new SimpleDateFormat("HH:mm:ss");
+    /**
+     * @Scheduled(fixedRate = 6000) ：上一次开始执行时间点之后6秒再执行
+     * @Scheduled(fixedDelay = 6000) ：上一次执行完毕时间点之后6秒再执行
+     * @Scheduled(initialDelay=1000, fixedRate=6000) ：第一次延迟1秒后执行，之后按fixedRate的规则每6秒执行一次
+     */
+    @Scheduled(fixedDelay = 6000)
+    public void test(){
+        log.info("[count打印]-[{}]",count++);
+    }
+    @Scheduled(fixedDelay = 1000)
+    public void test1(){
+        log.info("[当前时间]-[{}]",date.format(new Date()));
+    }
+}
 ```

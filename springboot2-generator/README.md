@@ -1,55 +1,69 @@
-### 创建Eureka client
-**1.创建项目**\
-new module时选择cloud Discovery，右边勾选Eureka Discovery，最后finish即可。\
-**2.启动入口，添加注解 @EnableEurekaClient**\
-hello 接口用于测试
-```
-@SpringBootApplication
-@EnableEurekaClient
-@RestController
-public class MicroService1EurekaClientApplication {
+## 简介
+**Mybatis-Generator是Mybatis提供的一个便捷型插件，自动可以为项目生产对应的实体类，Mapper，dao层。**
+官网文档：[链接](http://www.mybatis.org/generator/index.html "链接")
+本作品采用<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">知识共享署名 4.0 国际许可协议</a>进行许可。
+版权声明：本文由 低调小熊猫 发表于 低调小熊猫的博客
+转载声明：自由转载-非商用-非衍生-保持署名，非商业转载请注明作者及出处，商业转载请联系作者本人qq:2696284032
+文章链接：https://aodeng.cc/archives/springboot-er
 
-	@RequestMapping("/hello")
-	public String hello(@RequestParam String name){
-		return "hello world,my name is"+name;
-	}
-	public static void main(String[] args) {
-		SpringApplication.run(MicroService1EurekaClientApplication.class, args);
-	}
+## 单纯的广告
+**个人博客：https://aodeng.cc**
+**微信公众号：低调小熊猫**
+**qq交流群：756796932**
 
-}
+## 使用
+**添加依赖**
 ```
-**3.配置文件,注册服务**
+<!-- SpringBoot mybatis generator插件-->
+<plugin>
+	<groupId>org.mybatis.generator</groupId>
+	<artifactId>mybatis-generator-maven-plugin</artifactId>
+	<version>1.3.2</version>
+	<configuration>
+		<configurationFile>${basedir}/src/main/resources/generator/generatorConfig.xml</configurationFile>
+		<verbose>true</verbose>
+		<overwrite>true</overwrite>
+	</configuration>
+</plugin>
 ```
-server:
-  port: 8762
-spring:
-  application:
-    name: eureka-client
-  cloud:
-    inetutils:
-      ignored-interfaces:             #忽略docker0网卡以及 veth开头的网卡
-        - docker0
-        - veth.*
-      preferred-networks:             #使用正则表达式,使用指定网络地址
-        - 192.168
-        - 10.0
-  profiles:
-    active: eureka
+**配置Generator**
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+    <properties resource="application.yml"/>
 
-eureka:
-  instance:
-    hostname: localhost
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8761/eureka
+    <!-- 指定使用jar路径-->
+    <classPathEntry
+            location="C:\z_java_resources\apache-maven-repo\mysql\mysql-connector-java\5.1.34\mysql-connector-java-5.1.34.jar" />
+    <context id="Mysql" targetRuntime="MyBatis3Simple" defaultModelType="flat">
+        <property name="beginningDelimiter" value="`"/>
+        <property name="endingDelimiter" value="`"/>
+		
+        <!-- 连接参数-->
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+                        connectionURL="jdbc:mysql://localhost:3306/hope"
+                        userId="root"
+                        password="123456">
+        </jdbcConnection>
+
+        <!--生成Model类存放位置-->
+        <javaModelGenerator targetPackage="com.ad.core.hope.model.admin" targetProject="src/main/java"></javaModelGenerator>
+        <!--生成映射文件存放位置-->
+        <sqlMapGenerator targetPackage="mapper.admin" targetProject="src/main/resources"></sqlMapGenerator>
+        <!--生成Dao类存放位置-->
+        <javaClientGenerator type="XMLMAPPER" targetPackage="com.ad.core.hope.service.admin" targetProject="src/main/java"></javaClientGenerator>
+        <table tableName="%">
+            <!-- mysql配置 -->
+            <generatedKey column="id" sqlStatement="Mysql" identity="true"/>
+        </table>
+    </context>
+</generatorConfiguration>
+
 ```
-**4.运行项目**
+**idea开发，还需要配置maven的启动**
 ```
-访问：http://localhost:8761/ 看到Application哪里有eureka-client服务了，表示成功了
-```
-**5.测试**
-``` 
-访问： http://localhost:8762/hello?name=低调小熊猫 
-页面返回：hello world,my name is低调小熊猫 表示成功
+mybatis-generator:generate -e
 ```

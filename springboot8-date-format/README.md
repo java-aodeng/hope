@@ -1,55 +1,57 @@
-### 创建Eureka client
-**1.创建项目**\
-new module时选择cloud Discovery，右边勾选Eureka Discovery，最后finish即可。\
-**2.启动入口，添加注解 @EnableEurekaClient**\
-hello 接口用于测试
+## 版权声明
+本作品采用<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">知识共享署名 4.0 国际许可协议</a>进行许可。
+本文作者：低调小熊猫
+文章链接：https://aodeng.cc/archives/springbootshiyi
+转载声明：自由转载-非商用-非衍生-保持署名，非商业转载请注明作者及出处，商业转载请联系作者本人qq:2696284032
+
+## 单纯的广告
+**个人博客：https://aodeng.cc**
+**微信公众号：低调小熊猫**
+**qq交流群：756796932**
+
+## 简介
+很多时候日期格式输出是这样的
+2018-10-09T17:39:07.097
+中间有个T，尴尬，是的我们需要去掉这个T
+这方法是springboot封装好了的，我们直接使用即可，普通的配置我就不贴了
+## 教程
+**创建日期config类**
 ```
-@SpringBootApplication
-@EnableEurekaClient
-@RestController
-public class MicroService1EurekaClientApplication {
+@Configuration
+public class LocalDateTimeSerializerConfig {
+    @org.springframework.beans.factory.annotation.Value("${spring.jackson.date-format:yyyy-MM-dd HH:mm:ss}")
+    private String pattern;
 
-	@RequestMapping("/hello")
-	public String hello(@RequestParam String name){
-		return "hello world,my name is"+name;
-	}
-	public static void main(String[] args) {
-		SpringApplication.run(MicroService1EurekaClientApplication.class, args);
-	}
+    @Bean
+    public LocalDateTimeSerializer localDateTimeDeserializer() {
+        return new LocalDateTimeSerializer(DateTimeFormatter.ofPattern(pattern));
+    }
 
+    @Bean
+    public Jackson2ObjectMapperBuilderCustomizer jackson2ObjectMapperBuilderCustomizer() {
+        return builder -> builder.serializerByType(LocalDateTime.class, localDateTimeDeserializer());
+    }
 }
 ```
-**3.配置文件,注册服务**
+**实体类，get，set忽略**
 ```
-server:
-  port: 8762
-spring:
-  application:
-    name: eureka-client
-  cloud:
-    inetutils:
-      ignored-interfaces:             #忽略docker0网卡以及 veth开头的网卡
-        - docker0
-        - veth.*
-      preferred-networks:             #使用正则表达式,使用指定网络地址
-        - 192.168
-        - 10.0
-  profiles:
-    active: eureka
+public class TestEntity {
+    private String name;
+    private LocalDateTime dateTimes;
+}
+```
+**controller使用**
+```
+@GetMapping("/test")
+    public TestEntity test(){
+        TestEntity testEntity=new TestEntity();
+        testEntity.setName("admin");
+        testEntity.setDateTimes(LocalDateTime.now());
+        return testEntity;
+    }
+```
+**成功效果**
+```
+{"name":"admin","dateTimes":"2018-10-09 17:39:07"}
+```
 
-eureka:
-  instance:
-    hostname: localhost
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8761/eureka
-```
-**4.运行项目**
-```
-访问：http://localhost:8761/ 看到Application哪里有eureka-client服务了，表示成功了
-```
-**5.测试**
-``` 
-访问： http://localhost:8762/hello?name=低调小熊猫 
-页面返回：hello world,my name is低调小熊猫 表示成功
-```

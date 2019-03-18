@@ -1,8 +1,8 @@
-<h1><a href="#">Hope 1.0</a></h1>
+<h1><a href="#">Hope 2.0</a></h1>
 
->我的学习笔记，欢迎star
+>每个demo添加了md文件，更专业，更详细,我的学习笔记，欢迎star！
 
-[![JDK](https://img.shields.io/badge/JDK-1.8-yellow.svg)](#)
+[![JDK](https://img.shields.io/badge/JDK-1.8-orange.svg)](https://github.com/java-aodeng/hope)
 [![author](https://img.shields.io/badge/author-%E4%BD%8E%E8%B0%83%E5%B0%8F%E7%86%8A%E7%8C%AB-blue.svg)](https://aodeng.cc)
 
 ## 目录
@@ -31,10 +31,6 @@
 - Design-pattern(2)：单例模式[代码](https://github.com/java-aodeng/hope/tree/master/design-pattern2)|[文章](https://aodeng.cc/archives/dan-li-mo-shi)
 - Design-pattern(3)：工厂模式[代码](https://github.com/java-aodeng/hope/tree/master/design-pattern3)|[文章](https://aodeng.cc/archives/jing-dian-she)
 
-<h1><a href="#">Hope 2.0</a></h1>
-
->后面的demo都会配上一个md文件，更专业，也是防止博客挂了，不过精力有限，以前的就不管了
-
 **SpringCloud微服务篇**
 
 - Micro-service(1)：服务注册中心server和服务客户端client[server代码](https://github.com/java-aodeng/hope/tree/master/micro-service1-eureka-server)/[Eureka client代码](https://github.com/java-aodeng/hope/tree/master/micro-service1-eureka-client)|[文章](https://aodeng.cc/archives/eureka)
@@ -46,11 +42,13 @@
 
 ## 传送门：
 
-[微信公众号低调小熊猫](https://mp.weixin.qq.com/s/l5t8WSCG_-shiD4BPpLYiw) 
+[博客](https://aodeng.cc)
+[微信公众号(低调小熊猫)](https://mp.weixin.qq.com/s/l5t8WSCG_-shiD4BPpLYiw) 
 [hope使用GPL-v3.0协议开源](https://github.com/java-aodeng/hope/blob/master/LICENSE)
 [低调小熊猫QQ群](https://jq.qq.com/?_wv=1027&k=5y4H7Nz) 
 [低调小熊猫Telegram群](https://t.me/joinchat/LSsyBxVKLGEkF5MtIhg6TQ)
 [Gitee链接](https://gitee.com/java-aodeng/hope)
 [Github链接](https://github.com/java-aodeng/hope)
+[另一个开源项目](https://github.com/java-aodeng/hope-plus)
 
 - 单纯的学习笔记！感觉分享学习的东西，学起来更有动力。持续更新中！
