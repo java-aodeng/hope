@@ -1,0 +1,21 @@
+#Hystrix Dashboard监控面板
+server:
+  port: 8889
+spring:
+  application:
+    name: eureka-hystrixdashboard
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+      #healthcheck:
+      #enabled: true  #开启自定义健康检查
+  instance:
+    #eureka服务器在接收到最后一个心跳之后等待的时间，然后才能从列表中删除此实例 默认90s（开发环境)
+    lease-expiration-duration-in-seconds: 10
+    #eureka客户端需要向eureka服务器发送心跳的频率 默认30s （开发环境)
+    lease-renewal-interval-in-seconds: 1
+#开启hystrix 指标
+feign:
+  hystrix:
+    enabled: true

@@ -12,3 +12,9 @@ eureka:
 feign:
   hystrix:
     enabled: true
+# 端点管理 hystrixDashboard
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
