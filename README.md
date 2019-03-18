@@ -1,6 +1,6 @@
-<h1><a href="#">Hope 2.0</a></h1>
+<h1><a href="https://github.com/java-aodeng/hope">Hope 2.0</a></h1>
 
->每个demo添加了md文件，更专业，更详细,我的学习笔记，欢迎star！
+>每个demo添加了md文件，更专业，更详细,我的学习笔记，欢迎star！https://github.com/java-aodeng/hope
 
 [![JDK](https://img.shields.io/badge/JDK-1.8-orange.svg)](https://github.com/java-aodeng/hope)
 [![author](https://img.shields.io/badge/author-%E4%BD%8E%E8%B0%83%E5%B0%8F%E7%86%8A%E7%8C%AB-blue.svg)](https://aodeng.cc)
