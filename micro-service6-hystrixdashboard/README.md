@@ -1,4 +1,4 @@
-## Hystrix Dashboard熔断监控面板
+## Hystrix Dashboard熔断监控面板-微服务架构
 >Hystrix-dashboard是一款针对Hystrix进行实时监控的工具，通过Hystrix Dashboard我们可以在直观地看到各Hystrix Command的请求响应时间, 请求成功率等数据。
 
 注册中心：[https://github.com/java-aodeng/hope/tree/master/micro-service1-eureka-server](https://github.com/java-aodeng/hope/tree/master/micro-service1-eureka-server)
@@ -12,7 +12,7 @@
 ## 创建HystrixDashboard项目
 1.添加依赖
 ```
-<dependency>
+        <dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
 		</dependency>
