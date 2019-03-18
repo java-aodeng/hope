@@ -43,6 +43,7 @@
 >后面的demo都会配上一个md文件，更专业，也是防止博客挂了，不过精力有限，以前的就不管了
 
 - Micro-service(5)：服务消费者feign与Hystrix断路器容错机制[代码](https://github.com/java-aodeng/hope/tree/master/micro-service5-feign)|[博客文章](https://aodeng.cc/archives/feignandhystrix)
+- Micro-service(6)：Hystrix Dashboard熔断监控面板[代码](https://github.com/java-aodeng/hope/tree/master/micro-service6-hystrixdashboard)|[博客文章](https://aodeng.cc/categories/cloud)
 
 ## 传送门：
 
