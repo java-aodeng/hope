@@ -24,6 +24,8 @@
 - SpringBoot(13)：MockMVC-web单元测试[代码](https://github.com/java-aodeng/hope/tree/master/springboot13-starter-test)|[文章](https://aodeng.cc/archives/springbootshi-wu)
 - SpringBoot(14)：Thymeleaf使用[代码](https://github.com/java-aodeng/hope/tree/master/springboot14-thymeleaf)|[文章](https://aodeng.cc/archives/springbootshi-liu)
 - SpringBoot(15)：集成 Quartz[代码](https://github.com/java-aodeng/hope/tree/master/springboot15-quartz)|[文章](https://aodeng.cc)
+- SpringBoot(16)：集成 rabbitmq[代码](https://github.com/java-aodeng/hope/tree/master/springboot16-rabbitmq)|[文章](https://aodeng.cc)
+- SpringBoot(17)：集成 mybatis-plus[代码](https://github.com/java-aodeng/hope/tree/master/springboot17-mybatis-plus)|[文章](https://aodeng.cc)
 
 **SpringCloud：**
 
