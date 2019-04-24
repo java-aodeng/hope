@@ -24,7 +24,7 @@ public class GengeratorTest {
         //user -> UserService, 设置成true: user -> IUserService
         boolean serviceNameStartWithI=false;
 
-        //mybatis-plus generator代码生成
+        //mybatis-plus generator代码生成 1
         GengeratorTest.generatorByTables(serviceNameStartWithI,packageName,"SysUser","role");
     }
 
