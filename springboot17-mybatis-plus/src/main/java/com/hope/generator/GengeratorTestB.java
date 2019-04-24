@@ -14,7 +14,7 @@ import com.baomidou.mybatisplus.generator.config.rules.NamingStrategy;
  * @author:aodeng
  * @blog:低调小熊猫(https://aodeng.cc)
  * @create:2019-04-24 19:57
- * @Description: TODO
+ * @Description: 建议使用B
  * @Version 1.0
  **/
 public class GengeratorTestB {
@@ -24,7 +24,7 @@ public class GengeratorTestB {
 
         //全局配置
         GlobalConfig gc = new GlobalConfig();
-        gc.setOutputDir("D://demo/src/main/java");
+        gc.setOutputDir("D://z_ad_work//work_code//hope//springboot17-mybatis-plus//src//main//java");
         gc.setFileOverride(true);
         //不需要ActiveRecord特性的请改为false
         gc.setActiveRecord(true);
@@ -60,7 +60,7 @@ public class GengeratorTestB {
         strategy.setTablePrefix(new String[]{});
         //表名生成策略
         strategy.setNaming(NamingStrategy.underline_to_camel);
-        //需要生成的表
+        //需要生成的表 数组
         strategy.setInclude(new String[]{"sys_user"});
 
         strategy.setSuperServiceClass(null);
