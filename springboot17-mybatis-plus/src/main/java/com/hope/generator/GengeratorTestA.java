@@ -17,33 +17,33 @@ import com.baomidou.mybatisplus.generator.config.rules.NamingStrategy;
  * @Description: mybatis-plus 代码生成器
  * @Version 1.0
  **/
-public class GengeratorTest {
+public class GengeratorTestA {
 
-    public void main(String[] args) {
+    public static void main(String[] args) {
         String packageName="com.hope.generator";
         //user -> UserService, 设置成true: user -> IUserService
         boolean serviceNameStartWithI=false;
 
         //mybatis-plus generator代码生成 1
-        GengeratorTest.generatorByTables(serviceNameStartWithI,packageName,"SysUser","role");
+        GengeratorTestA.generatorByTables(serviceNameStartWithI,packageName,"sys_resource","sys_role");
     }
 
     private static void generatorByTables(boolean serviceNameStartWithI,String packageName,String... tableNames){
         GlobalConfig globalConfig=new GlobalConfig();
 
-        String dbUrl="jdbc:mysql://localhost:3306/hope";
+        String dbUrl="jdbc:mysql://localhost:3306/test";
 
         DataSourceConfig dataSourceConfig=new DataSourceConfig();
         dataSourceConfig.setDbType(DbType.MYSQL)
                 .setUrl(dbUrl)
                 .setUsername("root")
                 .setPassword("123456")
-                .setDriverName("com.mysql.jdbc.Driver");
+                .setDriverName("com.mysql.cj.jdbc.Driver");
 
         StrategyConfig strategyConfig=new StrategyConfig();
         strategyConfig.setCapitalMode(true)
                 .setEntityLombokModel(false)
-                .setDbColumnUnderline(true)
+                //.setDbColumnUnderline(true)
                 .setNaming(NamingStrategy.underline_to_camel)
                 .setInclude(tableNames);
 
