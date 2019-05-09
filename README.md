@@ -19,8 +19,7 @@
 ## 目录
 
 **SpringBoot：**
-https://github.com/java-aodeng/hope/tree/master/springboot/springboot1-public-pom
-https://github.com/java-aodeng/hope/tree/master/springboot1-public-pom
+
 - SpringBoot(1)：公共配置[代码](https://github.com/java-aodeng/hope/tree/master/springboot/springboot1-public-pom)|[文章](https://aodeng.cc/archives/springboot-yi)
 - SpringBoot(2)：generator[代码](https://github.com/java-aodeng/hope/tree/master/springboot/springboot2-generator)|[文章](https://aodeng.cc/archives/springboot-er)
 - SpringBoot(3)：docker部署项目[代码](https://github.com/java-aodeng/hope/tree/master/springboot/springboot3-docker)|[文章](https://aodeng.cc/archives/springbootliu)
