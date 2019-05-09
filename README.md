@@ -1,9 +1,18 @@
 <h1><a href="https://github.com/java-aodeng/hope">Hope</a></h1>
 
->Hope :art: is my study notes for Springboot, Springcloud, Linux. https://github.com/java-aodeng/hope
+<p align="center">
+<a href="https://aodeng.cc"><img alt="Author" src="https://img.shields.io/badge/author-%E4%BD%8E%E8%B0%83%E5%B0%8F%E7%86%8A%E7%8C%AB-blue.svg"/></a>
+<a href="https://github.com/java-aodeng/hope/blob/master/LICENSE"><img alt="license" src="https://img.shields.io/github/license/java-aodeng/hope.svg?style=flat-square"/></a>
+<a href="https://jq.qq.com/?_wv=1027&k=574chhz"><img alt="QQ群" src="https://img.shields.io/badge/chat-%E4%BD%8E%E8%B0%83%E5%B0%8F%E7%86%8A%E7%8C%ABQQ%E7%BE%A4-yellow.svg"/></a>
+<a href="https://t.me/joinchat/LSsyBxVKLGEkF5MtIhg6TQ"><img alt="Telegram" src="https://img.shields.io/badge/telegram-%E4%BD%8E%E8%B0%83%E5%B0%8F%E7%86%8A%E7%8C%AB--%E5%AE%98%E6%96%B9%E9%83%A8%E8%90%BD-orange.svg"/></a>
+<a href="https://github.com/java-aodeng/hope"><img alt="star" src="https://img.shields.io/github/stars/java-aodeng/hope.svg?label=Stars&style=social"/></a>
+</p>
 
-[![JDK](https://img.shields.io/badge/JDK-1.8-orange.svg)](https://github.com/java-aodeng/hope)
-[![author](https://img.shields.io/badge/author-%E4%BD%8E%E8%B0%83%E5%B0%8F%E7%86%8A%E7%8C%AB-blue.svg)](https://aodeng.cc)
+# 简介
+
+>低调小熊猫的学习笔记 持续更新 项目地址：https://github.com/java-aodeng/hope
+
+------------------------------
 
 ## 目录
 
@@ -45,7 +54,7 @@
 **Linux：**
 - Linux(1)：[常用命令](https://github.com/java-aodeng/hope/tree/master/linux/linux常用命令.md)
 
-## 传送门：
+## 我的链接：
 
 [博客](https://aodeng.cc)
 [微信公众号(低调小熊猫)](https://mp.weixin.qq.com/s/l5t8WSCG_-shiD4BPpLYiw) 
