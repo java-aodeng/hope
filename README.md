@@ -37,6 +37,7 @@
 - SpringBoot(15)：集成 Quartz[代码](https://github.com/java-aodeng/hope/tree/master/springboot/springboot15-quartz)|[文章](https://aodeng.cc)
 - SpringBoot(16)：集成 rabbitmq[代码](https://github.com/java-aodeng/hope/tree/master/springboot/springboot16-rabbitmq)|[文章](https://aodeng.cc)
 - SpringBoot(17)：集成 mybatis-plus[代码](https://github.com/java-aodeng/hope/tree/master/springboot/springboot17-mybatis-plus)|[文章](https://aodeng.cc)
+- SpringBoot(18)：sb整合jwt-shiro[代码](https://github.com/java-aodeng/hope/tree/master/springboot/springboot18-jwt-shiro)|[文章](https://aodeng.cc)
 
 **SpringCloud：**
 
