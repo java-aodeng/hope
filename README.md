@@ -57,6 +57,12 @@
 **Linux：**
 - Linux(1)：[常用命令](https://github.com/java-aodeng/hope/tree/master/linux/linux常用命令.md)
 
+**Code：**
+- Code(1)：[多级菜单递归遍历成树](https://github.com/java-aodeng/hope/tree/master/good-code/多级菜单递归遍历成树.md)
+- Code(1)：[微信认证](https://github.com/java-aodeng/hope/tree/master/good-code/微信认证.md)
+- Code(1)：[瓦力walle2.0-docker安装](https://github.com/java-aodeng/hope/tree/master/good-code/瓦力walle2.0-docker安装.md)
+- Code(1)：[雪花算法](https://github.com/java-aodeng/hope/tree/master/good-code/雪花算法.md)
+
 ## 我的链接：
 
 - [我的个人博客](https://aodeng.cc)
