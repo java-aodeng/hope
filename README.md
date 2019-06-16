@@ -8,9 +8,11 @@
 
 # 简介
 
->低调小熊猫的学习笔记
+> 低调小熊猫的学习笔记
 
->记录自己平时学习的一些小案例 防止记忆丢失 项目地址：https://github.com/java-aodeng/hope
+> 记录自己平时学习的一些小案例 防止记忆丢失 项目地址：https://github.com/java-aodeng/hope
+
+> 这是我的第三个开源作品，欢迎star。第四个开源作品地址：https://github.com/java-aodeng/golang-examples
 
 ------------------------------
 
