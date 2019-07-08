@@ -55,3 +55,9 @@
 - [微信认证](https://github.com/java-aodeng/hope/tree/master/good-code/微信认证.md)
 - [瓦力walle2.0-docker安装](https://github.com/java-aodeng/hope/tree/master/good-code/瓦力walle2.0-docker安装.md)
 - [雪花算法](https://github.com/java-aodeng/hope/tree/master/good-code/雪花算法.md)
+
+**Mysql**
+- [Mysql常用命令](https://github.com/java-aodeng/hope/tree/master/mysql/mysql1.md)
+
+**Git**
+- [Git常用命令](https://github.com/java-aodeng/hope/tree/master/git/git1.md)
