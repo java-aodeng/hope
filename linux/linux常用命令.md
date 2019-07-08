@@ -1,4 +1,42 @@
 # linux常用命令
+    
+    打包常用
+        1.查询端口： ps aux|grep java
+        
+        2.关闭端口：kill -9 端口号
+        
+        3.运行：nohup java -jar [jar包名] --server.port=8001 --spring.profiles.active=[配置文件] &
+        
+        4.回车
+        
+        5.查看日志：tail -f nohup.out
+    
+    授权
+        chmod 777 [授权目录]
+    
+    寻找目录
+		find 目录 参数 如：find / -name '*test*'
+	
+	删除文件
+	    rm -rf 目录(强制直接删除，不提示)
+	    
+    解压压缩包(重点)
+	    tar -xvf 解压文件名
+	    
+	关闭防火墙 
+	    systemctl stop firewalld
+	    
+	用于查看指定的端口号的进程情况
+	    netstat -tunlp |grep 端口号
+	    
+	下载文件
+        wget 下载地址 #下载文件
+    
+    查看ip
+        ip addr show
+    
+    查看程序
+        htop
 
 一、目录切换命令
 
