@@ -113,4 +113,3 @@ sudo su elsearch
 }
 ```
 以上为单台服务器配置，多台与单台类似，可移步http://blog.csdn.net/sinat_28224453/article/details/51134978
-其他可参考http://www.ruanyifeng.com/blog/2017/08/elasticsearch.htmlhttp://blog.csdn.net/laoyang360/article/details/77146063
