@@ -51,6 +51,9 @@
 **Linux：**
 - [Linux常用命令](https://github.com/java-aodeng/hope/tree/master/linux/linux常用命令.md)
 
+**Ubuntu**
+- [Ubuntu下Elasticsearch安装配置](https://github.com/java-aodeng/hope/tree/master/ubuntu/es.md)
+
 **Code：**
 - [多级菜单递归遍历成树](https://github.com/java-aodeng/hope/tree/master/good-code/多级菜单递归遍历成树.md)
 - [微信认证](https://github.com/java-aodeng/hope/tree/master/good-code/微信认证.md)
