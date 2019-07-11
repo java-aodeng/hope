@@ -16,6 +16,8 @@
 - [策略模式](https://github.com/java-aodeng/hope/tree/master/design-pattern/design-pattern1)
 - [单例模式](https://github.com/java-aodeng/hope/tree/master/design-pattern/design-pattern2)
 - [工厂模式](https://github.com/java-aodeng/hope/tree/master/design-pattern/design-pattern3)
+- [装饰器模式](https://github.com/java-aodeng/hope/tree/master/design-pattern/design-pattern3)
+
 
 **SpringBoot：**
 
