@@ -53,6 +53,7 @@
 
 **Ubuntu**
 - [Ubuntu下Elasticsearch安装配置](https://github.com/java-aodeng/hope/tree/master/ubuntu/es.md)
+- [Ubuntu下搭建Elasticsearch和kibana-熊猫哥版本](https://github.com/java-aodeng/hope/tree/master/ubuntu/Elasticsearch-kibana.md)
 
 **Code：**
 - [多级菜单递归遍历成树](https://github.com/java-aodeng/hope/tree/master/good-code/多级菜单递归遍历成树.md)
