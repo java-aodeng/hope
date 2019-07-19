@@ -19,6 +19,7 @@
 - [装饰器模式](https://github.com/java-aodeng/hope/blob/master/design-pattern/design-pattern4/learn/DecoratorMode.md)
 - [观察者模式](https://github.com/java-aodeng/hope/blob/master/design-pattern/design-pattern5/src/1.md)
 - [适配器模式](https://github.com/java-aodeng/hope/blob/master/design-pattern/20190717/src/1.md)
+- [模板方法模式](https://github.com/java-aodeng/hope/blob/master/design-pattern/20190718/src/1.md)
 
 **SpringBoot：**
 
