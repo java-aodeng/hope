@@ -2,13 +2,6 @@
 
 >简介：我的后端学习笔记
 
-**My link：**
-
-- [个人博客](http://ilovey.live)
-- [QQ交流群](https://jq.qq.com/?_wv=1027&k=5y4H7Nz) 
-- [Telegram群](https://t.me/joinchat/LSsyBxVKLGEkF5MtIhg6TQ)
-- [Github](https://github.com/java-aodeng)
-
 ## 目录
 
 **设计模式：**
