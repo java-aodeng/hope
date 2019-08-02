@@ -4,6 +4,15 @@
 
 ## 目录
 
+# My link：
+
+- [开发作者：低调小熊猫-#个人博客：读万卷书，行万里路，赚很多钱🥚](http://ilovey.live)
+- [QQ交流群](https://jq.qq.com/?_wv=1027&k=5y4H7Nz) 
+- [Telegram 低调小熊猫-官方部落](https://t.me/joinchat/LSsyBxVKLGEkF5MtIhg6TQ)
+- [Github](https://github.com/java-aodeng)
+- [开源组织](https://github.com/hope-for) 
+- [联系邮箱：](https://github.com/hope-for/hope-boot)java@aodeng.cc
+
 **设计模式：**
 
 - [策略模式](https://github.com/java-aodeng/hope/tree/master/design-pattern/design-pattern1)
@@ -63,11 +72,3 @@
 **Git**
 - [Git常用命令](https://github.com/java-aodeng/hope/tree/master/git/git1.md)
 
-# My link：
-
-- [开发作者：低调小熊猫-#个人博客：读万卷书，行万里路，赚很多钱🥚](http://ilovey.live)
-- [QQ交流群](https://jq.qq.com/?_wv=1027&k=5y4H7Nz) 
-- [Telegram 低调小熊猫-官方部落](https://t.me/joinchat/LSsyBxVKLGEkF5MtIhg6TQ)
-- [Github](https://github.com/java-aodeng)
-- [开源组织](https://github.com/hope-for) 
-- [联系邮箱：](https://github.com/hope-for/hope-boot)java@aodeng.cc
