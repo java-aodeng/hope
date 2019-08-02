@@ -2,9 +2,7 @@
 
 >简介：我的后端学习笔记
 
-## 目录
-
-# My link：
+**My link：**
 
 - [开发作者：低调小熊猫-#个人博客：读万卷书，行万里路，赚很多钱🥚](http://ilovey.live)
 - [QQ交流群](https://jq.qq.com/?_wv=1027&k=5y4H7Nz) 
@@ -12,6 +10,8 @@
 - [Github](https://github.com/java-aodeng)
 - [开源组织](https://github.com/hope-for) 
 - [联系邮箱：](https://github.com/hope-for/hope-boot)java@aodeng.cc
+
+## 目录
 
 **设计模式：**
 
