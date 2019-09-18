@@ -72,3 +72,6 @@
 **Git**
 - [Git常用命令](https://github.com/java-aodeng/hope/tree/master/git/git1.md)
 
+**Nginx**
+- [Java 程序员应掌握的 Nginx 实战应用（一）](https://github.com/java-aodeng/hope/tree/master/mysql/mysql1.md)
+
