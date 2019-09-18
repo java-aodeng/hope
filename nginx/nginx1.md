@@ -47,4 +47,4 @@ Nginx 就是一个高性能的反向代理和负载均衡服务器，它可以�
 
 ### 文章永久链接地址：
 
-https://github.com/java-aodeng/hope/tree/master/mysql/mysql1.md
+https://github.com/java-aodeng/hope/tree/master/nginx/nginx1.md
