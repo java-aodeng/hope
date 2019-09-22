@@ -1,6 +1,6 @@
 <h1><a href="#">Hope</a></h1>
 
->简介：老夫的学习笔记
+>简介：熊猫哥笔记（我是谁，江湖人称：熊猫哥）
 
 **My link：**
 
@@ -76,6 +76,6 @@
 - [Java 程序员应掌握的 Nginx 实战应用（一）](https://github.com/java-aodeng/hope/tree/master/nginx/nginx1.md)
 - [Java 程序员应掌握的 Nginx 实战应用（二）](https://github.com/java-aodeng/hope/tree/master/nginx/nginx2.md)
 
-**CI-CD**
--[流程以及原理说明(一)](https://github.com/java-aodeng/hope/blob/master/ci-cd/ci-cd.md)
+**CI/CD**
+- [CI/CD流程以及原理说明（一）](https://github.com/java-aodeng/hope/blob/master/ci-cd/ci-cd.md)
 
