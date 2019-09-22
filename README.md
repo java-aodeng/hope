@@ -1,6 +1,6 @@
 <h1><a href="#">Hope</a></h1>
 
->简介：我的后端学习笔记
+>简介：老夫的学习笔记
 
 **My link：**
 
@@ -75,4 +75,7 @@
 **Nginx**
 - [Java 程序员应掌握的 Nginx 实战应用（一）](https://github.com/java-aodeng/hope/tree/master/nginx/nginx1.md)
 - [Java 程序员应掌握的 Nginx 实战应用（二）](https://github.com/java-aodeng/hope/tree/master/nginx/nginx2.md)
+
+**CI-CD**
+-[流程以及原理说明(一)](https://github.com/java-aodeng/hope/blob/master/ci-cd/ci-cd.md)
 
