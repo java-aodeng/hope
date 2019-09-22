@@ -1,7 +1,7 @@
 ## CI/CD流程以及原理说明
 
 ### CI流程图
-![](https://i.loli.net/2019/06/13/5d01b9fbec81470229.png)
+![](https://github.com/java-aodeng/hope/tree/master/ci-cd/图片1.md)
 
 ### 开发发布流程/分支管理
 1.开发基于release(从master建出)分支,命名为release-${主导开发人员名字}-日期 如release-aodeng-0814(release-hotfix-aodeng-0814),一个release分支代表一个上线计划
