@@ -1,6 +1,6 @@
 ## CI/CD流程以及原理说明
 
-> 熊猫哥笔记
+> 熊猫笔记 https://github.com/java-aodeng/hope
 
 ### CI流程图
 ![](https://github.com/java-aodeng/hope/blob/master/ci-cd/%E5%9B%BE%E7%89%871.png)
