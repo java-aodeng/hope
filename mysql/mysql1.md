@@ -53,3 +53,40 @@
     特殊符号
     >= : <![CDATA[>= ]]>
     <  : <![CDATA[< ]]>
+    
+    MySQL 为日期增加一个时间间隔：date_add(时间字段,interval 1 day)
+    单位：day天， hour小时，minute分钟，second秒，microsecond毫秒，week周，month月，quarter季，year年
+    MySQL 为日期减去一个时间间隔：date_sub(时间字段，函数)
+    
+    mysql 一个字段有多个值，同时count出来
+    eg：
+        -- ：0=待审核 1=已审核 2=已驳回'
+        select count(1) as '待审核',spi.reply_flag from supplier_plan_info spi GROUP BY spi.reply_flag;
+        
+        select 
+        count(reply_flag=0 or null) as 0pendingreview,
+        count(reply_flag=1 or null) as 1reviewed,
+        count(reply_flag=2 or null) as 2rejected
+        from supplier_plan_info;
+        
+    like拼接：
+    like concat(concat("%",#{supplier_name}),"%")
+    
+    查询字段值判断
+    (
+		case 
+			when spi.reply_flag is null then -1
+			when spi.reply_flag =0 then 0	
+			when spi.reply_flag =1 then 1
+			when spi.reply_flag =2 then 2	
+		end
+	) as  reply_flag
+	
+	count计算总数去重：
+	SELECT COUNT(DISTINCT 字段名) FROM 表名
+
+	同时统计一个字段不同值的总条数使用CASE WHEN语法
+	SELECT
+	sum( CASE WHEN `字段` = 0 THEN 1 ELSE 0 END ) AS status_0,
+	sum( CASE WHEN `字段` = 5 OR `字段` = 6 OR `字段` = 7 THEN 1 ELSE 0 END ) AS status_567
+	FROM `表名` WHERE 条件
