@@ -32,3 +32,9 @@
     git config --global user.email "设置自己的邮箱"
     然后一定要再次确认，再次输入
     git config --global user.email
+    
+    git branch -l :查看本地分支
+
+    git branch -r :查看远程分支
+
+    git branch -a :查看全部分支（远程的和本地的）
