@@ -70,7 +70,7 @@
         from supplier_plan_info;
         
     like拼接：
-    like concat(concat("%",#{supplier_name}),"%")
+    like concat(concat("%",#{}),"%")
     
     查询字段值判断
     (
