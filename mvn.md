@@ -1,6 +1,6 @@
 ## mvn常用命令
 
-> 熊猫笔记
+> 熊猫笔记 https://github.com/java-aodeng/hope
     
     打包跳过测试
     mvn package -Dmaven.test.skip=true
