@@ -81,3 +81,6 @@
 
 **Maven**
 - [Maven常用（一）](https://github.com/java-aodeng/hope/blob/master/mvn.md)
+
+**Good writing**
+- [Good writing（一）](https://github.com/java-aodeng/hope/blob/master/Good_writing/writing1.md)
