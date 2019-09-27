@@ -84,3 +84,6 @@
 
 **Good writing**
 - [Good writing（一）](https://github.com/java-aodeng/hope/blob/master/Good_writing/writing1.md)
+
+**Java**
+- [Java常用方法（一）](https://github.com/java-aodeng/hope/blob/master/java/java1.md)
