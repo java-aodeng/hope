@@ -1,6 +1,6 @@
 <h1><a href="#">Hope</a></h1>
 
->简介：熊猫笔记
+>简介：熊猫笔记 https://github.com/java-aodeng/hope
 
 **My link：**
 
