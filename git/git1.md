@@ -38,3 +38,15 @@
     git branch -r :查看远程分支
 
     git branch -a :查看全部分支（远程的和本地的）
+    
+三、git代理配置
+
+    设置代理
+    git config --global https.proxy [http://127.0.0.1:1080](http://127.0.0.1:1080/)
+    
+    git config --global https.proxy [https://127.0.0.1:1080](https://127.0.0.1:1080/)
+    
+    取消代理
+    git config --global --unset http.proxy
+    
+    git config --global --unset https.proxy    
