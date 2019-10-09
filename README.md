@@ -91,7 +91,7 @@
 ## 目录2.0
 - [Json返回结果为null属性不显示解决](https://github.com/java-aodeng/hope/blob/master/json/json1.md)
 
-## 文章目录
+## 收集文章目录
 - [开发规范-java代码注释及IDEA配置代码注释模板](https://blog.csdn.net/LabDNirvana/article/details/90692573)
 - [SpringBoot使用@Value给静态变量注入值](https://blog.csdn.net/mononoke111/article/details/81088472)
 - [在 Java 中利用 redis 实现 LBS 服务](https://www.jianshu.com/p/ac6703bfd875)
