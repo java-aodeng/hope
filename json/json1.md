@@ -1,6 +1,7 @@
 ## Json返回结果为null属性不显示解决
 
 返回时null属性不显示：String str = JSONObject.toJSONString(obj); 
+
 返回为null属性显示：String str = JSONObject.toJSONString(obj,SerializerFeature.WriteMapNullValue); 
  
  Fastjson的SerializerFeature序列化属性
