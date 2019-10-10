@@ -1,7 +1,8 @@
 ## Spring异步方法
 
-首先，springboot启动类加上 @EnableAsync注解（@EnableAsync是spring支持的，这里方便举例使用springboot）。@SpringBootApplication
+首先，springboot启动类加上 @EnableAsync注解（@EnableAsync是spring支持的，这里方便举例使用springboot）。
 ```
+ @SpringBootApplication
  @EnableAsync
  public class Application {
   public static void main(String[] args) {
