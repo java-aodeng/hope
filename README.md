@@ -60,6 +60,7 @@
 
 **Linux：**
 - [Linux常用命令](https://github.com/java-aodeng/hope/tree/master/linux/linux常用命令.md)
+- [dos2unix的使用:对文件进行转换](https://github.com/java-aodeng/hope/blob/master/linux/dos2unix.md)
 
 **Ubuntu**
 - [Ubuntu下Elasticsearch安装配置](https://github.com/java-aodeng/hope/tree/master/ubuntu/es.md)
