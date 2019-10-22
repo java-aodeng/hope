@@ -18,6 +18,9 @@
 
 ## 目录
 
+## 收费高质量文章
+- [CI/CD流程以及原理说明（一）](https://gitbook.cn/gitchat/activity/5daac87dd39d6a72d183b52c?utm_source=weixinNotification)
+
 **设计模式：**
 
 - [策略模式](https://github.com/java-aodeng/hope/tree/master/design-pattern/design-pattern1)
@@ -95,10 +98,6 @@
 - [Json返回结果为null属性不显示解决](https://github.com/java-aodeng/hope/blob/master/json/json1.md)
 - [Spring异步方法](https://github.com/java-aodeng/hope/blob/master/spring/spring1.md)
 - [设置ie导出Excel乱码问题](https://github.com/java-aodeng/hope/blob/master/ie/ieExcel1.md)
-
-## 收费高质量文章
-**CI/CD**
-- [CI/CD流程以及原理说明（一）](https://github.com/java-aodeng/hope/blob/master/ci-cd/ci-cd.md)
 
 ## 文章目录
 >平时看到印象较深的文章
