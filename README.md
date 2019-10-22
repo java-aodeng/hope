@@ -112,3 +112,4 @@
 - [如何优雅的设计java异常](http://lrwinx.github.io/2016/04/28/%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E7%9A%84%E8%AE%BE%E8%AE%A1java%E5%BC%82%E5%B8%B8/)
 - [再有人问你分布式锁，这篇文章扔给他](https://juejin.im/post/5bbb0d8df265da0abd3533a5#heading-2)
 - [Java学习路线图](https://www.processon.com/view/link/5cb6c8a4e4b059e209fbf369#map)
+- [Idea开启Run DashBoard配置](https://blog.csdn.net/lovewebeye/article/details/80071424)
