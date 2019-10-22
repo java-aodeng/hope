@@ -19,7 +19,7 @@
 ## 目录
 
 ## 收费高质量文章
-- [CI/CD流程以及原理说明（一）](https://gitbook.cn/gitchat/activity/5daac87dd39d6a72d183b52c?utm_source=weixinNotification)
+- [CI/CD流程以及原理说明](https://gitbook.cn/gitchat/activity/5daac87dd39d6a72d183b52c?utm_source=weixinNotification)
 
 **设计模式：**
 
