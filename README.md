@@ -94,13 +94,12 @@
 **Annotation**
 - [常用注解（一）](https://github.com/java-aodeng/hope/blob/master/Annotation/annotation1.md)
 
-## 目录2.0
+**日常笔记**
 - [Json返回结果为null属性不显示解决](https://github.com/java-aodeng/hope/blob/master/json/json1.md)
 - [Spring异步方法](https://github.com/java-aodeng/hope/blob/master/spring/spring1.md)
 - [设置ie导出Excel乱码问题](https://github.com/java-aodeng/hope/blob/master/ie/ieExcel1.md)
 
-## 文章目录
->平时看到印象较深的文章
+**好文笔记**
 - [开发规范-java代码注释及IDEA配置代码注释模板](https://blog.csdn.net/LabDNirvana/article/details/90692573)
 - [SpringBoot使用@Value给静态变量注入值](https://blog.csdn.net/mononoke111/article/details/81088472)
 - [在 Java 中利用 redis 实现 LBS 服务](https://www.jianshu.com/p/ac6703bfd875)
