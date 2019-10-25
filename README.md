@@ -1,4 +1,15 @@
+<h1 align="center"><a href="https://github.com/java-aodeng" target="_blank">Hope</a></h1>
+
+<p align="center">
+<a href="http://ilovey.live"><img alt="Author" src="https://img.shields.io/badge/author-%E4%BD%8E%E8%B0%83%E5%B0%8F%E7%86%8A%E7%8C%AB-blue.svg"/></a>
+<a href="https://jq.qq.com/?_wv=1027&k=574chhz"><img alt="QQ群" src="https://img.shields.io/badge/chat-%E4%BD%8E%E8%B0%83%E5%B0%8F%E7%86%8A%E7%8C%ABQQ%E7%BE%A4-yellow.svg"/></a>
+<a href="https://t.me/joinchat/LSsyBxVKLGEkF5MtIhg6TQ"><img alt="Telegram" src="https://img.shields.io/badge/telegram-%E4%BD%8E%E8%B0%83%E5%B0%8F%E7%86%8A%E7%8C%AB--%E5%AE%98%E6%96%B9%E9%83%A8%E8%90%BD-orange.svg"/></a>
+</p>
+
+## 简介:
+
 >简介：熊猫笔记
+------------------------------
 
 ## 捐赠:
 
@@ -9,6 +20,7 @@
 ## Links:
 - [Github](https://github.com/java-aodeng)
 - [熊猫哥星球基地](https://t.zsxq.com/rn2jUbY)
+------------------------------
 
 ## 目录
 
