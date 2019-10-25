@@ -2,6 +2,12 @@
 
 >简介：熊猫笔记
 
+## 捐赠:
+
+>请作者吃个肉夹馍 :)
+
+![](https://i.loli.net/2018/12/31/5c29d3b18826d.png)
+
 ## Links:
 - [Github](https://github.com/java-aodeng)
 - [熊猫哥星球基地](https://t.zsxq.com/rn2jUbY)
