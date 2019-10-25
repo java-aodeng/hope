@@ -1,20 +1,16 @@
 <h1><a href="#">Hope</a></h1>
 
->简介：熊猫笔记 https://github.com/java-aodeng/hope
+>简介：熊猫笔记
 
-**My link：**
+## 捐赠:
 
-- [开发作者：低调小熊猫-#个人博客：读万卷书，行万里路，赚很多钱🥚](http://ilovey.live)
-- [QQ交流群](https://jq.qq.com/?_wv=1027&k=5y4H7Nz) 
-- [Telegram 低调小熊猫-官方部落](https://t.me/joinchat/LSsyBxVKLGEkF5MtIhg6TQ)
+>请作者吃个肉夹馍 :)
+
+![](https://i.loli.net/2018/12/31/5c29d3b18826d.png)
+
+## Links:
 - [Github](https://github.com/java-aodeng)
-- [开源组织](https://github.com/hope-for) 
-- [联系邮箱：](https://github.com/hope-for/hope-boot)java@aodeng.cc
 - [熊猫哥星球基地](https://t.zsxq.com/rn2jUbY)
-
-<p align="center">
-  <a href="https://t.zsxq.com/rn2jUbY"><img alt="Author" src="http://image.ilovey.live/image/ea62406ccc287ab3277672d1d73ea98a.png"/></a>
-</p>
 
 ## 目录
 
