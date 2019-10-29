@@ -88,6 +88,8 @@
 
 **Git**
 - [Git常用命令](https://github.com/java-aodeng/hope/tree/master/git/git1.md)
+- [msysGit1.7.1](https://static.oschina.net/uploads/img/201210/15181332_I4p6.jpg)
+- [服务器上的-Git-生成-SSH-公钥](https://git-scm.com/book/zh/v2/%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E7%9A%84-Git-%E7%94%9F%E6%88%90-SSH-%E5%85%AC%E9%92%A5)
 
 **Nginx**
 - [Java 程序员应掌握的 Nginx 实战应用（一）](https://github.com/java-aodeng/hope/tree/master/nginx/nginx1.md)
@@ -106,8 +108,6 @@
 - [Json返回结果为null属性不显示解决](https://github.com/java-aodeng/hope/blob/master/json/json1.md)
 - [Spring异步方法](https://github.com/java-aodeng/hope/blob/master/spring/spring1.md)
 - [设置ie导出Excel乱码问题](https://github.com/java-aodeng/hope/blob/master/ie/ieExcel1.md)
-
-**Good writing**
 - [开发规范-java代码注释及IDEA配置代码注释模板](https://blog.csdn.net/LabDNirvana/article/details/90692573)
 - [SpringBoot使用@Value给静态变量注入值](https://blog.csdn.net/mononoke111/article/details/81088472)
 - [在 Java 中利用 redis 实现 LBS 服务](https://www.jianshu.com/p/ac6703bfd875)
@@ -120,6 +120,5 @@
 - [再有人问你分布式锁，这篇文章扔给他](https://juejin.im/post/5bbb0d8df265da0abd3533a5#heading-2)
 - [Java学习路线图](https://www.processon.com/view/link/5cb6c8a4e4b059e209fbf369#map)
 - [Idea开启Run DashBoard配置](https://blog.csdn.net/lovewebeye/article/details/80071424)
-- [服务器上的-Git-生成-SSH-公钥](https://git-scm.com/book/zh/v2/%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E7%9A%84-Git-%E7%94%9F%E6%88%90-SSH-%E5%85%AC%E9%92%A5)
 - [关于HTTP协议，一篇就够了](https://www.cnblogs.com/ranyonsue/p/5984001.html)
-- [msysGit1.7.1](https://static.oschina.net/uploads/img/201210/15181332_I4p6.jpg)
+
