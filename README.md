@@ -84,6 +84,7 @@
 
 **Mysql**
 - [Mysql常用命令](https://github.com/java-aodeng/hope/tree/master/mysql/mysql1.md)
+- [case when 语句共有两种写法区别,避坑](https://dev.mysql.com/doc/refman/5.7/en/case.html)
 
 **Git**
 - [Git常用命令](https://github.com/java-aodeng/hope/tree/master/git/git1.md)
