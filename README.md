@@ -97,22 +97,15 @@
 
 **Maven**
 - [Maven常用（一）](https://github.com/java-aodeng/hope/blob/master/mvn.md)
+- [IDEA下Maven的Offline Mode](https://www.cnblogs.com/wormday/p/8056997.html)
+- [Spring Boot另类的打包方式](https://ryanc.cc/archives/springboot-package)
 
 **Java**
 - [Java常用方法（一）](https://github.com/java-aodeng/hope/blob/master/java/java1.md)
-
-**Annotation**
-- [常用注解（一）](https://github.com/java-aodeng/hope/blob/master/Annotation/annotation1.md)
-
-**小笔记**
 - [Json返回结果为null属性不显示解决](https://github.com/java-aodeng/hope/blob/master/json/json1.md)
-- [Spring异步方法](https://github.com/java-aodeng/hope/blob/master/spring/spring1.md)
 - [设置ie导出Excel乱码问题](https://github.com/java-aodeng/hope/blob/master/ie/ieExcel1.md)
 - [开发规范-java代码注释及IDEA配置代码注释模板](https://blog.csdn.net/LabDNirvana/article/details/90692573)
-- [SpringBoot使用@Value给静态变量注入值](https://blog.csdn.net/mononoke111/article/details/81088472)
 - [在 Java 中利用 redis 实现 LBS 服务](https://www.jianshu.com/p/ac6703bfd875)
-- [IDEA下Maven的Offline Mode](https://www.cnblogs.com/wormday/p/8056997.html)
-- [Spring Boot另类的打包方式](https://ryanc.cc/archives/springboot-package)
 - [java函数式编程归约reduce概念原理 stream reduce方法详解 reduce三个参数的reduce方法如何使用](https://www.cnblogs.com/noteless/p/9511407.html)
 - [Redis分布式锁的正确实现方式（Java版）](https://wudashan.cn/2017/10/23/Redis-Distributed-Lock-Implement/)
 - [你见过哪些目瞪口呆的 Java 代码技巧？](https://juejin.im/post/5d8db248f265da5b81793861)
@@ -120,5 +113,12 @@
 - [再有人问你分布式锁，这篇文章扔给他](https://juejin.im/post/5bbb0d8df265da0abd3533a5#heading-2)
 - [Java学习路线图](https://www.processon.com/view/link/5cb6c8a4e4b059e209fbf369#map)
 - [Idea开启Run DashBoard配置](https://blog.csdn.net/lovewebeye/article/details/80071424)
+
+**Annotation**
+- [常用注解（一）](https://github.com/java-aodeng/hope/blob/master/Annotation/annotation1.md)
+- [SpringBoot使用@Value给静态变量注入值](https://blog.csdn.net/mononoke111/article/details/81088472)
+- [Spring异步方法](https://github.com/java-aodeng/hope/blob/master/spring/spring1.md)
+
+**Good writing**
 - [关于HTTP协议，一篇就够了](https://www.cnblogs.com/ranyonsue/p/5984001.html)
 
