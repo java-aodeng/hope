@@ -9,7 +9,6 @@
 /**
  * @program:hope
  * @author:aodeng
- * @blog:低调小熊猫(https://aodeng.cc)
  * @微信公众号:低调小熊猫
  * @create:2018-11-22 14:43
  * 抽象工厂
@@ -112,7 +111,6 @@ public class DrinkStore {
 /**
  * @program:hope
  * @author:aodeng
- * @blog:低调小熊猫(https://aodeng.cc)
  * @微信公众号:低调小熊猫
  * @create:2018-11-22 15:07
  **/
