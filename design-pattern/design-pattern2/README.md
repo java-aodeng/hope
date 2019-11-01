@@ -1,5 +1,5 @@
 ## 单例模式
-**单例模式确保一个类只有一个实例，并提供一个全局访问点，上班偷偷写的文章，所以请仔细看注释**
+**单例模式确保一个类只有一个实例，并提供一个全局访问点**
 
 ## 使用
 **懒汉式**
@@ -7,7 +7,6 @@
 /**
  * @program:hope
  * @author:aodeng
- * @blog:低调小熊猫(https://aodeng.cc)
  * @微信公众号:低调小熊猫
  * @create:2018-11-15 13:20
  **/
@@ -44,7 +43,6 @@ public class SingleObject {
 /**
  * @program:hope
  * @author:aodeng
- * @blog:低调小熊猫(https://aodeng.cc)
  * @微信公众号:低调小熊猫
  * @create:2018-11-15 13:34
  **/
@@ -72,7 +70,6 @@ public class SingleObject2 {
 /**
  * @program:hope
  * @author:aodeng
- * @blog:低调小熊猫(https://aodeng.cc)
  * @微信公众号:低调小熊猫
  * @create:2018-11-15 13:45
  **/
@@ -109,7 +106,6 @@ public class SingleObject3 {
 /**
  * @program:hope
  * @author:aodeng
- * @blog:低调小熊猫(https://aodeng.cc)
  * @微信公众号:低调小熊猫
  * @create:2018-11-15 13:23
  **/
