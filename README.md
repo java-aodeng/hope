@@ -85,8 +85,7 @@
 - [雪花算法](https://github.com/java-aodeng/hope/tree/master/good-code/雪花算法.md)
 
 **Mysql**
-- [Mysql常用命令](https://github.com/java-aodeng/hope/tree/master/mysql/mysql1.md)
-- [case when 语句共有两种写法区别,避坑](https://dev.mysql.com/doc/refman/5.7/en/case.html)
+- [Mysql常用命令](http://note.youdao.com/noteshare?id=52371cae210acb36d0341cd8cf385147&sub=DF041BC1267F43A2956530C674914BC3)
 
 **Git**
 - [Git常用命令](https://github.com/java-aodeng/hope/tree/master/git/git1.md)
