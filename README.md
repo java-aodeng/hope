@@ -25,7 +25,7 @@
 
 
 **收费文章**
-
+> 吐槽：gitchat这个平台会抽取作者78%的收益，让人毫无继续创作的动力
 - [CI/CD流程以及原理说明](https://gitbook.cn/gitchat/activity/5daac87dd39d6a72d183b52c?utm_source=weixinNotification)
 
 **设计模式：**
