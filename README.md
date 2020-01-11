@@ -14,7 +14,7 @@
 
 ------------------------------
 
-> [关于作者](http://ilovey.live/s/about) | [QQ 交流群](https://jq.qq.com/?_wv=1027&k=574chhz) | [Telegram 交流群](https://t.me/joinchat/LSsyBxVKLGEkF5MtIhg6TQ) | [微博](https://weibo.com/aodeng520?is_all=1) | [公众号](http://image.ilovey.live/image/9c2edb9f57037c89f52d757e3cf79683.jpg) |微信群：18281714982（备注：加群）
+> [关于作者](http://ilovey.live/s/about) | [QQ 交流群](https://jq.qq.com/?_wv=1027&k=574chhz) | [Telegram 交流群](https://t.me/joinchat/LSsyBxVKLGEkF5MtIhg6TQ) | [微博](https://weibo.com/aodeng520?is_all=1) | [公众号](http://image.ilovey.live/image/9c2edb9f57037c89f52d757e3cf79683.jpg) | 微信群：18281714982（备注：加群）
 
 ## 目录
 
