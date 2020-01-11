@@ -8,25 +8,15 @@
 
 ## 简介:
 
->低调小熊猫Study notes or 熊猫笔记
-
-## 捐赠:
-
->请作者吃个肉夹馍 :)
-
-![](https://i.loli.net/2018/12/31/5c29d3b18826d.png)
-
-## Links:
-- [Github](https://github.com/java-aodeng)
-- [个人博客：ilovey.live（新域名，爱生活）](http://ilovey.live/)
-- [熊猫哥星球基地](https://t.zsxq.com/rn2jUbY)
-- [学习-《panda全家桶》-只要￥9.98-打包回家](https://mianbaoduo.com/o/bread/mbd-aZeVlw== )
-- [欢迎关注公众号【低调小熊猫】](https://mp.weixin.qq.com/s?__biz=MzUzNDY0MzcwNg==&mid=2247484258&idx=1&sn=02a060b8ee1e6a4baeb16cc4876da327&chksm=fa90d5f7cde75ce1705297f163944dca2e710019132f5bbf31d8d2f563473f9b3019af0df221&token=1164299938&lang=zh_CN#rd)
+>平时学习做的笔记
 ------------------------------
 
 ## 目录
 
-**收费高质量文章**
+### Docker知识
+[阅读链接](http://note.youdao.com/noteshare?id=d1dc17645777f325280267b6b3bea90b&sub=4444CB5D68124282B129A77088F75DCF)
+
+**收费文章**
 
 - [CI/CD流程以及原理说明](https://gitbook.cn/gitchat/activity/5daac87dd39d6a72d183b52c?utm_source=weixinNotification)
 
@@ -120,10 +110,19 @@
 - [SpringBoot使用@Value给静态变量注入值](https://blog.csdn.net/mononoke111/article/details/81088472)
 - [Spring异步方法](https://github.com/java-aodeng/hope/blob/master/spring/spring1.md)
 
-**Docker**
-- [Docker的使用命令和管理命令](http://note.youdao.com/noteshare?id=d1dc17645777f325280267b6b3bea90b&sub=4444CB5D68124282B129A77088F75DCF)
-- [Docker 核心技术与实现原理](https://draveness.me/docker)
-
 **Good writing**
 - [关于HTTP协议，一篇就够了](https://www.cnblogs.com/ranyonsue/p/5984001.html)
 
+## 捐赠:
+
+>请作者吃个肉夹馍 :)
+
+![](https://i.loli.net/2018/12/31/5c29d3b18826d.png)
+
+### Contact：
+- Github：https://github.com/java-aodeng
+- 微博：https://weibo.com/aodeng520?is_all=1
+- 个人公众号：[低调小熊猫](http://image.ilovey.live/image/9c2edb9f57037c89f52d757e3cf79683.jpg)，“一个年轻的公众号”
+- QQ群：756796932
+- 微信群：18281714982（备注：博客加群）
+- [Telegram 交流群](https://t.me/joinchat/LSsyBxVKLGEkF5MtIhg6TQ) 
