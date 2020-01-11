@@ -8,21 +8,9 @@
 
 ## 简介:
 
->熊猫笔记
+个人学习笔记
 
-## 捐赠:
-
->请作者吃个肉夹馍 :)
-
-![](https://i.loli.net/2018/12/31/5c29d3b18826d.png)
-
-### Contact：
-- Github：https://github.com/java-aodeng
-- 微博：https://weibo.com/aodeng520?is_all=1
-- 个人公众号：[低调小熊猫](http://image.ilovey.live/image/9c2edb9f57037c89f52d757e3cf79683.jpg)，“一个年轻的公众号”
-- QQ群：756796932
-- 微信群：18281714982（备注：博客加群）
-- [Telegram 交流群](https://t.me/joinchat/LSsyBxVKLGEkF5MtIhg6TQ) 
+> [关于作者](http://ilovey.live/s/about) | [QQ 交流群](https://jq.qq.com/?_wv=1027&k=574chhz) | [Telegram 交流群](https://t.me/joinchat/LSsyBxVKLGEkF5MtIhg6TQ)
 
 ------------------------------
 
