@@ -28,9 +28,11 @@
 
 ## 目录
 
-**平时学习做的笔记**
+**学习笔记**
+> 放在有道云便于维护
+- [Java学习笔记](http://note.youdao.com/noteshare?id=8c816e9f59e3e0585a9853ff88a928e0&sub=3AA035A331844FF9A55E0C2E5BDFC1AD)
+- [Docker学习笔记](http://note.youdao.com/noteshare?id=d1dc17645777f325280267b6b3bea90b&sub=4444CB5D68124282B129A77088F75DCF)
 
-- Docker知识[点击阅读](http://note.youdao.com/noteshare?id=d1dc17645777f325280267b6b3bea90b&sub=4444CB5D68124282B129A77088F75DCF)
 
 **收费文章**
 
