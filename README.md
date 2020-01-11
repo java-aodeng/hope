@@ -8,12 +8,29 @@
 
 ## 简介:
 
->平时学习做的笔记
+>熊猫笔记
+
+## 捐赠:
+
+>请作者吃个肉夹馍 :)
+
+![](https://i.loli.net/2018/12/31/5c29d3b18826d.png)
+
+### Contact：
+- Github：https://github.com/java-aodeng
+- 微博：https://weibo.com/aodeng520?is_all=1
+- 个人公众号：[低调小熊猫](http://image.ilovey.live/image/9c2edb9f57037c89f52d757e3cf79683.jpg)，“一个年轻的公众号”
+- QQ群：756796932
+- 微信群：18281714982（备注：博客加群）
+- [Telegram 交流群](https://t.me/joinchat/LSsyBxVKLGEkF5MtIhg6TQ) 
+
 ------------------------------
 
 ## 目录
 
-### Docker知识[阅读链接](http://note.youdao.com/noteshare?id=d1dc17645777f325280267b6b3bea90b&sub=4444CB5D68124282B129A77088F75DCF)
+**平时学习做的笔记**
+
+- Docker知识[点击阅读](http://note.youdao.com/noteshare?id=d1dc17645777f325280267b6b3bea90b&sub=4444CB5D68124282B129A77088F75DCF)
 
 **收费文章**
 
@@ -111,17 +128,3 @@
 
 **Good writing**
 - [关于HTTP协议，一篇就够了](https://www.cnblogs.com/ranyonsue/p/5984001.html)
-
-## 捐赠:
-
->请作者吃个肉夹馍 :)
-
-![](https://i.loli.net/2018/12/31/5c29d3b18826d.png)
-
-### Contact：
-- Github：https://github.com/java-aodeng
-- 微博：https://weibo.com/aodeng520?is_all=1
-- 个人公众号：[低调小熊猫](http://image.ilovey.live/image/9c2edb9f57037c89f52d757e3cf79683.jpg)，“一个年轻的公众号”
-- QQ群：756796932
-- 微信群：18281714982（备注：博客加群）
-- [Telegram 交流群](https://t.me/joinchat/LSsyBxVKLGEkF5MtIhg6TQ) 
