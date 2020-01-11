@@ -1,7 +1,5 @@
 <h1 align="center"><a href="https://github.com/java-aodeng" target="_blank">Hope</a></h1>
 
-------------------------------
-
 ## 简介:
 
 个人学习笔记
