@@ -53,7 +53,7 @@
 - [SpringBoot(16)：集成 rabbitmq](https://github.com/java-aodeng/hope/tree/master/springboot/springboot16-rabbitmq)
 - [SpringBoot(17)：集成 mybatis-plus](https://github.com/java-aodeng/hope/tree/master/springboot/springboot17-mybatis-plus)
 - [SpringBoot(18)：整合jwt-shiro](https://github.com/java-aodeng/hope/tree/master/springboot/springboot18-jwt-shiro)
-- [pringBoot(19)：集成redisson实现分布式锁](https://github.com/java-aodeng/hope/tree/master/springboot/springboot19-redisson-distributed-locks)
+- [SpringBoot(19)：集成redisson实现分布式锁](https://github.com/java-aodeng/hope/tree/master/springboot/springboot19-redisson-distributed-locks)
 
 **SpringCloud：**
 
