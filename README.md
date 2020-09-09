@@ -1,8 +1,7 @@
-温馨提示：
-    仓库.git文件太大，push太慢，一个老套的解决方案：（这样将克隆只有一个提交历史记录的存储库。因此，您的.git文件夹将更轻）
+温馨提示： 仓库.git文件太大，push太慢，一个老套的解决方案：（这样将克隆只有一个提交历史记录的存储库。因此，您的.git文件夹将更轻）
 ```    
     git clone --depth 1 https://github.com/java-aodeng/hope.git
-```    
+```
 <h1 align="center"><a href="https://github.com/java-aodeng" target="_blank">Hope</a></h1>
 
 > :art: Hope 个人学习笔记
@@ -63,6 +62,7 @@
 - [SpringBoot(16)：集成 rabbitmq](https://github.com/java-aodeng/hope/tree/master/springboot/springboot16-rabbitmq)
 - [SpringBoot(17)：集成 mybatis-plus](https://github.com/java-aodeng/hope/tree/master/springboot/springboot17-mybatis-plus)
 - [SpringBoot(18)：整合jwt-shiro](https://github.com/java-aodeng/hope/tree/master/springboot/springboot18-jwt-shiro)
+- [springboot(19): 集成redisson实现分布式锁](https://github.com/java-aodeng/hope/tree/master/springboot/springboot19-redisson-distributed-locks)
 
 **SpringCloud：**
 
