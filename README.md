@@ -1,3 +1,7 @@
+温馨提示：仓库.git文件太大，push太慢，一个老套的解决方案：（这样将克隆只有一个提交历史记录的存储库。因此，您的.git文件夹将更轻）
+```    
+    git clone --depth 1 https://github.com/java-aodeng/hope.git
+```    
 <h1 align="center"><a href="https://github.com/java-aodeng" target="_blank">Hope</a></h1>
 
 > :art: Hope 个人学习笔记
