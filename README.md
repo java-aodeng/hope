@@ -4,7 +4,7 @@
 ```
 <h1 align="center"><a href="https://github.com/java-aodeng" target="_blank">Hope</a></h1>
 
-> :art: Hope 个人学习笔记
+> Java学习
 
 <p align="center">
 <a href="http://ilovey.live"><img alt="Author" src="https://img.shields.io/badge/author-%E4%BD%8E%E8%B0%83%E5%B0%8F%E7%86%8A%E7%8C%AB-blue.svg"/></a>
@@ -18,18 +18,9 @@
 
 ------------------------------
 
-> [关于作者](http://ilovey.live/s/about) | [QQ 交流群](https://jq.qq.com/?_wv=1027&k=574chhz) | [Telegram 交流群](https://t.me/joinchat/LSsyBxVKLGEkF5MtIhg6TQ) | [微博](https://weibo.com/aodeng520?is_all=1) | [公众号](http://image.ilovey.live/image/9c2edb9f57037c89f52d757e3cf79683.jpg) | 微信群：18281714982（备注：加群）
+> [关于作者](http://ilovey.live/s/about) | [QQ 交流群](https://jq.qq.com/?_wv=1027&k=574chhz) | [Telegram 交流群](https://t.me/joinchat/LSsyBxVKLGEkF5MtIhg6TQ) | [微博](https://weibo.com/aodeng520?is_all=1) | [公众号](http://image.ilovey.live/image/9c2edb9f57037c89f52d757e3cf79683.jpg) 
 
 ## 目录
-
-**学习笔记**
-> 放在有道云便于维护
-- [Java学习笔记](http://note.youdao.com/noteshare?id=8c816e9f59e3e0585a9853ff88a928e0&sub=3AA035A331844FF9A55E0C2E5BDFC1AD)
-- [Docker学习笔记](http://note.youdao.com/noteshare?id=d1dc17645777f325280267b6b3bea90b&sub=4444CB5D68124282B129A77088F75DCF)
-
-
-**收费文章**
-> 吐槽：gitchat这个平台会抽取作者78%的收益，让人毫无继续创作的动力
 - [CI/CD流程以及原理说明](https://gitbook.cn/gitchat/activity/5daac87dd39d6a72d183b52c?utm_source=weixinNotification)
 
 **设计模式：**
@@ -62,7 +53,7 @@
 - [SpringBoot(16)：集成 rabbitmq](https://github.com/java-aodeng/hope/tree/master/springboot/springboot16-rabbitmq)
 - [SpringBoot(17)：集成 mybatis-plus](https://github.com/java-aodeng/hope/tree/master/springboot/springboot17-mybatis-plus)
 - [SpringBoot(18)：整合jwt-shiro](https://github.com/java-aodeng/hope/tree/master/springboot/springboot18-jwt-shiro)
-- [springboot(19)：集成redisson实现分布式锁](https://github.com/java-aodeng/hope/tree/master/springboot/springboot19-redisson-distributed-locks)
+- [pringBoot(19)：集成redisson实现分布式锁](https://github.com/java-aodeng/hope/tree/master/springboot/springboot19-redisson-distributed-locks)
 
 **SpringCloud：**
 
