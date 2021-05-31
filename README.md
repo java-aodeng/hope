@@ -1,5 +1,3 @@
-[![Stargazers over time](https://starchart.cc/gaopu/Java.svg)](https://starchart.cc/gaopu/Java)
-
 温馨提示： 仓库.git文件太大，push太慢，一个老套的解决方案：（这样将克隆只有一个提交历史记录的存储库。因此，您的.git文件夹将更轻）
 ```    
     git clone --depth 1 https://github.com/java-aodeng/hope.git
