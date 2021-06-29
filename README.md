@@ -15,6 +15,13 @@
 > [关于作者](http://ilovey.live/s/about) | [QQ 交流群](https://jq.qq.com/?_wv=1027&k=574chhz) | [Telegram 交流群](https://t.me/joinchat/LSsyBxVKLGEkF5MtIhg6TQ) | [微博](https://weibo.com/aodeng520?is_all=1) | [公众号](http://image.ilovey.live/image/9c2edb9f57037c89f52d757e3cf79683.jpg) 
 
 ## 目录
+
+**避坑笔记2021**
+
+- [win10安装mysql-避坑](https://github.com/java-aodeng/hope/blob/master/Avoid-pit-notes-2021/win10%E5%AE%89%E8%A3%85mysql-%E9%81%BF%E5%9D%91%E7%AC%94%E8%AE%B02021.md)
+
+**CICD**
+
 - [CI/CD流程以及原理说明](https://gitbook.cn/gitchat/activity/5daac87dd39d6a72d183b52c?utm_source=weixinNotification)
 
 **设计模式：**
