@@ -18,8 +18,8 @@
 
 **避坑笔记2021**
 
-- [Yapi 内网部署-避坑](https://github.com/java-aodeng/hope/docs/blob/master/Avoid-pit-notes-2021/Yapi%20%E5%86%85%E7%BD%91%E9%83%A8%E7%BD%B2-%E9%81%BF%E5%9D%91.md)
-- [win10安装mysql-避坑](https://github.com/java-aodeng/hope/docs/blob/master/Avoid-pit-notes-2021/win10%E5%AE%89%E8%A3%85mysql-%E9%81%BF%E5%9D%91%E7%AC%94%E8%AE%B02021.md)
+- [Yapi 内网部署-避坑](https://github.com/java-aodeng/hope/blob/master/docs/Avoid-pit-notes-2021/Yapi%20%E5%86%85%E7%BD%91%E9%83%A8%E7%BD%B2-%E9%81%BF%E5%9D%91.md)
+- [win10安装mysql-避坑](https://github.com/java-aodeng/hope/blob/master/docs/Avoid-pit-notes-2021/win10%E5%AE%89%E8%A3%85mysql-%E9%81%BF%E5%9D%91%E7%AC%94%E8%AE%B02021.md)
 
 **CICD**
 
@@ -30,10 +30,10 @@
 - [策略模式](https://github.com/java-aodeng/hope/docs/tree/master/design-pattern/design-pattern1)
 - [单例模式](https://github.com/java-aodeng/hope/docs/tree/master/design-pattern/design-pattern2)
 - [工厂模式](https://github.com/java-aodeng/hope/docs/tree/master/design-pattern/design-pattern3)
-- [装饰器模式](https://github.com/java-aodeng/hope/docs/blob/master/design-pattern/design-pattern4/learn/DecoratorMode.md)
-- [观察者模式](https://github.com/java-aodeng/hope/docs/blob/master/design-pattern/design-pattern5/src/1.md)
-- [适配器模式](https://github.com/java-aodeng/hope/docs/blob/master/design-pattern/20190717/src/1.md)
-- [模板方法模式](https://github.com/java-aodeng/hope/docs/blob/master/design-pattern/20190718/src/1.md)
+- [装饰器模式](https://github.com/java-aodeng/hope/blob/master/docs/design-pattern/design-pattern4/learn/DecoratorMode.md)
+- [观察者模式](https://github.com/java-aodeng/hope/blob/master/docs/design-pattern/design-pattern5/src/1.md)
+- [适配器模式](https://github.com/java-aodeng/hope/blob/master/docs/design-pattern/20190717/src/1.md)
+- [模板方法模式](https://github.com/java-aodeng/hope/blob/master/docs/design-pattern/20190718/src/1.md)
 
 **SpringBoot：**
 
@@ -68,7 +68,7 @@
 
 **Linux：**
 - [Linux常用命令](https://github.com/java-aodeng/hope/docs/tree/master/linux/linux常用命令.md)
-- [dos2unix的使用:对文件进行转换](https://github.com/java-aodeng/hope/docs/blob/master/linux/dos2unix.md)
+- [dos2unix的使用:对文件进行转换](https://github.com/java-aodeng/hope/blob/master/docs/linux/dos2unix.md)
 
 **Ubuntu**
 - [Ubuntu下Elasticsearch安装配置](https://github.com/java-aodeng/hope/docs/tree/master/ubuntu/es.md)
@@ -93,14 +93,14 @@
 - [Java 程序员应掌握的 Nginx 实战应用（二）](https://github.com/java-aodeng/hope/docs/tree/master/nginx/nginx2.md)
 
 **Maven**
-- [Maven常用（一）](https://github.com/java-aodeng/hope/docs/blob/master/mvn.md)
+- [Maven常用（一）](https://github.com/java-aodeng/hope/blob/master/docs/mvn.md)
 - [IDEA下Maven的Offline Mode](https://www.cnblogs.com/wormday/p/8056997.html)
 - [Spring Boot另类的打包方式](https://ryanc.cc/archives/springboot-package)
 
 **Java**
-- [Java常用方法（一）](https://github.com/java-aodeng/hope/docs/blob/master/java/java1.md)
-- [Json返回结果为null属性不显示解决](https://github.com/java-aodeng/hope/docs/blob/master/json/json1.md)
-- [设置ie导出Excel乱码问题](https://github.com/java-aodeng/hope/docs/blob/master/ie/ieExcel1.md)
+- [Java常用方法（一）](https://github.com/java-aodeng/hope/blob/master/docs/java/java1.md)
+- [Json返回结果为null属性不显示解决](https://github.com/java-aodeng/hope/blob/master/docs/json/json1.md)
+- [设置ie导出Excel乱码问题](https://github.com/java-aodeng/hope/blob/master/docs/ie/ieExcel1.md)
 - [开发规范-java代码注释及IDEA配置代码注释模板](https://blog.csdn.net/LabDNirvana/article/details/90692573)
 - [在 Java 中利用 redis 实现 LBS 服务](https://www.jianshu.com/p/ac6703bfd875)
 - [java函数式编程归约reduce概念原理 stream reduce方法详解 reduce三个参数的reduce方法如何使用](https://www.cnblogs.com/noteless/p/9511407.html)
@@ -112,9 +112,9 @@
 - [Idea开启Run DashBoard配置](https://blog.csdn.net/lovewebeye/article/details/80071424)
 
 **Annotation**
-- [常用注解（一）](https://github.com/java-aodeng/hope/docs/blob/master/Annotation/annotation1.md)
+- [常用注解（一）](https://github.com/java-aodeng/hope/blob/master/docs/Annotation/annotation1.md)
 - [SpringBoot使用@Value给静态变量注入值](https://blog.csdn.net/mononoke111/article/details/81088472)
-- [Spring异步方法](https://github.com/java-aodeng/hope/docs/blob/master/spring/spring1.md)
+- [Spring异步方法](https://github.com/java-aodeng/hope/blob/master/docs/spring/spring1.md)
 
 **Good writing**
 - [关于HTTP协议，一篇就够了](https://www.cnblogs.com/ranyonsue/p/5984001.html)
