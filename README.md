@@ -18,6 +18,7 @@
 
 **避坑笔记2021**
 
+- [Yapi 内网部署-避坑](https://github.com/java-aodeng/hope/blob/master/Avoid-pit-notes-2021/Yapi%20%E5%86%85%E7%BD%91%E9%83%A8%E7%BD%B2-%E9%81%BF%E5%9D%91.md)
 - [win10安装mysql-避坑](https://github.com/java-aodeng/hope/blob/master/Avoid-pit-notes-2021/win10%E5%AE%89%E8%A3%85mysql-%E9%81%BF%E5%9D%91%E7%AC%94%E8%AE%B02021.md)
 
 **CICD**
