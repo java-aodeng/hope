@@ -42,13 +42,9 @@
 - [Yapi 内网部署-避坑](https://github.com/java-aodeng/hope/blob/master/docs/Avoid-pit-notes-2021/Yapi%20%E5%86%85%E7%BD%91%E9%83%A8%E7%BD%B2-%E9%81%BF%E5%9D%91.md)
 - [win10安装mysql-避坑](https://github.com/java-aodeng/hope/blob/master/docs/Avoid-pit-notes-2021/win10%E5%AE%89%E8%A3%85mysql-%E9%81%BF%E5%9D%91%E7%AC%94%E8%AE%B02021.md)
 
-<p><br/><br/></p>
-
 **CICD**
 
 - [CI/CD流程以及原理说明](https://gitbook.cn/gitchat/activity/5daac87dd39d6a72d183b52c?utm_source=weixinNotification)
-
-<p><br/><br/></p>
 
 **设计模式：**
 
@@ -59,8 +55,6 @@
 - [观察者模式](https://github.com/java-aodeng/hope/blob/master/docs/design-pattern/design-pattern5/src/1.md)
 - [适配器模式](https://github.com/java-aodeng/hope/blob/master/docs/design-pattern/20190717/src/1.md)
 - [模板方法模式](https://github.com/java-aodeng/hope/blob/master/docs/design-pattern/20190718/src/1.md)
-
-<p><br/><br/></p>
 
 **SpringBoot：**
 
@@ -84,8 +78,6 @@
 - [SpringBoot(18)：整合jwt-shiro](https://github.com/java-aodeng/hope/tree/master/docs/springboot/springboot18-jwt-shiro)
 - [SpringBoot(19)：集成redisson实现分布式锁](https://github.com/java-aodeng/hope/tree/master/docs/springboot/springboot19-redisson-distributed-locks)
 
-<p><br/><br/></p>
-
 **SpringCloud：**
 
 - [SpringCloud(1)：服务注册中心server和服务客户端client](https://github.com/java-aodeng/hope/tree/master/docs/springcloud/micro-service1-eureka-server)/[Eureka client代码](https://github.com/java-aodeng/hope/tree/master/docs/micro-service1-eureka-client)
@@ -94,8 +86,6 @@
 - [SpringCloud(4)：客户端负载均衡](https://aodeng.cc/archives/khdfzjhs)
 - [SpringCloud(5)：服务消费者feign与Hystrix断路器容错机制](https://github.com/java-aodeng/hope/tree/master/docs/springcloud/micro-service5-feign)
 - [SpringCloud(6)：Hystrix Dashboard熔断监控面板](https://github.com/java-aodeng/hope/tree/master/docs/springcloud/micro-service6-hystrixdashboard)
-
-<p><br/><br/></p>
 
 **Linux：**
 - [Linux常用命令](https://github.com/java-aodeng/hope/tree/master/docs/linux/linux常用命令.md)
