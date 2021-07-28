@@ -33,6 +33,8 @@
 
 - [博客/深入剖析Java中的装箱和拆箱](https://www.cnblogs.com/dolphin0520/p/3780005.html)
 
+- [Java八股文/redis/看完这20道Redis面试题，阿里面试可以约起来了](http://coderleixiaoshuai.gitee.io/java-eight-part/#/docs/redis/%E7%9C%8B%E5%AE%8C%E8%BF%9920%E9%81%93Redis%E9%9D%A2%E8%AF%95%E9%A2%98%EF%BC%8C%E9%98%BF%E9%87%8C%E9%9D%A2%E8%AF%95%E5%8F%AF%E4%BB%A5%E7%BA%A6%E8%B5%B7%E6%9D%A5%E4%BA%86)
+
 - 更新中....
 
 <p><br/></p>
