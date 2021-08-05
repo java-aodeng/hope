@@ -15,29 +15,8 @@
 ## 目录
 
 **面试题**
->+网上看到写得好的文章收集
+- [网上看到写得好的文章收集](https://github.com/java-aodeng/JavaGuide/blob/master/README.md)
 
-- [JavaGuide/SpringBoot+Spring常用注解总结.md at master · Snailclimb/JavaGuide](https://github.com/java-aodeng/JavaGuide/blob/master/docs/system-design/framework/spring/SpringBoot+Spring%E5%B8%B8%E7%94%A8%E6%B3%A8%E8%A7%A3%E6%80%BB%E7%BB%93.md)
-
-- [公众号/一口气说出 6种 @Transactional 注解失效场景](https://mp.weixin.qq.com/s?__biz=Mzg2OTA0Njk0OA==&mid=2247486483&idx=2&sn=77be488e206186803531ea5d7164ec53&chksm=cea243d8f9d5cacecaa5c5daae4cde4c697b9b5b21f96dfc6cce428cfcb62b88b3970c26b9c2&token=816772476&lang=zh_CN#rd)
-
-- [JavaGuide/bloom-filter-什么是布隆过滤器](https://github.com/java-aodeng/JavaGuide/blob/master/docs/dataStructures-algorithms/data-structure/bloom-filter.md)
-
-- [JavaGuide/什么是线程死锁?如何避免死锁](https://github.com/java-aodeng/JavaGuide/blob/master/docs/java/multi-thread/2020%E6%9C%80%E6%96%B0Java%E5%B9%B6%E5%8F%91%E5%9F%BA%E7%A1%80%E5%B8%B8%E8%A7%81%E9%9D%A2%E8%AF%95%E9%A2%98%E6%80%BB%E7%BB%93.md)
-
-- [JavaGuide/内存区域](https://github.com/java-aodeng/JavaGuide/blob/master/docs/java/jvm/Java%E5%86%85%E5%AD%98%E5%8C%BA%E5%9F%9F.md#33-%E5%AF%B9%E8%B1%A1%E7%9A%84%E8%AE%BF%E9%97%AE%E5%AE%9A%E4%BD%8D)
-
-- [JavaGuide/容器集合框架常见面试题](https://github.com/java-aodeng/JavaGuide/blob/master/docs/java/collection/Java%E9%9B%86%E5%90%88%E6%A1%86%E6%9E%B6%E5%B8%B8%E8%A7%81%E9%9D%A2%E8%AF%95%E9%A2%98.md) 
-
-- [JavaGuide/基础知识疑难点](https://github.com/java-aodeng/JavaGuide/blob/master/docs/java/basis/Java%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E7%96%91%E9%9A%BE%E7%82%B9.md)
-
-- [博客/深入剖析Java中的装箱和拆箱](https://www.cnblogs.com/dolphin0520/p/3780005.html)
-
-- [Java八股文/redis/看完这20道Redis面试题，阿里面试可以约起来了](http://coderleixiaoshuai.gitee.io/java-eight-part/#/docs/redis/%E7%9C%8B%E5%AE%8C%E8%BF%9920%E9%81%93Redis%E9%9D%A2%E8%AF%95%E9%A2%98%EF%BC%8C%E9%98%BF%E9%87%8C%E9%9D%A2%E8%AF%95%E5%8F%AF%E4%BB%A5%E7%BA%A6%E8%B5%B7%E6%9D%A5%E4%BA%86)
-
-- 更新中....
-
-<p><br/></p>
 
 **避坑笔记2021**
 
