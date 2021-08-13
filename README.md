@@ -69,6 +69,12 @@
 - [Linux常用命令](https://github.com/java-aodeng/hope/tree/master/docs/linux/linux常用命令.md)
 - [dos2unix的使用:对文件进行转换](https://github.com/java-aodeng/hope/blob/master/docs/linux/dos2unix.md)
 
+**开发工具**
+- [Java 程序员应掌握的 Nginx 实战应用（一）](https://github.com/java-aodeng/hope/tree/master/docs/nginx/nginx1.md)
+- [Java 程序员应掌握的 Nginx 实战应用（二）](https://github.com/java-aodeng/hope/tree/master/docs/nginx/nginx2.md)
+- [Git常用命令](https://github.com/java-aodeng/hope/tree/master/docs/git/git1.md)
+- [Maven常用（一）](https://github.com/java-aodeng/hope/blob/master/docs/mvn.md)
+
 **Java code**
 - [Java常用方法（一）](https://github.com/java-aodeng/hope/blob/master/docs/java/java1.md)
 - [Json返回结果为null属性不显示解决](https://github.com/java-aodeng/hope/blob/master/docs/json/json1.md)
@@ -78,9 +84,3 @@
 - [多级菜单递归遍历成树](https://github.com/java-aodeng/hope/tree/master/docs/good-code/多级菜单递归遍历成树.md)
 - [微信认证](https://github.com/java-aodeng/hope/tree/master/docs/good-code/微信认证.md)
 - [雪花算法](https://github.com/java-aodeng/hope/tree/master/docs/good-code/雪花算法.md)
-
-**开发工具**
-- [Java 程序员应掌握的 Nginx 实战应用（一）](https://github.com/java-aodeng/hope/tree/master/docs/nginx/nginx1.md)
-- [Java 程序员应掌握的 Nginx 实战应用（二）](https://github.com/java-aodeng/hope/tree/master/docs/nginx/nginx2.md)
-- [Git常用命令](https://github.com/java-aodeng/hope/tree/master/docs/git/git1.md)
-- [Maven常用（一）](https://github.com/java-aodeng/hope/blob/master/docs/mvn.md)
