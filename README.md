@@ -17,18 +17,10 @@
 **面试题**
 - [网上看到写得好的文章收集](https://github.com/java-aodeng/JavaGuide/blob/master/README.md)
 
-
-**避坑笔记2021**
-
-- [Yapi 内网部署-避坑](https://github.com/java-aodeng/hope/blob/master/docs/Avoid-pit-notes-2021/Yapi%20%E5%86%85%E7%BD%91%E9%83%A8%E7%BD%B2-%E9%81%BF%E5%9D%91.md)
-- [win10安装mysql-避坑](https://github.com/java-aodeng/hope/blob/master/docs/Avoid-pit-notes-2021/win10%E5%AE%89%E8%A3%85mysql-%E9%81%BF%E5%9D%91%E7%AC%94%E8%AE%B02021.md)
-
-**CICD**
-
+**自动化部署**
 - [CI/CD流程以及原理说明](https://gitbook.cn/gitchat/activity/5daac87dd39d6a72d183b52c?utm_source=weixinNotification)
 
 **设计模式：**
-
 - [策略模式](https://github.com/java-aodeng/hope/tree/master/docs/design-pattern/design-pattern1)
 - [单例模式](https://github.com/java-aodeng/hope/tree/master/docs/design-pattern/design-pattern2)
 - [工厂模式](https://github.com/java-aodeng/hope/tree/master/docs/design-pattern/design-pattern3)
@@ -38,7 +30,6 @@
 - [模板方法模式](https://github.com/java-aodeng/hope/blob/master/docs/design-pattern/20190718/src/1.md)
 
 **SpringBoot：**
-
 - [SpringBoot(1)：公共配置](https://github.com/java-aodeng/hope/tree/master/docs/springboot/springboot1-public-pom)
 - [SpringBoot(2)：generator](https://github.com/java-aodeng/hope/tree/master/docs/springboot/springboot2-generator)
 - [SpringBoot(3)：docker部署项目](https://github.com/java-aodeng/hope/tree/master/docs/springboot/springboot3-docker)
@@ -60,69 +51,37 @@
 - [SpringBoot(19)：集成redisson实现分布式锁](https://github.com/java-aodeng/hope/tree/master/docs/springboot/springboot19-redisson-distributed-locks)
 
 **SpringCloud：**
-
-- [SpringCloud(1)：服务注册中心server和服务客户端client](https://github.com/java-aodeng/hope/tree/master/docs/springcloud/micro-service1-eureka-server)/[Eureka client代码](https://github.com/java-aodeng/hope/tree/master/docs/micro-service1-eureka-client)
+- [SpringCloud(1)：服务注册中心server和服务客户端client](https://github.com/java-aodeng/hope/tree/master/docs/springcloud/micro-service1-eureka-server) / [Eureka client代码](https://github.com/java-aodeng/hope/tree/master/docs/micro-service1-eureka-client)
 - [SpringCloud(2)：服务提供者provider](https://github.com/java-aodeng/hope/tree/master/docs/springcloud/micro-service2-eureka-provider)
 - [SpringCloud(3)：服务消费者ribbon](https://github.com/java-aodeng/hope/tree/master/docs/springcloud/micro-service3-eureka-ribbon)
 - [SpringCloud(4)：客户端负载均衡](https://aodeng.cc/archives/khdfzjhs)
 - [SpringCloud(5)：服务消费者feign与Hystrix断路器容错机制](https://github.com/java-aodeng/hope/tree/master/docs/springcloud/micro-service5-feign)
 - [SpringCloud(6)：Hystrix Dashboard熔断监控面板](https://github.com/java-aodeng/hope/tree/master/docs/springcloud/micro-service6-hystrixdashboard)
 
-<details>
-    <summary>
-        <b>See More</b>
-    </summary>
-<br>
-    
-**Linux：**
+**服务器运维-工具安装配置**
+- [Ubuntu下Elasticsearch安装配置](https://github.com/java-aodeng/hope/tree/master/docs/ubuntu/es.md)
+- [Ubuntu下搭建Elasticsearch和kibana](https://github.com/java-aodeng/hope/tree/master/docs/ubuntu/Elasticsearch-kibana.md)
+- [瓦力walle2.0-docker安装](https://github.com/java-aodeng/hope/tree/master/docs/good-code/瓦力walle2.0-docker安装.md)
+- [Yapi 内网部署-避坑](https://github.com/java-aodeng/hope/blob/master/docs/Avoid-pit-notes-2021/Yapi%20%E5%86%85%E7%BD%91%E9%83%A8%E7%BD%B2-%E9%81%BF%E5%9D%91.md)
+- [win10安装mysql-避坑](https://github.com/java-aodeng/hope/blob/master/docs/Avoid-pit-notes-2021/win10%E5%AE%89%E8%A3%85mysql-%E9%81%BF%E5%9D%91%E7%AC%94%E8%AE%B02021.md)
+
+**服务器运维-常用命令、常见问题**
 - [Linux常用命令](https://github.com/java-aodeng/hope/tree/master/docs/linux/linux常用命令.md)
 - [dos2unix的使用:对文件进行转换](https://github.com/java-aodeng/hope/blob/master/docs/linux/dos2unix.md)
 
-**Ubuntu**
-- [Ubuntu下Elasticsearch安装配置](https://github.com/java-aodeng/hope/tree/master/docs/ubuntu/es.md)
-- [Ubuntu下搭建Elasticsearch和kibana-熊猫哥版本](https://github.com/java-aodeng/hope/tree/master/docs/ubuntu/Elasticsearch-kibana.md)
-
-**Code：**
-- [多级菜单递归遍历成树](https://github.com/java-aodeng/hope/tree/master/docs/good-code/多级菜单递归遍历成树.md)
-- [微信认证](https://github.com/java-aodeng/hope/tree/master/docs/good-code/微信认证.md)
-- [瓦力walle2.0-docker安装](https://github.com/java-aodeng/hope/tree/master/docs/good-code/瓦力walle2.0-docker安装.md)
-- [雪花算法](https://github.com/java-aodeng/hope/tree/master/docs/good-code/雪花算法.md)
-
-**Mysql**
-- [Mysql常用命令](http://note.youdao.com/noteshare?id=52371cae210acb36d0341cd8cf385147&sub=DF041BC1267F43A2956530C674914BC3)
-
-**Git**
-- [Git常用命令](https://github.com/java-aodeng/hope/tree/master/docs/git/git1.md)
-- [msysGit1.7.1](https://static.oschina.net/uploads/img/201210/15181332_I4p6.jpg)
-- [服务器上的-Git-生成-SSH-公钥](https://git-scm.com/book/zh/v2/%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E7%9A%84-Git-%E7%94%9F%E6%88%90-SSH-%E5%85%AC%E9%92%A5)
-
-**Nginx**
+**开发工具**
 - [Java 程序员应掌握的 Nginx 实战应用（一）](https://github.com/java-aodeng/hope/tree/master/docs/nginx/nginx1.md)
 - [Java 程序员应掌握的 Nginx 实战应用（二）](https://github.com/java-aodeng/hope/tree/master/docs/nginx/nginx2.md)
-
-**Maven**
+- [Git常用命令](https://github.com/java-aodeng/hope/tree/master/docs/git/git1.md)
 - [Maven常用（一）](https://github.com/java-aodeng/hope/blob/master/docs/mvn.md)
-- [IDEA下Maven的Offline Mode](https://www.cnblogs.com/wormday/p/8056997.html)
-- [Spring Boot另类的打包方式](https://ryanc.cc/archives/springboot-package)
 
-**Java**
+**其他 code**
 - [Java常用方法（一）](https://github.com/java-aodeng/hope/blob/master/docs/java/java1.md)
 - [Json返回结果为null属性不显示解决](https://github.com/java-aodeng/hope/blob/master/docs/json/json1.md)
 - [设置ie导出Excel乱码问题](https://github.com/java-aodeng/hope/blob/master/docs/ie/ieExcel1.md)
-- [开发规范-java代码注释及IDEA配置代码注释模板](https://blog.csdn.net/LabDNirvana/article/details/90692573)
-- [在 Java 中利用 redis 实现 LBS 服务](https://www.jianshu.com/p/ac6703bfd875)
-- [java函数式编程归约reduce概念原理 stream reduce方法详解 reduce三个参数的reduce方法如何使用](https://www.cnblogs.com/noteless/p/9511407.html)
-- [Redis分布式锁的正确实现方式（Java版）](https://wudashan.cn/2017/10/23/Redis-Distributed-Lock-Implement/)
-- [你见过哪些目瞪口呆的 Java 代码技巧？](https://juejin.im/post/5d8db248f265da5b81793861)
-- [如何优雅的设计java异常](http://lrwinx.github.io/2016/04/28/%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E7%9A%84%E8%AE%BE%E8%AE%A1java%E5%BC%82%E5%B8%B8/)
-- [再有人问你分布式锁，这篇文章扔给他](https://juejin.im/post/5bbb0d8df265da0abd3533a5#heading-2)
-- [Java学习路线图](https://www.processon.com/view/link/5cb6c8a4e4b059e209fbf369#map)
-- [Idea开启Run DashBoard配置](https://blog.csdn.net/lovewebeye/article/details/80071424)
-
-**Annotation**
 - [常用注解（一）](https://github.com/java-aodeng/hope/blob/master/docs/Annotation/annotation1.md)
-- [SpringBoot使用@Value给静态变量注入值](https://blog.csdn.net/mononoke111/article/details/81088472)
 - [Spring异步方法](https://github.com/java-aodeng/hope/blob/master/docs/spring/spring1.md)
+- [多级菜单递归遍历成树](https://github.com/java-aodeng/hope/tree/master/docs/good-code/多级菜单递归遍历成树.md)
+- [微信认证](https://github.com/java-aodeng/hope/tree/master/docs/good-code/微信认证.md)
+- [雪花算法](https://github.com/java-aodeng/hope/tree/master/docs/good-code/雪花算法.md)
 
-**Good writing**
-- [关于HTTP协议，一篇就够了](https://www.cnblogs.com/ranyonsue/p/5984001.html)
