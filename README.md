@@ -14,13 +14,15 @@
 
 ## 目录
 
-**面试题**
+## 目录
+
+### 面试题
 - [网上看到写得好的文章收集](https://github.com/java-aodeng/JavaGuide/blob/master/README.md)
 
-**自动化部署**
+### 自动化部署
 - [CI/CD流程以及原理说明](https://gitbook.cn/gitchat/activity/5daac87dd39d6a72d183b52c?utm_source=weixinNotification)
 
-**设计模式：**
+### 设计模式
 - [策略模式](https://github.com/java-aodeng/hope/tree/master/docs/design-pattern/design-pattern1)
 - [单例模式](https://github.com/java-aodeng/hope/tree/master/docs/design-pattern/design-pattern2)
 - [工厂模式](https://github.com/java-aodeng/hope/tree/master/docs/design-pattern/design-pattern3)
@@ -29,7 +31,7 @@
 - [适配器模式](https://github.com/java-aodeng/hope/blob/master/docs/design-pattern/20190717/src/1.md)
 - [模板方法模式](https://github.com/java-aodeng/hope/blob/master/docs/design-pattern/20190718/src/1.md)
 
-**SpringBoot：**
+### SpringBoot
 - [SpringBoot(1)：公共配置](https://github.com/java-aodeng/hope/tree/master/docs/springboot/springboot1-public-pom)
 - [SpringBoot(2)：generator](https://github.com/java-aodeng/hope/tree/master/docs/springboot/springboot2-generator)
 - [SpringBoot(3)：docker部署项目](https://github.com/java-aodeng/hope/tree/master/docs/springboot/springboot3-docker)
@@ -50,7 +52,7 @@
 - [SpringBoot(18)：整合jwt-shiro](https://github.com/java-aodeng/hope/tree/master/docs/springboot/springboot18-jwt-shiro)
 - [SpringBoot(19)：集成redisson实现分布式锁](https://github.com/java-aodeng/hope/tree/master/docs/springboot/springboot19-redisson-distributed-locks)
 
-**SpringCloud：**
+### SpringCloud
 - [SpringCloud(1)：服务注册中心server和服务客户端client](https://github.com/java-aodeng/hope/tree/master/docs/springcloud/micro-service1-eureka-server) / [Eureka client代码](https://github.com/java-aodeng/hope/tree/master/docs/micro-service1-eureka-client)
 - [SpringCloud(2)：服务提供者provider](https://github.com/java-aodeng/hope/tree/master/docs/springcloud/micro-service2-eureka-provider)
 - [SpringCloud(3)：服务消费者ribbon](https://github.com/java-aodeng/hope/tree/master/docs/springcloud/micro-service3-eureka-ribbon)
@@ -58,24 +60,24 @@
 - [SpringCloud(5)：服务消费者feign与Hystrix断路器容错机制](https://github.com/java-aodeng/hope/tree/master/docs/springcloud/micro-service5-feign)
 - [SpringCloud(6)：Hystrix Dashboard熔断监控面板](https://github.com/java-aodeng/hope/tree/master/docs/springcloud/micro-service6-hystrixdashboard)
 
-**服务器运维-工具安装配置**
+### 服务器运维-工具安装配置
 - [Ubuntu下Elasticsearch安装配置](https://github.com/java-aodeng/hope/tree/master/docs/ubuntu/es.md)
 - [Ubuntu下搭建Elasticsearch和kibana](https://github.com/java-aodeng/hope/tree/master/docs/ubuntu/Elasticsearch-kibana.md)
 - [瓦力walle2.0-docker安装](https://github.com/java-aodeng/hope/tree/master/docs/good-code/瓦力walle2.0-docker安装.md)
 - [Yapi 内网部署-避坑](https://github.com/java-aodeng/hope/blob/master/docs/Avoid-pit-notes-2021/Yapi%20%E5%86%85%E7%BD%91%E9%83%A8%E7%BD%B2-%E9%81%BF%E5%9D%91.md)
 - [win10安装mysql-避坑](https://github.com/java-aodeng/hope/blob/master/docs/Avoid-pit-notes-2021/win10%E5%AE%89%E8%A3%85mysql-%E9%81%BF%E5%9D%91%E7%AC%94%E8%AE%B02021.md)
 
-**服务器运维-常用命令、常见问题**
+### 服务器运维-常用命令、常见问题
 - [Linux常用命令](https://github.com/java-aodeng/hope/tree/master/docs/linux/linux常用命令.md)
 - [dos2unix的使用:对文件进行转换](https://github.com/java-aodeng/hope/blob/master/docs/linux/dos2unix.md)
 
-**开发工具**
+### 开发工具
 - [Java 程序员应掌握的 Nginx 实战应用（一）](https://github.com/java-aodeng/hope/tree/master/docs/nginx/nginx1.md)
 - [Java 程序员应掌握的 Nginx 实战应用（二）](https://github.com/java-aodeng/hope/tree/master/docs/nginx/nginx2.md)
 - [Git常用命令](https://github.com/java-aodeng/hope/tree/master/docs/git/git1.md)
 - [Maven常用（一）](https://github.com/java-aodeng/hope/blob/master/docs/mvn.md)
 
-**Java code**
+### Java code
 - [Java常用方法（一）](https://github.com/java-aodeng/hope/blob/master/docs/java/java1.md)
 - [Json返回结果为null属性不显示解决](https://github.com/java-aodeng/hope/blob/master/docs/json/json1.md)
 - [设置ie导出Excel乱码问题](https://github.com/java-aodeng/hope/blob/master/docs/ie/ieExcel1.md)
