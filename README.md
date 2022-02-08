@@ -15,7 +15,7 @@
 
 ## 目录
 
-### 最新破解工具
+### 破解工具
 - https://www.ajihuo.com/
 - [idea2021.3.2永久激活-亲测可用](https://mp.weixin.qq.com/s/IAPjkBIGmDF9SrLg_ZoYEw)
 
