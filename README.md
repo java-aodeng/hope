@@ -17,8 +17,9 @@
 
 ### 破解工具
 - https://www.ajihuo.com/
+- 破解idea如果激活码老是失效，断网再重试
 - [idea2021.3.2永久激活-亲测可用](https://mp.weixin.qq.com/s/IAPjkBIGmDF9SrLg_ZoYEw)
-- [IntelliJ IDEA激活码-持续更新-断网使用](https://docs.qq.com/doc/DTVh3bkxWSEpvVm5N)
+- [IntelliJ IDEA激活码-持续更新](https://docs.qq.com/doc/DTVh3bkxWSEpvVm5N)
 
 ### 面试题
 - [网上看到写得好的文章收集](https://github.com/java-aodeng/JavaGuide/blob/master/README.md)
