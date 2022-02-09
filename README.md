@@ -24,7 +24,7 @@
 - [JetBrains 系列IDE官方版及白嫖教程](https://www.nite07.com/jetbrains/)
 - [JetBrains全系列软件激活教程激活码以及JetBrains系列软件汉化包](https://www.macwk.com/article/jetbrains-crack)
 ### 软件安利
-- [一款好用的终端工具MobaXterm]https://mobaxterm.mobatek.net/
+- [一款好用的终端工具MobaXterm](https://mobaxterm.mobatek.net/)
 
 ### 面试题
 - [网上看到写得好的文章收集](https://github.com/java-aodeng/JavaGuide/blob/master/README.md)
