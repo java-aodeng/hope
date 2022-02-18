@@ -97,3 +97,4 @@
 - [多级菜单递归遍历成树](https://github.com/java-aodeng/hope/tree/master/docs/good-code/多级菜单递归遍历成树.md)
 - [微信认证](https://github.com/java-aodeng/hope/tree/master/docs/good-code/微信认证.md)
 - [雪花算法](https://github.com/java-aodeng/hope/tree/master/docs/good-code/雪花算法.md)
+- [图片放大控件](https://github.com/java-aodeng/viewerjs)
