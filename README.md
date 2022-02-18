@@ -64,6 +64,8 @@
 - [SpringBoot(19)：集成redisson实现分布式锁](https://github.com/java-aodeng/hope/tree/master/docs/springboot/springboot19-redisson-distributed-locks)
 
 ### SpringCloud
+- [新版本SpringCloud history 熔断器失效解决方案](https://github.com/java-aodeng/spring-cloud-alibaba)
+- [Spring Cloud2020版本最佳实践方案（一）](https://ilovey.live/2021/09/26/springcloud2020/)
 - [SpringCloud(1)：服务注册中心server和服务客户端client](https://github.com/java-aodeng/hope/tree/master/docs/springcloud/micro-service1-eureka-server) / [Eureka client代码](https://github.com/java-aodeng/hope/tree/master/docs/micro-service1-eureka-client)
 - [SpringCloud(2)：服务提供者provider](https://github.com/java-aodeng/hope/tree/master/docs/springcloud/micro-service2-eureka-provider)
 - [SpringCloud(3)：服务消费者ribbon](https://github.com/java-aodeng/hope/tree/master/docs/springcloud/micro-service3-eureka-ribbon)
