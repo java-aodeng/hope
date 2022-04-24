@@ -65,7 +65,7 @@
 
 ### SpringCloud
 - [新版本SpringCloud history 熔断器失效解决方案](https://github.com/java-aodeng/spring-cloud-alibaba)
-- [monitor监控使用-不生效-避坑](https://github.com/java-aodeng/hope/blob/master/docs/springcloud/monitor)
+- [monitor监控使用-（日志不生效避坑）](https://github.com/java-aodeng/hope/blob/master/docs/springcloud/monitor)
 - [Spring Cloud2020版本最佳实践方案（一）](https://ilovey.live/2021/09/26/springcloud2020/)
 - [SpringCloud(1)：服务注册中心server和服务客户端client](https://github.com/java-aodeng/hope/tree/master/docs/springcloud/micro-service1-eureka-server) / [Eureka client代码](https://github.com/java-aodeng/hope/tree/master/docs/micro-service1-eureka-client)
 - [SpringCloud(2)：服务提供者provider](https://github.com/java-aodeng/hope/tree/master/docs/springcloud/micro-service2-eureka-provider)
