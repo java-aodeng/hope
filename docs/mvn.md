@@ -20,3 +20,4 @@
 		<includeSystemScope>true</includeSystemScope>
 	</configuration>
     
+[Maven插件无法下载的特殊情况](https://blog.csdn.net/money_marry/article/details/122800178)
