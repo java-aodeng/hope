@@ -28,7 +28,7 @@
 - [压缩工具bandizip](https://cn.bandisoft.com/bandizip/)
 - [google浏览器太占内存解决办法](https://chrome.google.com/webstore/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall?hl=zh-CN)
 
-### 面试题
+### 好文章收集
 - [网上看到写得好的文章收集](https://github.com/java-aodeng/JavaGuide/blob/master/README.md)
 
 ### 自动化部署
