@@ -15,7 +15,7 @@
 
 ## 目录
 
-### 破解工具
+### 破解工具 软件安利
 - https://www.ajihuo.com/
 - 破解idea如果激活码老是失效，断网再重试
 - [idea2021.3.2永久激活-亲测可用](https://mp.weixin.qq.com/s/IAPjkBIGmDF9SrLg_ZoYEw)
@@ -23,16 +23,13 @@
 - [Navicat for MySQL 11.1.13 中文破解版 无需注册码](https://www.ajihuo.com/cyzd/2022-01-11/545.html)
 - [JetBrains 系列IDE官方版及白嫖教程](https://www.nite07.com/jetbrains/)
 - [JetBrains全系列软件激活教程激活码以及JetBrains系列软件汉化包](https://www.macwk.com/article/jetbrains-crack)
-### 软件安利
 - [一款好用的终端工具MobaXterm](https://mobaxterm.mobatek.net/)
 - [压缩工具bandizip](https://cn.bandisoft.com/bandizip/)
 - [google浏览器太占内存解决办法](https://chrome.google.com/webstore/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall?hl=zh-CN)
 
-### 好文章收集
+### 好文收集
 - [网上看到写得好的文章收集](https://github.com/java-aodeng/JavaGuide/blob/master/README.md)
-
-### 自动化部署
-- [CI/CD流程以及原理说明](https://gitbook.cn/gitchat/activity/5daac87dd39d6a72d183b52c?utm_source=weixinNotification)
+- [自动化部署-CI/CD流程以及原理说明](https://gitbook.cn/gitchat/activity/5daac87dd39d6a72d183b52c?utm_source=weixinNotification)
 
 ### 设计模式
 - [策略模式](https://github.com/java-aodeng/hope/tree/master/docs/design-pattern/design-pattern1)
@@ -76,25 +73,19 @@
 - [SpringCloud(5)：服务消费者feign与Hystrix断路器容错机制](https://github.com/java-aodeng/hope/tree/master/docs/springcloud/micro-service5-feign)
 - [SpringCloud(6)：Hystrix Dashboard熔断监控面板](https://github.com/java-aodeng/hope/tree/master/docs/springcloud/micro-service6-hystrixdashboard)
 
-### 服务器运维-工具安装配置
+### 杂七杂八
 - [Ubuntu下Elasticsearch安装配置](https://github.com/java-aodeng/hope/tree/master/docs/ubuntu/es.md)
 - [Ubuntu下搭建Elasticsearch和kibana](https://github.com/java-aodeng/hope/tree/master/docs/ubuntu/Elasticsearch-kibana.md)
 - [瓦力walle2.0-docker安装](https://github.com/java-aodeng/hope/tree/master/docs/good-code/瓦力walle2.0-docker安装.md)
 - [Yapi 内网部署-避坑](https://github.com/java-aodeng/hope/blob/master/docs/Avoid-pit-notes-2021/Yapi%20%E5%86%85%E7%BD%91%E9%83%A8%E7%BD%B2-%E9%81%BF%E5%9D%91.md)
 - [win10安装mysql-避坑](https://github.com/java-aodeng/hope/blob/master/docs/Avoid-pit-notes-2021/win10%E5%AE%89%E8%A3%85mysql-%E9%81%BF%E5%9D%91%E7%AC%94%E8%AE%B02021.md)
-
-### 服务器运维-常用命令、常见问题
 - [Linux常用命令](https://github.com/java-aodeng/hope/tree/master/docs/linux/linux常用命令.md)
 - [dos2unix的使用:对文件进行转换](https://github.com/java-aodeng/hope/blob/master/docs/linux/dos2unix.md)
-
-### 开发工具
 - [使用Checkstyle来规范我们的项目](https://github.com/java-aodeng/hope/blob/master/docs/springboot/checkstyle.md)
 - [Java 程序员应掌握的 Nginx 实战应用（一）](https://github.com/java-aodeng/hope/tree/master/docs/nginx/nginx1.md)
 - [Java 程序员应掌握的 Nginx 实战应用（二）](https://github.com/java-aodeng/hope/tree/master/docs/nginx/nginx2.md)
 - [Git常用命令](https://github.com/java-aodeng/hope/tree/master/docs/git/git1.md)
 - [Maven常用（一）](https://github.com/java-aodeng/hope/blob/master/docs/mvn.md)
-
-### Java code
 - [图片放大控件](https://github.com/java-aodeng/viewerjs)
 - [Java常用方法（一）](https://github.com/java-aodeng/hope/blob/master/docs/java/java1.md)
 - [Json返回结果为null属性不显示解决](https://github.com/java-aodeng/hope/blob/master/docs/json/json1.md)
