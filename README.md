@@ -16,7 +16,7 @@
 ## 目录
 
 ### 破解工具 软件安利
->温馨提示： 破解的时候，idea如果激活码老是失效，断网再重试
+>温馨提示： 破解的时候，idea如果激活码老是失效，先断网破解，成功之后再联网
 - https://www.ajihuo.com/
 - [idea2021.3.2永久激活-亲测可用](https://mp.weixin.qq.com/s/IAPjkBIGmDF9SrLg_ZoYEw)
 - [IntelliJ IDEA激活码-持续更新](https://docs.qq.com/doc/DTVh3bkxWSEpvVm5N)
