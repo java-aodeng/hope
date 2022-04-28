@@ -1,7 +1,3 @@
-温馨提示： 仓库.git文件太大，push太慢，一个老套的解决方案：（这样将克隆只有一个提交历史记录的存储库。因此，您的.git文件夹将更轻）
-```    
-    git clone --depth 1 https://github.com/java-aodeng/hope.git
-```
 <h1 align="center"><a href="https://github.com/java-aodeng" target="_blank">Hope</a></h1>
 
 <p align="center">
@@ -10,14 +6,18 @@
 <a href="https://t.me/joinchat/LSsyBxVKLGEkF5MtIhg6TQ"><img alt="Telegram" src="https://img.shields.io/badge/telegram-%E4%BD%8E%E8%B0%83%E5%B0%8F%E7%86%8A%E7%8C%AB--%E5%AE%98%E6%96%B9%E9%83%A8%E8%90%BD-orange.svg"/></a>
 </p>
 
+>温馨提示：push太慢，一个老套的解决方案，这样将克隆只有一个提交记录的存储库。因此，您的.git文件夹将更轻）
+```    
+    git clone --depth 1 https://github.com/java-aodeng/hope.git
+```
 ------------------------------
 
 
 ## 目录
 
 ### 破解工具 软件安利
+>温馨提示： 破解的时候，idea如果激活码老是失效，断网再重试
 - https://www.ajihuo.com/
-- 破解idea如果激活码老是失效，断网再重试
 - [idea2021.3.2永久激活-亲测可用](https://mp.weixin.qq.com/s/IAPjkBIGmDF9SrLg_ZoYEw)
 - [IntelliJ IDEA激活码-持续更新](https://docs.qq.com/doc/DTVh3bkxWSEpvVm5N)
 - [Navicat for MySQL 11.1.13 中文破解版 无需注册码](https://www.ajihuo.com/cyzd/2022-01-11/545.html)
@@ -74,17 +74,18 @@
 - [SpringCloud(6)：Hystrix Dashboard熔断监控面板](https://github.com/java-aodeng/hope/tree/master/docs/springcloud/micro-service6-hystrixdashboard)
 
 ### 杂七杂八
-- [Ubuntu下Elasticsearch安装配置](https://github.com/java-aodeng/hope/tree/master/docs/ubuntu/es.md)
-- [Ubuntu下搭建Elasticsearch和kibana](https://github.com/java-aodeng/hope/tree/master/docs/ubuntu/Elasticsearch-kibana.md)
+- [Git常用命令](https://github.com/java-aodeng/hope/tree/master/docs/git/git1.md)
+- [使用Checkstyle来规范我们的项目](https://github.com/java-aodeng/hope/blob/master/docs/springboot/checkstyle.md)
+- [数据库](https://github.com/java-aodeng/hope/blob/master/docs/good-code/%E6%95%B0%E6%8D%AE%E5%BA%93.md)
+- [win10安装mysql-避坑](https://github.com/java-aodeng/hope/blob/master/docs/Avoid-pit-notes-2021/win10%E5%AE%89%E8%A3%85mysql-%E9%81%BF%E5%9D%91%E7%AC%94%E8%AE%B02021.md)
 - [瓦力walle2.0-docker安装](https://github.com/java-aodeng/hope/tree/master/docs/good-code/瓦力walle2.0-docker安装.md)
 - [Yapi 内网部署-避坑](https://github.com/java-aodeng/hope/blob/master/docs/Avoid-pit-notes-2021/Yapi%20%E5%86%85%E7%BD%91%E9%83%A8%E7%BD%B2-%E9%81%BF%E5%9D%91.md)
-- [win10安装mysql-避坑](https://github.com/java-aodeng/hope/blob/master/docs/Avoid-pit-notes-2021/win10%E5%AE%89%E8%A3%85mysql-%E9%81%BF%E5%9D%91%E7%AC%94%E8%AE%B02021.md)
+- [Ubuntu下Elasticsearch安装配置](https://github.com/java-aodeng/hope/tree/master/docs/ubuntu/es.md)
+- [Ubuntu下搭建Elasticsearch和kibana](https://github.com/java-aodeng/hope/tree/master/docs/ubuntu/Elasticsearch-kibana.md)
 - [Linux常用命令](https://github.com/java-aodeng/hope/tree/master/docs/linux/linux常用命令.md)
 - [dos2unix的使用:对文件进行转换](https://github.com/java-aodeng/hope/blob/master/docs/linux/dos2unix.md)
-- [使用Checkstyle来规范我们的项目](https://github.com/java-aodeng/hope/blob/master/docs/springboot/checkstyle.md)
 - [Java 程序员应掌握的 Nginx 实战应用（一）](https://github.com/java-aodeng/hope/tree/master/docs/nginx/nginx1.md)
 - [Java 程序员应掌握的 Nginx 实战应用（二）](https://github.com/java-aodeng/hope/tree/master/docs/nginx/nginx2.md)
-- [Git常用命令](https://github.com/java-aodeng/hope/tree/master/docs/git/git1.md)
 - [Maven常用（一）](https://github.com/java-aodeng/hope/blob/master/docs/mvn.md)
 - [图片放大控件](https://github.com/java-aodeng/viewerjs)
 - [Java常用方法（一）](https://github.com/java-aodeng/hope/blob/master/docs/java/java1.md)
@@ -93,6 +94,6 @@
 - [常用注解（一）](https://github.com/java-aodeng/hope/blob/master/docs/Annotation/annotation1.md)
 - [Spring异步方法](https://github.com/java-aodeng/hope/blob/master/docs/spring/spring1.md)
 - [多级菜单递归遍历成树](https://github.com/java-aodeng/hope/tree/master/docs/good-code/多级菜单递归遍历成树.md)
-- [微信认证](https://github.com/java-aodeng/hope/tree/master/docs/good-code/微信认证.md)
 - [雪花算法](https://github.com/java-aodeng/hope/tree/master/docs/good-code/雪花算法.md)
-- [数据库](https://github.com/java-aodeng/hope/blob/master/docs/good-code/%E6%95%B0%E6%8D%AE%E5%BA%93.md)
+- [微信认证](https://github.com/java-aodeng/hope/tree/master/docs/good-code/微信认证.md)
+
