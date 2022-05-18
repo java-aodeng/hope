@@ -64,6 +64,7 @@
 ### SpringCloud
 - [新版本SpringCloud history 熔断器失效解决方案](https://github.com/java-aodeng/spring-cloud-alibaba)
 - [Sentinel日志配置](https://github.com/alibaba/Sentinel/wiki/%E6%97%A5%E5%BF%97)
+- [Sentinel 控制台](https://sentinelguard.io/zh-cn/docs/dashboard.html)
 - [本地运行微服务内存不够的办法-jvm参数配置](https://github.com/java-aodeng/hope/blob/master/docs/springcloud/jvm%E9%85%8D%E7%BD%AE.md)
 - [monitor监控使用-（日志不生效避坑）](https://github.com/java-aodeng/hope/blob/master/docs/springcloud/monitor.md)
 - [Spring Cloud2020版本最佳实践方案（一）](https://ilovey.live/2021/09/26/springcloud2020/)
