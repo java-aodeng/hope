@@ -63,6 +63,7 @@
 
 ### SpringCloud
 - [新版本SpringCloud history 熔断器失效解决方案](https://github.com/java-aodeng/spring-cloud-alibaba)
+- [nacos集群双写-平滑升降级导致的问题](https://github.com/alibaba/nacos/issues/7529)
 - [Sentinel日志配置](https://github.com/alibaba/Sentinel/wiki/%E6%97%A5%E5%BF%97)
 - [Sentinel 控制台](https://sentinelguard.io/zh-cn/docs/dashboard.html)
 - [Sentinel 使用](http://doc.ruoyi.vip/ruoyi-cloud/cloud/sentinel.html#%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8)
