@@ -81,7 +81,7 @@
 - [Git常用命令](https://github.com/java-aodeng/hope/tree/master/docs/git/git1.md)
 - [使用Checkstyle来规范我们的项目](https://github.com/java-aodeng/hope/blob/master/docs/springboot/checkstyle.md)
 - [数据库](https://github.com/java-aodeng/hope/blob/master/docs/good-code/%E6%95%B0%E6%8D%AE%E5%BA%93.md)
-- [执行存储过程提示 user does not have access to metadata required to determine stored procedure解决方案](https://blog.csdn.net/qq_35890143/article/details/124404278)
+- [执行存储过程提示 user does not have access to metadata required to determine stored procedure解决方案](https://blog.csdn.net/qq_35890143/article/details/124404278)[参考二](https://blog.csdn.net/dreamfly88/article/details/72885897)
 - [win10安装mysql-避坑](https://github.com/java-aodeng/hope/blob/master/docs/Avoid-pit-notes-2021/win10%E5%AE%89%E8%A3%85mysql-%E9%81%BF%E5%9D%91%E7%AC%94%E8%AE%B02021.md)
 - [瓦力walle2.0-docker安装](https://github.com/java-aodeng/hope/tree/master/docs/good-code/瓦力walle2.0-docker安装.md)
 - [Yapi 内网部署-避坑](https://github.com/java-aodeng/hope/blob/master/docs/Avoid-pit-notes-2021/Yapi%20%E5%86%85%E7%BD%91%E9%83%A8%E7%BD%B2-%E9%81%BF%E5%9D%91.md)
