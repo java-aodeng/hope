@@ -27,10 +27,6 @@
 - [压缩工具bandizip](https://cn.bandisoft.com/bandizip/)
 - [google浏览器太占内存解决办法](https://chrome.google.com/webstore/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall?hl=zh-CN)
 
-### 好文收集
-- [网上看到写得好的文章收集](https://github.com/java-aodeng/JavaGuide/blob/master/README.md)
-- [自动化部署-CI/CD流程以及原理说明](https://gitbook.cn/gitchat/activity/5daac87dd39d6a72d183b52c?utm_source=weixinNotification)
-
 ### 设计模式
 - [策略模式](https://github.com/java-aodeng/hope/tree/master/docs/design-pattern/design-pattern1)
 - [单例模式](https://github.com/java-aodeng/hope/tree/master/docs/design-pattern/design-pattern2)
@@ -77,6 +73,10 @@
 - [SpringCloud(5)：服务消费者feign与Hystrix断路器容错机制](https://github.com/java-aodeng/hope/tree/master/docs/springcloud/micro-service5-feign)
 - [SpringCloud(6)：Hystrix Dashboard熔断监控面板](https://github.com/java-aodeng/hope/tree/master/docs/springcloud/micro-service6-hystrixdashboard)
 
+### 好文收集
+- [网上看到写得好的文章收集](https://github.com/java-aodeng/JavaGuide/blob/master/README.md)
+- [自动化部署-CI/CD流程以及原理说明](https://gitbook.cn/gitchat/activity/5daac87dd39d6a72d183b52c?utm_source=weixinNotification)
+- 
 ### 杂七杂八
 - [Git常用命令](https://github.com/java-aodeng/hope/tree/master/docs/git/git1.md)
 - [使用Checkstyle来规范我们的项目](https://github.com/java-aodeng/hope/blob/master/docs/springboot/checkstyle.md)
