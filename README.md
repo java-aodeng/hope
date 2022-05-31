@@ -18,10 +18,10 @@
 ### 破解工具 软件安利
 >温馨提示： 破解的时候，idea如果激活码老是失效，先断网破解，成功之后再联网
 - https://www.ajihuo.com/
-- [idea2021.3.2永久激活（亲测可用，断网破解）](https://mp.weixin.qq.com/s/IAPjkBIGmDF9SrLg_ZoYEw)
-- [IntelliJ IDEA激活码-持续更新（亲测可用）](https://docs.qq.com/doc/DTVh3bkxWSEpvVm5N)
-- [Navicat Premium v15.0.22 中文最新破解版（附：激活工具）（亲测可用，断网破解）](https://ykbkw.top/post/18.html)
-- [Navicat for MySQL 11.1.13 中文破解版 无需注册码（亲测可用）](https://www.ajihuo.com/cyzd/2022-01-11/545.html)
+- [idea2021.3.2永久激活（亲测可用）](https://mp.weixin.qq.com/s/IAPjkBIGmDF9SrLg_ZoYEw)
+- [IntelliJ IDEA激活码-持续更新](https://docs.qq.com/doc/DTVh3bkxWSEpvVm5N)
+- [Navicat Premium v15.0.22 中文最新破解版（附：激活工具）（亲测可用）](https://ykbkw.top/post/18.html)
+- [Navicat for MySQL 11.1.13 中文破解版 无需注册码](https://www.ajihuo.com/cyzd/2022-01-11/545.html)
 - [JetBrains 系列IDE官方版及白嫖教程](https://www.nite07.com/jetbrains/)
 - [JetBrains全系列软件激活教程激活码以及JetBrains系列软件汉化包](https://www.macwk.com/article/jetbrains-crack)
 - [一款好用的终端工具MobaXterm](https://mobaxterm.mobatek.net/)
