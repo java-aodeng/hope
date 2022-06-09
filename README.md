@@ -6,7 +6,7 @@
 <a href="https://t.me/joinchat/LSsyBxVKLGEkF5MtIhg6TQ"><img alt="Telegram" src="https://img.shields.io/badge/telegram-%E4%BD%8E%E8%B0%83%E5%B0%8F%E7%86%8A%E7%8C%AB--%E5%AE%98%E6%96%B9%E9%83%A8%E8%90%BD-orange.svg"/></a>
 </p>
 
->温馨提示：push太慢，可以使用如下命令，这样.git文件将更轻
+>温馨提示：clone太慢，可以使用如下命令，这样.git文件将更轻
 ```    
     git clone --depth 1 https://github.com/java-aodeng/hope.git
 ```
