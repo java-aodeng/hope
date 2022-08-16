@@ -57,6 +57,7 @@
 - [SpringBoot(17)：集成 mybatis-plus](https://github.com/java-aodeng/hope/tree/master/docs/springboot/springboot17-mybatis-plus)
 - [SpringBoot(18)：整合jwt-shiro](https://github.com/java-aodeng/hope/tree/master/docs/springboot/springboot18-jwt-shiro)
 - [SpringBoot(19)：集成redisson实现分布式锁](https://github.com/java-aodeng/hope/tree/master/docs/springboot/springboot19-redisson-distributed-locks)
+- [使用Java-Netty实现长连接： ](https://ilovey.live/2022/08/14/netty-java/)
 
 ### SpringCloud
 - [新版本SpringCloud history 熔断器失效解决方案](https://github.com/java-aodeng/spring-cloud-alibaba)
